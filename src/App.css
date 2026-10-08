@@ -1,0 +1,8 @@
+/* App-level specific overrides if needed */
+#root {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: block;
+  min-height: 100vh;
+}

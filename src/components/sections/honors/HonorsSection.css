@@ -1,0 +1,161 @@
+.honors-section {
+  padding-top: var(--section-spacing-y);
+  padding-bottom: var(--section-spacing-y);
+  position: relative;
+  background-color: var(--color-bg-page);
+  overflow: hidden;
+}
+
+.honors-container {
+  position: relative;
+  z-index: 5;
+  max-width: 960px;
+}
+
+/* Background Soft Smiling Flowers */
+.honors-bg-flower {
+  position: absolute;
+  pointer-events: none;
+  z-index: 1;
+  opacity: 0.85;
+  user-select: none;
+}
+
+.honors-flower-left {
+  top: 15%;
+  left: -120px;
+  width: clamp(280px, 32vw, 440px);
+}
+
+.honors-flower-right {
+  bottom: 8%;
+  right: -100px;
+  width: clamp(300px, 35vw, 520px);
+}
+
+/* Awards Main Grid */
+.awards-main-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: clamp(36px, 5vw, 64px);
+  position: relative;
+}
+
+.award-category-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.academic-col {
+  grid-column: 1 / -1;
+  margin-top: 10px;
+}
+
+.category-title {
+  font-family: var(--font-serif);
+  font-size: clamp(20px, 2.5vw, 26px);
+  color: var(--color-primary-olive);
+  font-weight: 600;
+  margin-bottom: clamp(20px, 3vw, 28px);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.category-icon {
+  font-size: 1.1em;
+}
+
+.award-items-list {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+
+.award-items-grid-2col {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: clamp(24px, 4vw, 48px);
+}
+
+.award-item {
+  border-left: 2px solid rgba(83, 66, 3, 0.15);
+  padding-left: 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  transition: border-color 0.25s ease, transform 0.25s ease;
+}
+
+.award-item:hover {
+  border-left-color: var(--color-accent-amber);
+  transform: translateX(3px);
+}
+
+.award-name {
+  font-family: var(--font-sans);
+  font-size: clamp(16px, 1.9vw, 19px);
+  font-weight: 700;
+  color: var(--color-text-dark);
+  line-height: 1.35;
+}
+
+.award-desc {
+  font-family: var(--font-sans);
+  font-size: clamp(13.5px, 1.6vw, 15px);
+  color: var(--color-text-body);
+  line-height: 1.55;
+  margin-top: 2px;
+}
+
+.award-org {
+  font-family: var(--font-mono);
+  font-size: clamp(12.5px, 1.4vw, 13.5px);
+  color: var(--color-text-subtle);
+  font-weight: 500;
+  margin-top: 4px;
+}
+
+/* Tablet & Mobile Responsiveness */
+@media (max-width: 820px) {
+  .awards-main-grid {
+    grid-template-columns: 1fr;
+    gap: 44px;
+  }
+
+  .award-items-grid-2col {
+    grid-template-columns: 1fr;
+    gap: 28px;
+  }
+
+  .honors-flower-left {
+    left: -180px;
+    opacity: 0.5;
+  }
+
+  .honors-flower-right {
+    right: -160px;
+    opacity: 0.5;
+  }
+}
+
+@media (max-width: 480px) {
+  .award-item {
+    padding-left: 14px;
+  }
+  .award-name {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 340px) {
+  .category-title {
+    font-size: 18px;
+  }
+  .award-name {
+    font-size: 15px;
+  }
+  .award-desc {
+    font-size: 13px;
+  }
+}

@@ -1,0 +1,54 @@
+import React from 'react';
+import './Footer.css';
+
+export default function Footer() {
+  const handleEmailClick = () => {
+    window.location.href = 'mailto:nadine.swasana@example.com';
+  };
+
+  const handleLinkedInClick = () => {
+    window.open('https://linkedin.com', '_blank', 'noopener,noreferrer');
+  };
+
+  return (
+    <footer id="footer" className="footer-section">
+      {/* Top Striped Awning Pattern */}
+      <div className="footer-awning-stripes" aria-hidden="true" />
+
+      <div className="container footer-content-container">
+        <div className="footer-header">
+          <h2 className="footer-headline">
+            Let’s bridge your next business goals with intelligent technology.
+          </h2>
+          <p className="footer-description">
+            Always open to collaborating on complex challenges and turning them into seamless, high-impact user experiences.
+          </p>
+        </div>
+
+        {/* Action Buttons */}
+        <div className="footer-buttons-row">
+          <button 
+            onClick={handleEmailClick}
+            className="footer-action-btn"
+            aria-label="Email Nadine Swasana"
+          >
+            Email Me
+          </button>
+
+          <button 
+            onClick={handleLinkedInClick}
+            className="footer-action-btn"
+            aria-label="Visit Nadine Swasana's LinkedIn profile"
+          >
+            LinkedIn
+          </button>
+        </div>
+
+        {/* Copyright */}
+        <p className="footer-copyright">
+          © 2026 Nadine Swasana. Designed with human needs in mind.
+        </p>
+      </div>
+    </footer>
+  );
+}

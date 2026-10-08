@@ -1,0 +1,276 @@
+.hero-section {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: clamp(100px, 14vw, 150px);
+  padding-bottom: clamp(60px, 8vw, 100px);
+  background: radial-gradient(circle at 50% 30%, #FFFFFF 0%, #FFFDF8 100%);
+  overflow: hidden;
+}
+
+/* Background Soft Flower Doodles */
+.hero-bg-flower {
+  position: absolute;
+  pointer-events: none;
+  z-index: 1;
+  opacity: 0.85;
+  user-select: none;
+}
+
+.flower-left {
+  top: 10px;
+  left: -80px;
+  width: clamp(280px, 34vw, 520px);
+  max-width: 520px;
+}
+
+.flower-right {
+  bottom: 40px;
+  right: -50px;
+  width: clamp(260px, 32vw, 480px);
+  max-width: 480px;
+}
+
+/* Floating 3D Technology Widgets */
+.hero-widget {
+  position: absolute;
+  z-index: 3;
+  pointer-events: none;
+  filter: drop-shadow(0 16px 30px rgba(83, 66, 3, 0.1));
+}
+
+.widget-dashboard {
+  top: 26%;
+  left: max(20px, calc(50% - 680px));
+  width: clamp(180px, 22vw, 320px);
+}
+
+.widget-folder {
+  top: 10%;
+  right: max(20px, calc(50% - 660px));
+  width: clamp(160px, 19vw, 280px);
+}
+
+.widget-flowchart {
+  bottom: 12%;
+  right: max(20px, calc(50% - 650px));
+  width: clamp(150px, 17vw, 250px);
+}
+
+/* Central Content */
+.hero-content-wrapper {
+  position: relative;
+  z-index: 5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  max-width: 900px;
+}
+
+.hero-headline {
+  font-size: clamp(28px, 4.2vw, 50px);
+  line-height: 1.25;
+  color: var(--color-primary-olive);
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  margin-bottom: clamp(24px, 3.5vw, 40px);
+  max-width: 820px;
+}
+
+.hero-intro-card {
+  max-width: 620px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hero-greeting {
+  font-size: clamp(18px, 2.2vw, 23px);
+  font-weight: 500;
+  color: var(--color-text-dark);
+  margin-bottom: 14px;
+}
+
+.hero-greeting strong {
+  font-weight: 700;
+}
+
+.wave-hand {
+  display: inline-block;
+  margin-right: 4px;
+  transform-origin: 70% 70%;
+  animation: wave 2.2s infinite ease-in-out;
+}
+
+@keyframes wave {
+  0% { transform: rotate(0deg); }
+  10% { transform: rotate(14deg); }
+  20% { transform: rotate(-8deg); }
+  30% { transform: rotate(14deg); }
+  40% { transform: rotate(-4deg); }
+  50% { transform: rotate(10deg); }
+  60% { transform: rotate(0deg); }
+  100% { transform: rotate(0deg); }
+}
+
+.hero-bio-lead,
+.hero-bio-detail {
+  font-size: clamp(15px, 1.8vw, 17px);
+  color: var(--color-text-muted);
+  line-height: 1.65;
+  margin-bottom: 10px;
+}
+
+.hero-bio-detail strong {
+  color: var(--color-text-dark);
+  font-weight: 600;
+}
+
+.hero-dashed-divider {
+  width: 100%;
+  max-width: 520px;
+  border-top: 1.5px dashed rgba(83, 66, 3, 0.22);
+  margin: clamp(20px, 3vw, 30px) 0;
+}
+
+.hero-action-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: clamp(28px, 4vw, 48px);
+}
+
+.hero-cta-btn {
+  font-size: 16px;
+  padding: 13px 32px;
+}
+
+.hero-scroll-prompt {
+  background: transparent;
+  color: var(--color-text-muted);
+  font-size: clamp(13px, 1.6vw, 15px);
+  font-family: var(--font-sans);
+  cursor: pointer;
+  transition: all 0.25s ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 8px;
+}
+
+.hero-scroll-prompt:hover {
+  color: var(--color-primary-olive);
+  transform: translateY(3px);
+}
+
+/* Tablet & Mobile Responsiveness */
+@media (max-width: 1100px) {
+  .widget-dashboard {
+    left: 8px;
+    width: 200px;
+    opacity: 0.75;
+  }
+  .widget-folder {
+    right: 8px;
+    top: 8%;
+    width: 180px;
+    opacity: 0.75;
+  }
+  .widget-flowchart {
+    right: 8px;
+    bottom: 6%;
+    width: 160px;
+    opacity: 0.75;
+  }
+}
+
+@media (max-width: 860px) {
+  .hero-widget {
+    display: none; /* Hidden by default on mobile & screens with height <= 779px */
+  }
+
+  .flower-left {
+    top: -40px;
+    left: -120px;
+    opacity: 0.55;
+  }
+
+  .flower-right {
+    bottom: -40px;
+    right: -120px;
+    opacity: 0.55;
+  }
+}
+
+/* ONLY show widgets on tall mobile devices with ample vertical height (>= 780px, e.g. iPhone Plus 430x932) */
+@media (max-width: 860px) and (min-height: 780px) {
+  .hero-widget {
+    display: block;
+    pointer-events: none;
+    z-index: 2;
+  }
+
+  /* Top Right: Folder & Figma Widget */
+  .widget-folder {
+    display: block;
+    top: 75px;
+    right: 14px;
+    left: auto;
+    width: clamp(75px, 20vw, 96px);
+    opacity: 0.95;
+    filter: drop-shadow(0 10px 20px rgba(83, 66, 3, 0.12));
+  }
+
+  /* Bottom Left: Dashboard Widget */
+  .widget-dashboard {
+    display: block;
+    top: auto;
+    bottom: 110px;
+    left: 10px;
+    width: clamp(80px, 22vw, 102px);
+    opacity: 0.92;
+    filter: drop-shadow(0 10px 20px rgba(83, 66, 3, 0.12));
+  }
+
+  /* Bottom Right: Database & Flowchart Widget */
+  .widget-flowchart {
+    display: block;
+    top: auto;
+    bottom: 60px;
+    right: 12px;
+    width: clamp(76px, 20vw, 98px);
+    opacity: 0.95;
+    filter: drop-shadow(0 10px 20px rgba(83, 66, 3, 0.12));
+  }
+}
+
+/* For fold / very narrow screens, always keep clean */
+@media (max-width: 360px) {
+  .hero-widget {
+    display: none !important;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-section {
+    padding-top: 110px;
+    padding-bottom: 50px;
+  }
+
+  .hero-bio-lead,
+  .hero-bio-detail {
+    font-size: 14.5px;
+  }
+}
+
+@media (max-width: 340px) {
+  .hero-headline {
+    font-size: 24px;
+  }
+  .hero-greeting {
+    font-size: 17px;
+  }
+}

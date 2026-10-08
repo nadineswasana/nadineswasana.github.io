@@ -1,0 +1,12 @@
+.landing-page-container {
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+  background-color: var(--color-bg-page);
+  overflow-x: hidden;
+}
+
+.landing-main-content {
+  width: 100%;
+  position: relative;
+}

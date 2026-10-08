@@ -1,0 +1,111 @@
+.behind-builder-section {
+  padding-top: var(--section-spacing-y);
+  padding-bottom: var(--section-spacing-y);
+  position: relative;
+  background-color: var(--color-bg-page);
+}
+
+.builder-layout {
+  display: flex;
+  align-items: stretch;
+  gap: clamp(24px, 3.5vw, 36px);
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.builder-bio-card {
+  flex: 1;
+  background: var(--color-bg-card);
+  border-radius: 36px;
+  border: 1px solid rgba(83, 66, 3, 0.08);
+  box-shadow: 0 10px 32px rgba(83, 66, 3, 0.05);
+  padding: clamp(28px, 4vw, 44px);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.builder-bio-text {
+  font-family: var(--font-sans);
+  font-size: clamp(15px, 1.8vw, 17px);
+  color: var(--color-text-dark);
+  line-height: 1.7;
+  margin-bottom: clamp(24px, 3vw, 36px);
+}
+
+.builder-actions {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.builder-avatar-card {
+  flex-shrink: 0;
+  width: clamp(200px, 24vw, 240px);
+  border-radius: 36px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #FFF8E7;
+  border: 1px solid rgba(83, 66, 3, 0.08);
+  box-shadow: 0 10px 32px rgba(83, 66, 3, 0.05);
+  padding: 12px;
+}
+
+.builder-avatar-img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  border-radius: 28px;
+}
+
+/* Tablet & Mobile Responsiveness */
+@media (max-width: 820px) {
+  .builder-layout {
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 24px;
+  }
+
+  .builder-bio-card {
+    width: 100%;
+    border-radius: 28px;
+    padding: 28px;
+  }
+
+  .builder-avatar-card {
+    width: 220px;
+    height: 220px;
+    border-radius: 28px;
+  }
+}
+
+@media (max-width: 520px) {
+  .builder-actions {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .builder-actions button {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .builder-bio-card {
+    border-radius: 20px;
+    padding: 20px;
+  }
+
+  .builder-avatar-card {
+    width: 180px;
+    height: 180px;
+  }
+}
+
+@media (max-width: 340px) {
+  .builder-bio-text {
+    font-size: 14px;
+  }
+}

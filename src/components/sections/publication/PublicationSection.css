@@ -1,0 +1,333 @@
+.publication-section {
+  padding-top: var(--section-spacing-y);
+  padding-bottom: var(--section-spacing-y);
+  position: relative;
+  background-color: var(--color-bg-page);
+  overflow: hidden;
+}
+
+/* ==========================================================================
+   Envelope Scene Container (Common 3D Stacking Context)
+   ========================================================================== */
+
+.publication-scene {
+  position: relative;
+  max-width: 610px;
+  width: 100%;
+  margin: 0 auto;
+  perspective: 1400px;
+  will-change: transform, opacity;
+}
+
+/* ==========================================================================
+   LAYER 1 (Bottom): Envelope Back Base (Behind the paper)
+   ========================================================================== */
+
+.envelope-layer-back {
+  position: absolute;
+  top: -12px;
+  bottom: -12px;
+  left: -12px;
+  right: -12px;
+  background: linear-gradient(180deg, #DFBF96 0%, #CEAA7C 100%);
+  border: 1px solid rgba(139, 102, 40, 0.25);
+  border-top: none;
+  border-radius: 0 0 20px 20px;
+  box-shadow: 0 16px 36px rgba(83, 66, 3, 0.14);
+  transform-origin: top center;
+  z-index: 1;
+  pointer-events: none;
+  will-change: transform, opacity;
+}
+
+/* ==========================================================================
+   LAYER 2 (Middle): Parchment Paper Card (Sandwiched inside envelope)
+   ========================================================================== */
+
+.publication-parchment-wrapper {
+  position: relative;
+  z-index: 2;
+  max-width: 586px;
+  width: 100%;
+  min-height: 700px;
+  margin: 0 auto;
+  border-radius: 12px;
+  filter: drop-shadow(0 14px 28px rgba(83, 66, 3, 0.12));
+  transition: filter 0.3s ease;
+  will-change: transform, opacity, clip-path;
+}
+
+.publication-parchment-wrapper:hover {
+  filter: drop-shadow(0 20px 36px rgba(83, 66, 3, 0.16));
+}
+
+.parchment-bg-texture {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  object-fit: fill;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.parchment-content {
+  position: relative;
+  z-index: 2;
+  min-height: 700px;
+  padding: 60px 44px 52px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.parchment-top-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.paper-title {
+  font-family: var(--font-paper);
+  font-size: clamp(20px, 2.6vw, 25px);
+  color: #261D02;
+  font-weight: 600;
+  line-height: 1.35;
+  margin-bottom: 22px;
+  max-width: 480px;
+}
+
+.paper-authors-block {
+  margin-bottom: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  max-width: 460px;
+}
+
+.paper-authors {
+  font-family: var(--font-sans);
+  font-size: clamp(12.5px, 1.5vw, 14px);
+  color: #382D06;
+  line-height: 1.5;
+}
+
+.paper-conference {
+  font-family: var(--font-sans);
+  font-size: clamp(12px, 1.4vw, 13px);
+  color: #5A4C1B;
+  line-height: 1.45;
+}
+
+.parchment-middle-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin: 20px 0;
+}
+
+/* Logos Row */
+.publication-logos-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: clamp(18px, 3.5vw, 32px);
+  margin-bottom: 28px;
+  flex-wrap: wrap;
+}
+
+.pub-logo {
+  height: clamp(38px, 4.8vw, 50px);
+  width: auto;
+  object-fit: contain;
+  transition: transform 0.2s ease;
+}
+
+.pub-logo:hover {
+  transform: scale(1.06);
+}
+
+.publication-summary {
+  font-family: var(--font-paper);
+  font-size: clamp(14px, 1.7vw, 16px);
+  color: #2F2405;
+  line-height: 1.65;
+  max-width: 480px;
+}
+
+.publication-link {
+  font-family: var(--font-serif);
+  font-size: clamp(15px, 1.8vw, 17px);
+  font-weight: 700;
+  color: #1E1E1E;
+  display: inline-block;
+  padding: 8px 16px;
+  transition: all 0.25s ease;
+  cursor: pointer;
+  margin-top: 10px;
+  position: relative;
+  z-index: 10;
+}
+
+.publication-link:hover {
+  color: var(--color-accent-amber);
+  transform: scale(1.04);
+}
+
+/* ==========================================================================
+   LAYER 3: Envelope Front Pocket (Physically IN FRONT of paper)
+   ========================================================================== */
+
+.envelope-layer-pocket {
+  position: absolute;
+  bottom: -12px;
+  left: -12px;
+  right: -12px;
+  height: 52%;
+  z-index: 3;
+  pointer-events: none;
+  filter: drop-shadow(0 -4px 14px rgba(83, 66, 3, 0.12));
+  will-change: transform, opacity;
+}
+
+.envelope-pocket-svg {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+/* ==========================================================================
+   LAYER 4: Envelope Top Flap (At top, in front of pocket when closed)
+   ========================================================================== */
+
+.envelope-layer-flap {
+  position: absolute;
+  top: -12px;
+  left: -12px;
+  right: -12px;
+  height: 52%;
+  transform-origin: top center;
+  z-index: 4;
+  backface-visibility: visible;
+  filter: drop-shadow(0 6px 14px rgba(83, 66, 3, 0.22));
+  pointer-events: none;
+  will-change: transform, opacity;
+}
+
+.envelope-flap-svg {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.envelope-wax-seal {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: radial-gradient(circle at 35% 35%, #C29141 0%, #8A6405 60%, #534203 100%);
+  border: 2px solid rgba(255, 235, 170, 0.55);
+  box-shadow: 0 4px 14px rgba(83, 66, 3, 0.45);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 6;
+}
+
+.seal-icon {
+  color: #FFE6A0;
+  font-size: 20px;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+  line-height: 1;
+}
+
+/* ==========================================================================
+   Tablet & Mobile Responsiveness
+   ========================================================================== */
+
+@media (max-width: 620px) {
+  .envelope-layer-back {
+    top: -8px;
+    bottom: -8px;
+    left: -8px;
+    right: -8px;
+  }
+
+  .envelope-layer-pocket {
+    bottom: -8px;
+    left: -8px;
+    right: -8px;
+  }
+
+  .envelope-layer-flap {
+    top: -8px;
+    left: -8px;
+    right: -8px;
+  }
+
+  .envelope-wax-seal {
+    width: 38px;
+    height: 38px;
+  }
+
+  .seal-icon {
+    font-size: 17px;
+  }
+
+  .publication-parchment-wrapper {
+    min-height: 640px;
+  }
+
+  .parchment-content {
+    min-height: 640px;
+    padding: 48px 24px 40px;
+  }
+
+  .pub-logo {
+    height: 36px;
+  }
+}
+
+@media (max-width: 420px) {
+  .publication-parchment-wrapper {
+    min-height: 580px;
+  }
+
+  .parchment-content {
+    min-height: 580px;
+    padding: 38px 18px 32px;
+  }
+
+  .paper-title {
+    font-size: 18px;
+    margin-bottom: 16px;
+  }
+
+  .publication-summary {
+    font-size: 13.5px;
+  }
+}
+
+@media (max-width: 340px) {
+  .publication-parchment-wrapper {
+    min-height: 540px;
+  }
+
+  .parchment-content {
+    min-height: 540px;
+    padding: 30px 14px 24px;
+  }
+
+  .paper-title {
+    font-size: 16.5px;
+  }
+}

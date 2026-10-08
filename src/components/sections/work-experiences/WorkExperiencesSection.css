@@ -1,0 +1,272 @@
+.experiences-section {
+  padding-top: var(--section-spacing-y);
+  padding-bottom: var(--section-spacing-y);
+  position: relative;
+  background-color: var(--color-bg-page);
+}
+
+.experiences-stack {
+  display: flex;
+  flex-direction: column;
+  gap: clamp(24px, 3.5vw, 36px);
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.experience-card {
+  background: var(--color-bg-card);
+  border-radius: 36px;
+  border: 1px solid rgba(83, 66, 3, 0.08);
+  box-shadow: 0 10px 32px rgba(83, 66, 3, 0.05);
+  padding: clamp(28px, 4vw, 44px);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.experience-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 16px 40px rgba(83, 66, 3, 0.08);
+}
+
+.experience-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+.experience-heading {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.exp-company {
+  font-family: var(--font-sans);
+  font-size: clamp(18px, 2.2vw, 22px);
+  font-weight: 700;
+  color: var(--color-text-dark);
+}
+
+.exp-role {
+  font-family: var(--font-sans);
+  font-size: clamp(15px, 1.8vw, 18px);
+  font-weight: 500;
+  color: var(--color-text-body);
+}
+
+.exp-period {
+  font-family: var(--font-mono);
+  font-size: clamp(13px, 1.5vw, 15px);
+  color: var(--color-text-muted);
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+.exp-desc {
+  font-family: var(--font-sans);
+  font-size: clamp(14px, 1.7vw, 15.5px);
+  color: var(--color-text-muted);
+  line-height: 1.65;
+}
+
+/* ==========================================================================
+   3D Flip Cards Grid (Teaching Courses)
+   ========================================================================== */
+
+.teaching-cards-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: clamp(16px, 2.5vw, 24px);
+  margin-top: clamp(28px, 3.5vw, 40px);
+}
+
+.course-flip-wrapper {
+  perspective: 1200px;
+  width: 100%;
+  min-height: 410px;
+  cursor: pointer;
+}
+
+.course-flip-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  min-height: 410px;
+  transform-style: preserve-3d;
+  will-change: transform;
+}
+
+.course-card-face {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  border-radius: 18px;
+  box-sizing: border-box;
+}
+
+/* --------------------------------------------------------------------------
+   BACK SIDE (Design node 626:806: Playing card style with gold inner frame)
+   -------------------------------------------------------------------------- */
+.course-card-back {
+  transform: rotateY(0deg);
+  background-color: #FFFDFB;
+  border: 1px solid rgba(183, 114, 0, 0.43);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+  padding: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+}
+
+.card-back-frame {
+  width: 100%;
+  height: 100%;
+  border: 3px solid #B77200;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  padding: 16px;
+  background: radial-gradient(circle at 50% 50%, #FFFFFF 0%, #FFFDF9 100%);
+  position: relative;
+  z-index: 2;
+}
+
+.card-back-brand {
+  font-family: var(--font-serif);
+  font-style: italic;
+  font-weight: 500;
+  font-size: clamp(20px, 2.2vw, 24px);
+  color: #B77200;
+  letter-spacing: -0.02em;
+  text-align: center;
+  user-select: none;
+}
+
+.card-back-img-fallback {
+  display: none; /* Vector CSS frame provides crisp resolution at all sizes */
+}
+
+/* --------------------------------------------------------------------------
+   FRONT SIDE (Course Details, washi tape tags, impact metrics)
+   -------------------------------------------------------------------------- */
+.course-card-front {
+  transform: rotateY(180deg);
+  background: #FFFDF9;
+  border: 1px solid rgba(221, 180, 32, 0.45);
+  box-shadow: 0 6px 20px rgba(83, 66, 3, 0.06);
+  padding: clamp(20px, 2.5vw, 28px) clamp(16px, 2vw, 22px);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.course-title {
+  font-family: var(--font-serif);
+  font-size: clamp(16px, 1.9vw, 19px);
+  color: var(--color-accent-amber);
+  font-weight: 600;
+  line-height: 1.35;
+  margin-bottom: 14px;
+  min-height: 2.7em;
+}
+
+/* Washi Tape Skill Tags */
+.course-washi-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 20px;
+  align-items: center;
+}
+
+.washi-tag-img {
+  height: clamp(26px, 3vw, 32px);
+  width: auto;
+  object-fit: contain;
+  filter: drop-shadow(0 2px 4px rgba(83, 66, 3, 0.08));
+}
+
+.course-impact-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.impact-action {
+  font-family: var(--font-sans);
+  font-size: 13.5px;
+  color: var(--color-text-muted);
+  margin-bottom: 4px;
+}
+
+.impact-metric {
+  font-family: var(--font-serif);
+  font-style: italic;
+  font-size: clamp(24px, 3vw, 30px);
+  color: var(--color-accent-amber);
+  font-weight: 600;
+  line-height: 1.2;
+  margin-bottom: 8px;
+}
+
+.impact-desc {
+  font-family: var(--font-sans);
+  font-size: clamp(13px, 1.5vw, 14px);
+  color: var(--color-text-muted);
+  line-height: 1.55;
+}
+
+/* Tablet & Mobile Responsiveness */
+@media (max-width: 860px) {
+  .teaching-cards-grid {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+
+  .course-flip-wrapper,
+  .course-flip-inner {
+    min-height: 360px;
+  }
+
+  .course-title {
+    min-height: auto;
+  }
+
+  .experience-top {
+    flex-direction: column;
+    gap: 8px;
+  }
+}
+
+@media (max-width: 480px) {
+  .experience-card {
+    border-radius: 20px;
+    padding: 20px;
+  }
+  .exp-company {
+    font-size: 17.5px;
+  }
+  .exp-role {
+    font-size: 15px;
+  }
+  .course-flip-wrapper,
+  .course-flip-inner {
+    min-height: 380px;
+  }
+}
+
+@media (max-width: 340px) {
+  .impact-metric {
+    font-size: 22px;
+  }
+  .course-title {
+    font-size: 16px;
+  }
+}
