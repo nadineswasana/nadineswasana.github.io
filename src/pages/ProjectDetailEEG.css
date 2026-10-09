@@ -734,26 +734,33 @@
 .eeg-cta-row {
   display: flex;
   justify-content: center;
+  margin-top: 48px;
 }
 
 .eeg-cta-btn {
+  background: linear-gradient(180deg, #FFA000 0%, #534203 100%);
+  color: #FFFFFF;
+  font-family: 'Libre Baskerville', serif;
+  font-size: 24px;
+  font-weight: 500;
+  border: none;
+  border-radius: 54px;
+  padding: 14px 48px;
+  cursor: pointer;
+  box-shadow: 0 8px 24px rgba(83, 66, 3, 0.28);
+  transition: transform 0.2s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.2s cubic-bezier(0.16, 1, 0.3, 1);
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  background-color: #1a1918;
-  color: #ffffff;
-  padding: 0.875rem 2.25rem;
-  border-radius: 9999px;
-  font-size: 0.9375rem;
-  font-weight: 600;
-  border: none;
-  cursor: pointer;
-  transition: all 0.2s ease;
 }
 
 .eeg-cta-btn:hover {
-  background-color: #38342f;
   transform: translateY(-2px);
+  box-shadow: 0 12px 28px rgba(83, 66, 3, 0.38);
+}
+
+.eeg-cta-btn:active {
+  transform: translateY(0);
 }
 
 /* ==========================================================================
@@ -864,7 +871,10 @@
   }
 
   .eeg-cta-btn {
+    font-size: 20px;
+    padding: 12px 36px;
     width: 100%;
+    max-width: 340px;
   }
 }
 
