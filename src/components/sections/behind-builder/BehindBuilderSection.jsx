@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from 'react';
+import { useEffect, useRef } from 'react';
 import gsap from 'gsap';
 import './BehindBuilderSection.css';
 import flowerAvatar from '../../../assets/behind-builder/builder-avatar-card.png';
@@ -30,11 +30,6 @@ export default function BehindBuilderSection() {
     window.open('#', '_blank');
   };
 
-  const handleConnectWithMe = () => {
-    const footer = document.getElementById('footer');
-    if (footer) footer.scrollIntoView({ behavior: 'smooth' });
-  };
-
   return (
     <section id="behind-builder" className="behind-builder-section">
       <div className="container">
@@ -54,6 +49,7 @@ export default function BehindBuilderSection() {
 
             <div className="builder-actions">
               <button 
+                type="button"
                 onClick={handleDownloadResume} 
                 className="btn-secondary-gold"
                 aria-label="Download Nadine's Resume"
@@ -64,16 +60,16 @@ export default function BehindBuilderSection() {
                 <span>Download Resume</span>
               </button>
 
-              <button 
-                onClick={handleConnectWithMe} 
+              <a 
+                href="mailto:nadine.swasana@binus.ac.id" 
                 className="btn-primary-gradient"
-                aria-label="Connect with Nadine"
+                aria-label="Connect with Nadine via email at nadine.swasana@binus.ac.id"
               >
                 <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
                   <path d="M2.01 21L23 12L2.01 3L2 10L17 12L2 14L2.01 21Z" fill="currentColor"/>
                 </svg>
                 <span>Connect with Me</span>
-              </button>
+              </a>
             </div>
           </div>
 

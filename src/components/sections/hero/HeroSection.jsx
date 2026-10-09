@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from 'react';
+import { useEffect, useRef } from 'react';
 import gsap from 'gsap';
 import './HeroSection.css';
 
@@ -82,11 +82,6 @@ export default function HeroSection() {
     if (el) el.scrollIntoView({ behavior: 'smooth' });
   };
 
-  const scrollToFooter = () => {
-    const el = document.getElementById('footer');
-    if (el) el.scrollIntoView({ behavior: 'smooth' });
-  };
-
   return (
     <section id="hero" className="hero-section" ref={heroRef}>
       {/* Background Decorative Smiling Flowers */}
@@ -128,16 +123,16 @@ export default function HeroSection() {
           <div className="hero-dashed-divider" />
 
           <div className="hero-action-row">
-            <button 
-              onClick={scrollToFooter}
+            <a 
+              href="mailto:nadine.swasana@binus.ac.id"
               className="btn-primary-gradient hero-cta-btn"
-              aria-label="Contact Nadine Swasana"
+              aria-label="Email Nadine Swasana at nadine.swasana@binus.ac.id"
             >
               <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
                 <path d="M2.01 21L23 12L2.01 3L2 10L17 12L2 14L2.01 21Z" fill="currentColor"/>
               </svg>
               <span>Contact Me</span>
-            </button>
+            </a>
           </div>
         </div>
 

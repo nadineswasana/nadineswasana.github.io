@@ -1,11 +1,6 @@
-import React from 'react';
 import './Footer.css';
 
 export default function Footer() {
-  const handleEmailClick = () => {
-    window.location.href = 'mailto:nadine.swasana@example.com';
-  };
-
   const handleLinkedInClick = () => {
     window.open('https://linkedin.com', '_blank', 'noopener,noreferrer');
   };
@@ -27,15 +22,16 @@ export default function Footer() {
 
         {/* Action Buttons */}
         <div className="footer-buttons-row">
-          <button 
-            onClick={handleEmailClick}
+          <a 
+            href="mailto:nadine.swasana@binus.ac.id"
             className="footer-action-btn"
-            aria-label="Email Nadine Swasana"
+            aria-label="Email Nadine Swasana at nadine.swasana@binus.ac.id"
           >
             Email Me
-          </button>
+          </a>
 
           <button 
+            type="button"
             onClick={handleLinkedInClick}
             className="footer-action-btn"
             aria-label="Visit Nadine Swasana's LinkedIn profile"
