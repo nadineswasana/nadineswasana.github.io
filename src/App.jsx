@@ -1,20 +1,31 @@
 import { useState, useEffect } from 'react';
 import LandingPage from './pages/LandingPage';
 import ProjectDetailLumbox from './pages/ProjectDetailLumbox';
+import ProjectDetailEEG from './pages/ProjectDetailEEG';
 import './App.css';
 
+function getRouteFromHash() {
+  const hash = window.location.hash;
+  if (hash.startsWith('#/project/lumbox') || hash.startsWith('#project/lumbox')) {
+    return 'lumbox';
+  }
+  if (
+    hash.startsWith('#/project/eeg') || 
+    hash.startsWith('#project/eeg') ||
+    hash.startsWith('#/project/eeg-seizure') ||
+    hash.startsWith('#/project/eeg-paper')
+  ) {
+    return 'eeg';
+  }
+  return 'landing';
+}
+
 function App() {
-  const [currentRoute, setCurrentRoute] = useState(() => {
-    return window.location.hash.startsWith('#/project/lumbox') ? 'lumbox' : 'landing';
-  });
+  const [currentRoute, setCurrentRoute] = useState(getRouteFromHash);
 
   useEffect(() => {
     const handleHashChange = () => {
-      if (window.location.hash.startsWith('#/project/lumbox')) {
-        setCurrentRoute('lumbox');
-      } else {
-        setCurrentRoute('landing');
-      }
+      setCurrentRoute(getRouteFromHash());
     };
 
     window.addEventListener('hashchange', handleHashChange);
@@ -43,11 +54,30 @@ function App() {
     }, 60);
   };
 
+  const handleNavigateProject = (projectName) => {
+    if (projectName === 'lumbox') {
+      window.location.hash = '#/project/lumbox';
+    } else if (projectName === 'eeg-seizure' || projectName === 'eeg') {
+      window.location.hash = '#/project/eeg-seizure';
+    }
+  };
+
   if (currentRoute === 'lumbox') {
     return (
       <ProjectDetailLumbox 
         onBack={() => handleBackToLanding('projects')}
         onNavigateExperience={() => handleBackToLanding('experiences')}
+        onNavigateProject={handleNavigateProject}
+      />
+    );
+  }
+
+  if (currentRoute === 'eeg') {
+    return (
+      <ProjectDetailEEG 
+        onBack={() => handleBackToLanding('projects')}
+        onNavigateExperience={() => handleBackToLanding('experiences')}
+        onNavigateProject={handleNavigateProject}
       />
     );
   }

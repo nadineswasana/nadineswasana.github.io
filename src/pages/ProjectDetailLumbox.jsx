@@ -1,4 +1,5 @@
 import { useEffect } from 'react';
+import Footer from '../components/layout/Footer';
 import './ProjectDetailLumbox.css';
 
 // Lumbox Mockup Assets
@@ -19,7 +20,7 @@ import projectLastLonger from '../assets/projects/project-lastlonger.png';
 import projectKorpus from '../assets/projects/project-korpus.png';
 import projectEeg from '../assets/projects/project-eeg.png';
 
-export default function ProjectDetailLumbox({ onBack, onNavigateExperience }) {
+export default function ProjectDetailLumbox({ onBack, onNavigateExperience, onNavigateProject }) {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
@@ -37,6 +38,14 @@ export default function ProjectDetailLumbox({ onBack, onNavigateExperience }) {
       onNavigateExperience();
     } else {
       window.location.hash = '#experiences';
+    }
+  };
+
+  const handleOpenEEG = () => {
+    if (onNavigateProject) {
+      onNavigateProject('eeg-seizure');
+    } else {
+      window.location.hash = '#/project/eeg-seizure';
     }
   };
 
@@ -499,7 +508,7 @@ export default function ProjectDetailLumbox({ onBack, onNavigateExperience }) {
               </article>
 
               {/* Card 3: Seizure */}
-              <article className="lumbox-discover-card" onClick={handleClose}>
+              <article className="lumbox-discover-card" onClick={handleOpenEEG}>
                 <div className="lumbox-discover-img-wrap">
                   <img 
                     src={projectEeg} 
@@ -529,14 +538,8 @@ export default function ProjectDetailLumbox({ onBack, onNavigateExperience }) {
           </div>
         </section>
 
-        {/* 11. CLOSING QUOTE BANNER */}
-        <section className="lumbox-closing-banner">
-          <div className="lumbox-container">
-            <p className="lumbox-closing-quote">
-              By activating ID FOOD's existing infrastructure, Lumbox aims to transform informal networks into a connected digital ecosystem, shifting national food governance from reactive monitoring to real-time orchestration.
-            </p>
-          </div>
-        </section>
+        {/* 11. FOOTER (matches Figma node 658:1629) */}
+        <Footer />
       </main>
     </div>
   );

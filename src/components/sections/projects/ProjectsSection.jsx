@@ -97,7 +97,9 @@ export default function ProjectsSection() {
 
         <div className="projects-grid">
           {projects.map((project, index) => {
-            const isClickable = project.id === 'lumbox';
+            const isClickable = project.id === 'lumbox' || project.id === 'eeg-paper';
+            const projectHash = project.id === 'lumbox' ? '#/project/lumbox' : '#/project/eeg-seizure';
+
             return (
               <article 
                 key={project.id} 
@@ -105,7 +107,7 @@ export default function ProjectsSection() {
                 ref={(el) => (cardsRef.current[index] = el)}
                 onClick={() => {
                   if (isClickable) {
-                    window.location.hash = '#/project/lumbox';
+                    window.location.hash = projectHash;
                   }
                 }}
                 role={isClickable ? 'button' : undefined}
@@ -113,7 +115,7 @@ export default function ProjectsSection() {
                 onKeyDown={(e) => {
                   if (isClickable && (e.key === 'Enter' || e.key === ' ')) {
                     e.preventDefault();
-                    window.location.hash = '#/project/lumbox';
+                    window.location.hash = projectHash;
                   }
                 }}
               >
@@ -125,7 +127,9 @@ export default function ProjectsSection() {
                     loading="lazy"
                   />
                   {isClickable && (
-                    <span className="project-badge-interactive">View Case Study ↗</span>
+                    <span className="project-badge-interactive">
+                      {project.id === 'lumbox' ? 'View Case Study ↗' : 'View Research Paper ↗'}
+                    </span>
                   )}
                 </div>
 
