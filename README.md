@@ -1,6 +1,6 @@
-# Nadine Syifa Swasana — Portfolio Website
+# Nadine Swasana — Portfolio Website
 
-Personal portfolio website for **Nadine Syifa Swasana** — Product Specialist, Laboratory Assistant, and Researcher.
+Personal portfolio website for **Nadine Swasana** — Product Specialist, Laboratory Assistant, and Researcher.
 
 🌐 **Live Website**: [https://nadineswasana.github.io](https://nadineswasana.github.io)
 
