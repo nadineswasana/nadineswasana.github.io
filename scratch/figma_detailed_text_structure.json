@@ -1,0 +1,1212 @@
+[
+  {
+    "id": "383:1300",
+    "name": "Main",
+    "texts": [
+      {
+        "name": "Project title",
+        "text": "LUMBOX: B2B Platform for Indonesia\u2019s Agricultural Supply Chain",
+        "font": "Libre Baskerville",
+        "weight": 600,
+        "size": 36.0,
+        "color": {
+          "r": 0.32549020648002625,
+          "g": 0.25882354378700256,
+          "b": 0.0117647061124444,
+          "a": 1.0
+        }
+      },
+      {
+        "name": "Project description",
+        "text": "Designing an integrated platform for aggregators, smallholder farmers, buyers, and ID FOOD's staff and executives, connecting every layer of Indonesia's agricultural supply chain in one system.",
+        "font": "Inter",
+        "weight": 400,
+        "size": 20.0,
+        "color": {
+          "r": 0.11764705926179886,
+          "g": 0.11764705926179886,
+          "b": 0.11764705926179886,
+          "a": 1.0
+        }
+      },
+      {
+        "name": "Type label",
+        "text": "TYPE",
+        "font": "Libre Baskerville",
+        "weight": 700,
+        "size": 18.0,
+        "color": {
+          "r": 0.32549020648002625,
+          "g": 0.25882354378700256,
+          "b": 0.0117647061124444,
+          "a": 1.0
+        }
+      },
+      {
+        "name": "Type value",
+        "text": "Case Submission for Prototype Design Competition (International Level)",
+        "font": "DM Mono",
+        "weight": 400,
+        "size": 14.0,
+        "color": {
+          "r": 0.2666666805744171,
+          "g": 0.2666666805744171,
+          "b": 0.2666666805744171,
+          "a": 1.0
+        }
+      },
+      {
+        "name": "Team label",
+        "text": "THE TEAM",
+        "font": "Libre Baskerville",
+        "weight": 700,
+        "size": 18.0,
+        "color": {
+          "r": 0.32549020648002625,
+          "g": 0.25882354378700256,
+          "b": 0.0117647061124444,
+          "a": 1.0
+        }
+      },
+      {
+        "name": "Team value",
+        "text": "Nadya Euvania \n(UX Researcher)\nAbdul Aziz Zaki Hidayat\n(UI/UX Designer)",
+        "font": "DM Mono",
+        "weight": 400,
+        "size": 14.0,
+        "color": {
+          "r": 0.2666666805744171,
+          "g": 0.2666666805744171,
+          "b": 0.2666666805744171,
+          "a": 1.0
+        }
+      },
+      {
+        "name": "Role label",
+        "text": "ROLE",
+        "font": "Libre Baskerville",
+        "weight": 700,
+        "size": 18.0,
+        "color": {
+          "r": 0.32549020648002625,
+          "g": 0.25882354378700256,
+          "b": 0.0117647061124444,
+          "a": 1.0
+        }
+      },
+      {
+        "name": "Role value",
+        "text": "Project Manager",
+        "font": "DM Mono",
+        "weight": 400,
+        "size": 14.0,
+        "color": {
+          "r": 0.2666666805744171,
+          "g": 0.2666666805744171,
+          "b": 0.2666666805744171,
+          "a": 1.0
+        }
+      },
+      {
+        "name": "Time label",
+        "text": "TIME",
+        "font": "Libre Baskerville",
+        "weight": 700,
+        "size": 18.0,
+        "color": {
+          "r": 0.32549020648002625,
+          "g": 0.25882354378700256,
+          "b": 0.0117647061124444,
+          "a": 1.0
+        }
+      },
+      {
+        "name": "Time value",
+        "text": "June 2026",
+        "font": "DM Mono",
+        "weight": 400,
+        "size": 14.0,
+        "color": {
+          "r": 0.2666666805744171,
+          "g": 0.2666666805744171,
+          "b": 0.2666666805744171,
+          "a": 1.0
+        }
+      },
+      {
+        "name": "Result label",
+        "text": "RESULT",
+        "font": "Libre Baskerville",
+        "weight": 700,
+        "size": 18.0,
+        "color": {
+          "r": 0.32549020648002625,
+          "g": 0.25882354378700256,
+          "b": 0.0117647061124444,
+          "a": 1.0
+        }
+      },
+      {
+        "name": "Result value",
+        "text": "6th Place, \nTop 10 Global \n(10 countries)",
+        "font": "DM Mono",
+        "weight": 400,
+        "size": 14.0,
+        "color": {
+          "r": 0.2666666805744171,
+          "g": 0.2666666805744171,
+          "b": 0.2666666805744171,
+          "a": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "id": "447:2478",
+    "name": "Overview",
+    "texts": [
+      {
+        "name": "Overview label",
+        "text": "OVERVIEW",
+        "font": "DM Mono",
+        "weight": 500,
+        "size": 28.0,
+        "color": {
+          "r": 0.2666666805744171,
+          "g": 0.2666666805744171,
+          "b": 0.2666666805744171,
+          "a": 1.0
+        }
+      },
+      {
+        "name": "Overview text",
+        "text": "Every year, Indonesia loses enough food to feed 125 million people, while farmers capture only a fraction of what it's worth.",
+        "font": "Libre Baskerville",
+        "weight": 500,
+        "size": 28.0,
+        "color": {
+          "r": 0.32549020648002625,
+          "g": 0.25882354378700256,
+          "b": 0.0117647061124444,
+          "a": 1.0
+        }
+      },
+      {
+        "name": "Overview text",
+        "text": "Lumbox is our submission for\u00a0Proto-A-Thon International Design Competition 2026, developed for a case study in collaboration with\u00a0ID FOOD, Indonesia's state-owned food holding company. Here's the problem we uncovered, and the system we designed to solve it.",
+        "font": "Inter",
+        "weight": 400,
+        "size": 20.0,
+        "color": {
+          "r": 0.11764705926179886,
+          "g": 0.11764705926179886,
+          "b": 0.11764705926179886,
+          "a": 1.0
+        }
+      },
+      {
+        "name": "Problem emoji",
+        "text": "\ud83d\ude22",
+        "font": "DM Mono",
+        "weight": 500,
+        "size": 24.0,
+        "color": {
+          "r": 0.2666666805744171,
+          "g": 0.2666666805744171,
+          "b": 0.2666666805744171,
+          "a": 1.0
+        }
+      },
+      {
+        "name": "Problem label",
+        "text": "THE PROBLEM",
+        "font": "DM Mono",
+        "weight": 500,
+        "size": 24.0,
+        "color": {
+          "r": 0.2666666805744171,
+          "g": 0.2666666805744171,
+          "b": 0.2666666805744171,
+          "a": 1.0
+        }
+      },
+      {
+        "name": "Problem description",
+        "text": "Indonesia's food supply chain loses\u00a0IDR 551 trillion annually\u00a0(4-5% of GDP) to inefficiency. Prices markup\u00a07-10x\u00a0from farmer to consumer, yet farmers capture just\u00a015-20%\u00a0of that value, leaving 48 million smallholder farmers excluded from formal markets and fair pricing.",
+        "font": "Inter",
+        "weight": 400,
+        "size": 16.0,
+        "color": {
+          "r": 0.11764705926179886,
+          "g": 0.11764705926179886,
+          "b": 0.11764705926179886,
+          "a": 1.0
+        }
+      },
+      {
+        "name": "Solution emoji",
+        "text": "\ud83d\udccc",
+        "font": "DM Mono",
+        "weight": 500,
+        "size": 24.0,
+        "color": {
+          "r": 0.2666666805744171,
+          "g": 0.2666666805744171,
+          "b": 0.2666666805744171,
+          "a": 1.0
+        }
+      },
+      {
+        "name": "Solution label",
+        "text": "THE SOLUTION",
+        "font": "DM Mono",
+        "weight": 500,
+        "size": 24.0,
+        "color": {
+          "r": 0.2666666805744171,
+          "g": 0.2666666805744171,
+          "b": 0.2666666805744171,
+          "a": 1.0
+        }
+      },
+      {
+        "name": "Solution description",
+        "text": "A platform that formalizes, not eliminates, the informal actors already holding the chain together (tengkulak). Connecting 500,000+ aggregators and 48 million smallholder farmers to verified B2B buyers, tailored across every level of the organization, from field collectors to ID FOOD's staff and executives.",
+        "font": "Inter",
+        "weight": 400,
+        "size": 16.0,
+        "color": {
+          "r": 0.11764705926179886,
+          "g": 0.11764705926179886,
+          "b": 0.11764705926179886,
+          "a": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "id": "450:2530",
+    "name": "Problem",
+    "texts": [
+      {
+        "name": "Problem label",
+        "text": "PROBLEM",
+        "font": "DM Mono",
+        "weight": 500,
+        "size": 28.0,
+        "color": {
+          "r": 0.2666666805744171,
+          "g": 0.2666666805744171,
+          "b": 0.2666666805744171,
+          "a": 1.0
+        }
+      },
+      {
+        "name": "Problem description",
+        "text": "To understand why the system was breaking, we started by mapping where the money and the food were actually going.",
+        "font": "Libre Baskerville",
+        "weight": 500,
+        "size": 28.0,
+        "color": {
+          "r": 0.32549020648002625,
+          "g": 0.25882354378700256,
+          "b": 0.0117647061124444,
+          "a": 1.0
+        }
+      },
+      {
+        "name": "Metric 1 value",
+        "text": "IDR 551 trilion",
+        "font": "Inter",
+        "weight": 700,
+        "size": 32.0,
+        "color": {
+          "r": 0.0,
+          "g": 0.0,
+          "b": 0.0,
+          "a": 1.0
+        }
+      },
+      {
+        "name": "Metric 1 description",
+        "text": "Lost annually 4\u20135% of GDP, exceeding the entire Ministry of Agriculture budget.",
+        "font": "Inter",
+        "weight": 400,
+        "size": 16.0,
+        "color": {
+          "r": 0.11764705926179886,
+          "g": 0.11764705926179886,
+          "b": 0.11764705926179886,
+          "a": 1.0
+        }
+      },
+      {
+        "name": "Metric 2 value",
+        "text": "3-5 days",
+        "font": "Inter",
+        "weight": 700,
+        "size": 32.0,
+        "color": {
+          "r": 0.0,
+          "g": 0.0,
+          "b": 0.0,
+          "a": 1.0
+        }
+      },
+      {
+        "name": "Metric 2 description",
+        "text": "Average distribution time for fresh produce, against a 1\u20133 day shelf life.",
+        "font": "Inter",
+        "weight": 400,
+        "size": 16.0,
+        "color": {
+          "r": 0.11764705926179886,
+          "g": 0.11764705926179886,
+          "b": 0.11764705926179886,
+          "a": 1.0
+        }
+      },
+      {
+        "name": "Metric 3 value",
+        "text": "7-10x",
+        "font": "Inter",
+        "weight": 700,
+        "size": 32.0,
+        "color": {
+          "r": 0.0,
+          "g": 0.0,
+          "b": 0.0,
+          "a": 1.0
+        }
+      },
+      {
+        "name": "Metric 3 description",
+        "text": "Price markup from farmer to consumer while farmers capture only 15\u201320%.",
+        "font": "Inter",
+        "weight": 400,
+        "size": 16.0,
+        "color": {
+          "r": 0.11764705926179886,
+          "g": 0.11764705926179886,
+          "b": 0.11764705926179886,
+          "a": 1.0
+        }
+      },
+      {
+        "name": "Metric 4 value",
+        "text": "48 million",
+        "font": "Inter",
+        "weight": 700,
+        "size": 32.0,
+        "color": {
+          "r": 0.0,
+          "g": 0.0,
+          "b": 0.0,
+          "a": 1.0
+        }
+      },
+      {
+        "name": "Metric 4 description",
+        "text": "Smallholder farmers still excluded from formal markets and digital systems.",
+        "font": "Inter",
+        "weight": 400,
+        "size": 16.0,
+        "color": {
+          "r": 0.11764705926179886,
+          "g": 0.11764705926179886,
+          "b": 0.11764705926179886,
+          "a": 1.0
+        }
+      },
+      {
+        "name": "Problem summary",
+        "text": "The crisis is not a lack of harvest, capital, or ambition, it is the absence of a unifying layer that connects what already exists",
+        "font": "Inter",
+        "weight": 400,
+        "size": 20.0,
+        "color": {
+          "r": 0.11764705926179886,
+          "g": 0.11764705926179886,
+          "b": 0.11764705926179886,
+          "a": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "id": "458:3186",
+    "name": "Goals",
+    "texts": [
+      {
+        "name": "Goals label",
+        "text": "GOALS &\nINTENDED\u2028IMPACT \n",
+        "font": "DM Mono",
+        "weight": 500,
+        "size": 28.0,
+        "color": {
+          "r": 0.2666666805744171,
+          "g": 0.2666666805744171,
+          "b": 0.2666666805744171,
+          "a": 1.0
+        }
+      },
+      {
+        "name": "Goals text",
+        "text": "The future of Indonesia\u2019s food supply chain is not built by removing intermediaries entirely, but by formalizing and orchestrating their essential functions into a transparent, tech-enabled ecosystem",
+        "font": "Libre Baskerville",
+        "weight": 500,
+        "size": 28.0,
+        "color": {
+          "r": 0.32549020648002625,
+          "g": 0.25882354378700256,
+          "b": 0.0117647061124444,
+          "a": 1.0
+        }
+      },
+      {
+        "name": "Goals text",
+        "text": "Here\u2019s what we\u2019re committing to build:",
+        "font": "Inter",
+        "weight": 400,
+        "size": 20.0,
+        "color": {
+          "r": 0.11764705926179886,
+          "g": 0.11764705926179886,
+          "b": 0.11764705926179886,
+          "a": 1.0
+        }
+      },
+      {
+        "name": "Metric 1 label",
+        "text": "Food Waste",
+        "font": "Inter",
+        "weight": 400,
+        "size": 20.0,
+        "color": {
+          "r": 0.11764705926179886,
+          "g": 0.11764705926179886,
+          "b": 0.11764705926179886,
+          "a": 1.0
+        }
+      },
+      {
+        "name": "Metric 1 value",
+        "text": "30-40%   \u27a1\ufe0f   26% ",
+        "font": "Inter",
+        "weight": 400,
+        "size": 32.0,
+        "color": {
+          "r": 0.0,
+          "g": 0.0,
+          "b": 0.0,
+          "a": 1.0
+        }
+      },
+      {
+        "name": "Metric 2 label",
+        "text": "Farmer Price Share",
+        "font": "Inter",
+        "weight": 400,
+        "size": 20.0,
+        "color": {
+          "r": 0.11764705926179886,
+          "g": 0.11764705926179886,
+          "b": 0.11764705926179886,
+          "a": 1.0
+        }
+      },
+      {
+        "name": "Metric 2 value",
+        "text": "15-20%   \u27a1\ufe0f   22% ",
+        "font": "Inter",
+        "weight": 400,
+        "size": 32.0,
+        "color": {
+          "r": 0.0,
+          "g": 0.0,
+          "b": 0.0,
+          "a": 1.0
+        }
+      },
+      {
+        "name": "Metric 3 label",
+        "text": "Supply Chain Layers",
+        "font": "Inter",
+        "weight": 400,
+        "size": 20.0,
+        "color": {
+          "r": 0.11764705926179886,
+          "g": 0.11764705926179886,
+          "b": 0.11764705926179886,
+          "a": 1.0
+        }
+      },
+      {
+        "name": "Metric 3 value",
+        "text": "7-10   \u27a1\ufe0f   4-6 ",
+        "font": "Inter",
+        "weight": 400,
+        "size": 32.0,
+        "color": {
+          "r": 0.0,
+          "g": 0.0,
+          "b": 0.0,
+          "a": 1.0
+        }
+      },
+      {
+        "name": "Metric 4 label",
+        "text": "Farmers Reached in Pilot",
+        "font": "Inter",
+        "weight": 400,
+        "size": 20.0,
+        "color": {
+          "r": 0.11764705926179886,
+          "g": 0.11764705926179886,
+          "b": 0.11764705926179886,
+          "a": 1.0
+        }
+      },
+      {
+        "name": "Metric 4 value",
+        "text": "50.000 - 100.000",
+        "font": "Inter",
+        "weight": 700,
+        "size": 40.0,
+        "color": {
+          "r": 0.0,
+          "g": 0.0,
+          "b": 0.0,
+          "a": 1.0
+        }
+      },
+      {
+        "name": "Goals summary",
+        "text": "Rather than disrupting the actors already holding this chain together (informal aggregators/tengkulak), we set out to formalize and orchestrate them, building a system where every role becomes more valuable, not obsolete.",
+        "font": "Inter",
+        "weight": 400,
+        "size": 20.0,
+        "color": {
+          "r": 0.11764705926179886,
+          "g": 0.11764705926179886,
+          "b": 0.11764705926179886,
+          "a": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "id": "458:3327",
+    "name": "HMW",
+    "texts": [
+      {
+        "name": "HMW label",
+        "text": "HOW MIGHT WE ",
+        "font": "DM Mono",
+        "weight": 500,
+        "size": 28.0,
+        "color": {
+          "r": 0.2666666805744171,
+          "g": 0.2666666805744171,
+          "b": 0.2666666805744171,
+          "a": 1.0
+        }
+      },
+      {
+        "name": "HMW intro text",
+        "text": "After interviewing farmers and middlemen across the supply chain and analyzing where the system breaks down, we distilled everything into one core question:",
+        "font": "Inter",
+        "weight": 400,
+        "size": 20.0,
+        "color": {
+          "r": 0.11764705926179886,
+          "g": 0.11764705926179886,
+          "b": 0.11764705926179886,
+          "a": 1.0
+        }
+      },
+      {
+        "name": "HMW question text",
+        "text": "\u201cHow might we create a more transparent, connected, and efficient food supply chain ecosystem that helps farmers, middlemen, and businesses access fair pricing, smarter distribution, reliable logistics, and data-driven decision making while reducing food waste and market uncertainty?\u201d",
+        "font": "Libre Baskerville",
+        "weight": 500,
+        "size": 28.0,
+        "color": {
+          "r": 0.32549020648002625,
+          "g": 0.25882354378700256,
+          "b": 0.0117647061124444,
+          "a": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "id": "458:3349",
+    "name": "Solution",
+    "texts": [
+      {
+        "name": "Solution label",
+        "text": "SOLUTION",
+        "font": "DM Mono",
+        "weight": 500,
+        "size": 28.0,
+        "color": {
+          "r": 0.2666666805744171,
+          "g": 0.2666666805744171,
+          "b": 0.2666666805744171,
+          "a": 1.0
+        }
+      },
+      {
+        "name": "Solution intro",
+        "text": "With that question in mind, we looked at why past agritech solutions had failed and realized most of them tried to eliminate the very actors, like\u00a0tengkulak\u00a0(middlemen), who were quietly holding the chain together. So instead of removing them, we designed a system to formalize what they already do.",
+        "font": "Inter",
+        "weight": 400,
+        "size": 20.0,
+        "color": {
+          "r": 0.11764705926179886,
+          "g": 0.11764705926179886,
+          "b": 0.11764705926179886,
+          "a": 1.0
+        }
+      },
+      {
+        "name": "Products title",
+        "text": "PRODUCTS OF LUMBOX",
+        "font": "DM Mono",
+        "weight": 500,
+        "size": 28.0,
+        "color": {
+          "r": 0.2666666805744171,
+          "g": 0.2666666805744171,
+          "b": 0.2666666805744171,
+          "a": 1.0
+        }
+      },
+      {
+        "name": "Products description",
+        "text": "Three surfaces. One ecosystem. Every actor in chain, from the farmer who grows it, to the collector who moves it, to the business that needs it, finally connected",
+        "font": "Libre Baskerville",
+        "weight": 500,
+        "size": 28.0,
+        "color": {
+          "r": 0.32549020648002625,
+          "g": 0.25882354378700256,
+          "b": 0.0117647061124444,
+          "a": 1.0
+        }
+      },
+      {
+        "name": "Product 3 title",
+        "text": "Lumbox Connect (WhatsApp Bot/Zero App Required)",
+        "font": "Inter",
+        "weight": 600,
+        "size": 18.0,
+        "color": {
+          "r": 0.11764705926179886,
+          "g": 0.11764705926179886,
+          "b": 0.11764705926179886,
+          "a": 1.0
+        }
+      },
+      {
+        "name": "Product 3 description",
+        "text": "for Indonesia's 48 million smallholder farmers",
+        "font": "Inter",
+        "weight": 400,
+        "size": 12.0,
+        "color": {
+          "r": 0.11764705926179886,
+          "g": 0.11764705926179886,
+          "b": 0.11764705926179886,
+          "a": 1.0
+        }
+      },
+      {
+        "name": "Product 2 title",
+        "text": "Lumbox for Business (Desktop Web - B2B Command Layer)",
+        "font": "Inter",
+        "weight": 600,
+        "size": 18.0,
+        "color": {
+          "r": 0.11764705926179886,
+          "g": 0.11764705926179886,
+          "b": 0.11764705926179886,
+          "a": 1.0
+        }
+      },
+      {
+        "name": "Product 2 description",
+        "text": "for ID FOOD (orchestrator) and verified business buyers",
+        "font": "Inter",
+        "weight": 400,
+        "size": 12.0,
+        "color": {
+          "r": 0.11764705926179886,
+          "g": 0.11764705926179886,
+          "b": 0.11764705926179886,
+          "a": 1.0
+        }
+      },
+      {
+        "name": "Product 1 title",
+        "text": "Lumbox Mobile (Mobile App)",
+        "font": "Inter",
+        "weight": 600,
+        "size": 18.0,
+        "color": {
+          "r": 0.11764705926179886,
+          "g": 0.11764705926179886,
+          "b": 0.11764705926179886,
+          "a": 1.0
+        }
+      },
+      {
+        "name": "Product 1 description",
+        "text": "for collectors, middlemen, and village cooperatives ",
+        "font": "Inter",
+        "weight": 400,
+        "size": 12.0,
+        "color": {
+          "r": 0.11764705926179886,
+          "g": 0.11764705926179886,
+          "b": 0.11764705926179886,
+          "a": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "id": "476:3450",
+    "name": "Features",
+    "texts": [
+      {
+        "name": "Feature 1 title",
+        "text": "TRANSPARENT FARM PRODUCTS COLLECTION & CONNECTIVITY THROUGH LUMBOX CONNECT",
+        "font": "DM Mono",
+        "weight": 500,
+        "size": 28.0,
+        "color": {
+          "r": 0.2666666805744171,
+          "g": 0.2666666805744171,
+          "b": 0.2666666805744171,
+          "a": 1.0
+        }
+      },
+      {
+        "name": "Feature 1 description",
+        "text": "The collector negotiates with the farmer on-site and inputs the transaction details into the app: Farmer\u2019s Name/NIK, Commodity, Volume, Agreed Price/kg, and Payment Method (Cash or Cashless via Bank Account). To finalize the purchase, the collector must trigger an automated summary sent directly to the farmer\u2019s WhatsApp/SMS. This forces a transparent, honest ledger where the offered price is benchmarked against real-time market data.",
+        "font": "Inter",
+        "weight": 400,
+        "size": 20.0,
+        "color": {
+          "r": 0.11764705926179886,
+          "g": 0.11764705926179886,
+          "b": 0.11764705926179886,
+          "a": 1.0
+        }
+      },
+      {
+        "name": "Feature 2 title",
+        "text": "INTEGRITY TRAIL FOR BUYER\u2019S INSURANCE CLAIM",
+        "font": "DM Mono",
+        "weight": 500,
+        "size": 28.0,
+        "color": {
+          "r": 0.2666666805744171,
+          "g": 0.2666666805744171,
+          "b": 0.2666666805744171,
+          "a": 1.0
+        }
+      },
+      {
+        "name": "Feature 3 title",
+        "text": "SMART LUMBUNG: DIGITAL INVENTORY DASHBOARD",
+        "font": "DM Mono",
+        "weight": 500,
+        "size": 28.0,
+        "color": {
+          "r": 0.2666666805744171,
+          "g": 0.2666666805744171,
+          "b": 0.2666666805744171,
+          "a": 1.0
+        }
+      },
+      {
+        "name": "Feature 4 title",
+        "text": "NATIONAL MARKET PRICE FORECASTING ",
+        "font": "DM Mono",
+        "weight": 500,
+        "size": 28.0,
+        "color": {
+          "r": 0.2666666805744171,
+          "g": 0.2666666805744171,
+          "b": 0.2666666805744171,
+          "a": 1.0
+        }
+      },
+      {
+        "name": "Feature 5 title",
+        "text": "BUYER MATCH",
+        "font": "DM Mono",
+        "weight": 500,
+        "size": 28.0,
+        "color": {
+          "r": 0.2666666805744171,
+          "g": 0.2666666805744171,
+          "b": 0.2666666805744171,
+          "a": 1.0
+        }
+      },
+      {
+        "name": "Feature 6 title",
+        "text": "SMART COLD CHAIN: API-DRIVEN STORAGE & IOT ORCHESTRATION",
+        "font": "DM Mono",
+        "weight": 500,
+        "size": 28.0,
+        "color": {
+          "r": 0.2666666805744171,
+          "g": 0.2666666805744171,
+          "b": 0.2666666805744171,
+          "a": 1.0
+        }
+      },
+      {
+        "name": "Feature 7 title",
+        "text": "ROUTE CONSOLIDATION: INTEGRATED WITH ID FOOD\u2019S FIONA API",
+        "font": "DM Mono",
+        "weight": 500,
+        "size": 28.0,
+        "color": {
+          "r": 0.2666666805744171,
+          "g": 0.2666666805744171,
+          "b": 0.2666666805744171,
+          "a": 1.0
+        }
+      },
+      {
+        "name": "Feature 8 title",
+        "text": "NATIONAL COMMAND CENTER FOR ID FOOD ADMIN",
+        "font": "DM Mono",
+        "weight": 500,
+        "size": 28.0,
+        "color": {
+          "r": 0.2666666805744171,
+          "g": 0.2666666805744171,
+          "b": 0.2666666805744171,
+          "a": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "id": "476:6226",
+    "name": "Conclusion",
+    "texts": [
+      {
+        "name": "Conclusion label",
+        "text": "CONCLUSION",
+        "font": "DM Mono",
+        "weight": 500,
+        "size": 28.0,
+        "color": {
+          "r": 0.2666666805744171,
+          "g": 0.2666666805744171,
+          "b": 0.2666666805744171,
+          "a": 1.0
+        }
+      },
+      {
+        "name": "Conclusion text",
+        "text": "By activating ID FOOD's existing infrastructure, Lumbox aims to transform informal networks into a connected digital ecosystem, shifting national food governance from reactive monitoring to real-time orchestration.",
+        "font": "Libre Baskerville",
+        "weight": 500,
+        "size": 28.0,
+        "color": {
+          "r": 0.32549020648002625,
+          "g": 0.25882354378700256,
+          "b": 0.0117647061124444,
+          "a": 1.0
+        }
+      },
+      {
+        "name": "Icon 1 emoji",
+        "text": "\ud83d\udcf2",
+        "font": "Inter",
+        "weight": 400,
+        "size": 24.0,
+        "color": {
+          "r": 0.11764705926179886,
+          "g": 0.11764705926179886,
+          "b": 0.11764705926179886,
+          "a": 1.0
+        }
+      },
+      {
+        "name": "Icon 1 label",
+        "text": "Tech-Enabled Ecosystem Integration",
+        "font": "Inter",
+        "weight": 400,
+        "size": 20.0,
+        "color": {
+          "r": 0.11764705926179886,
+          "g": 0.11764705926179886,
+          "b": 0.11764705926179886,
+          "a": 1.0
+        }
+      },
+      {
+        "name": "Icon 2 emoji",
+        "text": "\ud83c\uddee\ud83c\udde9",
+        "font": "Inter",
+        "weight": 400,
+        "size": 24.0,
+        "color": {
+          "r": 0.11764705926179886,
+          "g": 0.11764705926179886,
+          "b": 0.11764705926179886,
+          "a": 1.0
+        }
+      },
+      {
+        "name": "Icon 2 label",
+        "text": "Powering B2B and National Agendas",
+        "font": "Inter",
+        "weight": 400,
+        "size": 20.0,
+        "color": {
+          "r": 0.11764705926179886,
+          "g": 0.11764705926179886,
+          "b": 0.11764705926179886,
+          "a": 1.0
+        }
+      },
+      {
+        "name": "Icon 3 emoji",
+        "text": "\ud83d\udd01",
+        "font": "Inter",
+        "weight": 400,
+        "size": 24.0,
+        "color": {
+          "r": 0.11764705926179886,
+          "g": 0.11764705926179886,
+          "b": 0.11764705926179886,
+          "a": 1.0
+        }
+      },
+      {
+        "name": "Icon 3 label",
+        "text": "Transformation, Not Distruption",
+        "font": "Inter",
+        "weight": 400,
+        "size": 20.0,
+        "color": {
+          "r": 0.11764705926179886,
+          "g": 0.11764705926179886,
+          "b": 0.11764705926179886,
+          "a": 1.0
+        }
+      },
+      {
+        "name": "Conclusion summary",
+        "text": "From scatterd harvest to a connected nation, built chain by GRAIN.",
+        "font": "Inter",
+        "weight": 400,
+        "size": 20.0,
+        "color": {
+          "r": 0.11764705926179886,
+          "g": 0.11764705926179886,
+          "b": 0.11764705926179886,
+          "a": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "id": "492:2",
+    "name": "Conclusion",
+    "texts": [
+      {
+        "name": "Discover more projects",
+        "text": "DISCOVER MORE PROJECTS",
+        "font": "DM Mono",
+        "weight": 500,
+        "size": 28.0,
+        "color": {
+          "r": 0.2666666805744171,
+          "g": 0.2666666805744171,
+          "b": 0.2666666805744171,
+          "a": 1.0
+        }
+      },
+      {
+        "name": "Project Management / UX Research",
+        "text": "Project Management / UX Research",
+        "font": "DM Mono",
+        "weight": 500,
+        "size": 20.0,
+        "color": {
+          "r": 0.3333333432674408,
+          "g": 0.3333333432674408,
+          "b": 0.3333333432674408,
+          "a": 1.0
+        }
+      },
+      {
+        "name": "LastLonger: End-to-End Device Lifecycle Management App",
+        "text": "LastLonger: End-to-End Device Lifecycle Management App",
+        "font": "Inter",
+        "weight": 500,
+        "size": 20.0,
+        "color": {
+          "r": 0.0,
+          "g": 0.0,
+          "b": 0.0,
+          "a": 1.0
+        }
+      },
+      {
+        "name": "An app driving sustainable solutions and a circular economy through responsible device lifecycles, reducing e-waste through responsible reuse and resale pathways.",
+        "text": "An app driving sustainable solutions and a circular economy through responsible device lifecycles, reducing e-waste through responsible reuse and resale pathways.",
+        "font": "Inter",
+        "weight": 400,
+        "size": 16.0,
+        "color": {
+          "r": 0.3333333432674408,
+          "g": 0.3333333432674408,
+          "b": 0.3333333432674408,
+          "a": 1.0
+        }
+      },
+      {
+        "name": "Product Management / UX Research",
+        "text": "Product Management / UX Research",
+        "font": "DM Mono",
+        "weight": 500,
+        "size": 20.0,
+        "color": {
+          "r": 0.3333333432674408,
+          "g": 0.3333333432674408,
+          "b": 0.3333333432674408,
+          "a": 1.0
+        }
+      },
+      {
+        "name": "KORPUS: Fullstack Digital Platform to Activate Indonesia\u2019s 83.000+ Village Cooperatives",
+        "text": "KORPUS: Fullstack Digital Platform to Activate Indonesia\u2019s 83.000+ Village Cooperatives",
+        "font": "Inter",
+        "weight": 500,
+        "size": 20.0,
+        "color": {
+          "r": 0.0,
+          "g": 0.0,
+          "b": 0.0,
+          "a": 1.0
+        }
+      },
+      {
+        "name": "A frictionless onboarding and digital wallet system to scale cooperative participation nationwide for Hackathon Digital Cooperatives Expo 2026",
+        "text": "A frictionless onboarding and digital wallet system to scale cooperative participation nationwide for Hackathon Digital Cooperatives Expo 2026",
+        "font": "Inter",
+        "weight": 400,
+        "size": 16.0,
+        "color": {
+          "r": 0.3333333432674408,
+          "g": 0.3333333432674408,
+          "b": 0.3333333432674408,
+          "a": 1.0
+        }
+      },
+      {
+        "name": "Research / Machine Learning",
+        "text": "Research / Machine Learning",
+        "font": "DM Mono",
+        "weight": 500,
+        "size": 20.0,
+        "color": {
+          "r": 0.3333333432674408,
+          "g": 0.3333333432674408,
+          "b": 0.3333333432674408,
+          "a": 1.0
+        }
+      },
+      {
+        "name": "Evaluating the Robustness of Classical Machine Learning in Cross-Subject EEG Seizure Detection",
+        "text": "Evaluating the Robustness of Classical Machine Learning in Cross-Subject EEG Seizure Detection",
+        "font": "Inter",
+        "weight": 500,
+        "size": 19.5,
+        "color": {
+          "r": 0.0,
+          "g": 0.0,
+          "b": 0.0,
+          "a": 1.0
+        }
+      },
+      {
+        "name": "A classical ML pipeline trained on 3.5M+ EEG segments to flag seizure risk and accelerate clinical triage, presented at BIOXPLORE 2026. IEEE & Scopus-indexed.",
+        "text": "A classical ML pipeline trained on 3.5M+ EEG segments to flag seizure risk and accelerate clinical triage, presented at BIOXPLORE 2026. IEEE & Scopus-indexed.",
+        "font": "Inter",
+        "weight": 400,
+        "size": 16.0,
+        "color": {
+          "r": 0.3333333432674408,
+          "g": 0.3333333432674408,
+          "b": 0.3333333432674408,
+          "a": 1.0
+        }
+      },
+      {
+        "name": "View My Experiences",
+        "text": "View My Experiences",
+        "font": "Libre Baskerville",
+        "weight": 500,
+        "size": 28.0,
+        "color": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "a": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "id": "514:127",
+    "name": "Conclusion",
+    "texts": [
+      {
+        "name": "Conclusion text",
+        "text": "By activating ID FOOD's existing infrastructure, Lumbox aims to transform informal networks into a connected digital ecosystem, shifting national food governance from reactive monitoring to real-time orchestration.",
+        "font": "Libre Baskerville",
+        "weight": 500,
+        "size": 28.0,
+        "color": {
+          "r": 0.32549020648002625,
+          "g": 0.25882354378700256,
+          "b": 0.0117647061124444,
+          "a": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "id": "383:1317",
+    "name": "Header",
+    "texts": [
+      {
+        "name": "User name",
+        "text": "Nadine Swasana",
+        "font": "Libre Baskerville",
+        "weight": 500,
+        "size": 24.0,
+        "color": {
+          "r": 0.7170222401618958,
+          "g": 0.44870924949645996,
+          "b": 0.0015216254396364093,
+          "a": 1.0
+        }
+      }
+    ]
+  }
+]
