@@ -322,7 +322,7 @@ export default function ProjectDetailLumbox({ onBack, onNavigateExperience }) {
                 <img 
                   src={feature1Img} 
                   alt="Transparent farm products collection and connectivity mockup" 
-                  className="lumbox-feature-img"
+                  className="lumbox-feature-img lumbox-feature-img--wide"
                 />
               </div>
             </div>
@@ -336,7 +336,7 @@ export default function ProjectDetailLumbox({ onBack, onNavigateExperience }) {
                 <img 
                   src={feature2Img} 
                   alt="Integrity trail for buyer's insurance claim mockup" 
-                  className="lumbox-feature-img"
+                  className="lumbox-feature-img lumbox-feature-img--2-phones"
                 />
               </div>
             </div>
@@ -350,7 +350,7 @@ export default function ProjectDetailLumbox({ onBack, onNavigateExperience }) {
                 <img 
                   src={feature3Img} 
                   alt="Smart Lumbung digital inventory dashboard mockup" 
-                  className="lumbox-feature-img"
+                  className="lumbox-feature-img lumbox-feature-img--3-phones"
                 />
               </div>
             </div>
@@ -364,7 +364,7 @@ export default function ProjectDetailLumbox({ onBack, onNavigateExperience }) {
                 <img 
                   src={feature4Img} 
                   alt="National market price forecasting mockup" 
-                  className="lumbox-feature-img"
+                  className="lumbox-feature-img lumbox-feature-img--3-phones"
                 />
               </div>
             </div>
@@ -378,7 +378,7 @@ export default function ProjectDetailLumbox({ onBack, onNavigateExperience }) {
                 <img 
                   src={feature5Img} 
                   alt="Buyer match platform mockup" 
-                  className="lumbox-feature-img"
+                  className="lumbox-feature-img lumbox-feature-img--laptop"
                 />
               </div>
             </div>
@@ -392,7 +392,7 @@ export default function ProjectDetailLumbox({ onBack, onNavigateExperience }) {
                 <img 
                   src={feature6Img} 
                   alt="Smart cold chain storage and IoT orchestration mockup" 
-                  className="lumbox-feature-img"
+                  className="lumbox-feature-img lumbox-feature-img--2-phones"
                 />
               </div>
             </div>
@@ -406,7 +406,7 @@ export default function ProjectDetailLumbox({ onBack, onNavigateExperience }) {
                 <img 
                   src={feature7Img} 
                   alt="Route consolidation integrated with ID FOOD Fiona API mockup" 
-                  className="lumbox-feature-img"
+                  className="lumbox-feature-img lumbox-feature-img--2-phones"
                 />
               </div>
             </div>
@@ -420,7 +420,7 @@ export default function ProjectDetailLumbox({ onBack, onNavigateExperience }) {
                 <img 
                   src={feature8Img} 
                   alt="National command center for ID FOOD admin mockup" 
-                  className="lumbox-feature-img"
+                  className="lumbox-feature-img lumbox-feature-img--dashboard"
                 />
               </div>
             </div>

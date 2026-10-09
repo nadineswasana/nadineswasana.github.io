@@ -512,10 +512,34 @@
 
 .lumbox-feature-img {
   width: 100%;
-  max-width: 1000px;
   height: auto;
   display: block;
   object-fit: contain;
+  margin: 0 auto;
+}
+
+/* Proportionate Mockup Sizing (matches Figma's 369px phone height):
+   Each phone is ~188px wide by 369px high.
+   - 2-phone mockups (Integrity Trail, Smart Cold Chain, Route Consolidation): 380px
+   - 3-phone mockups (Smart Lumbung, Price Forecasting): 570px
+   - Laptop + phone (Buyer Match): 790px
+   - Full flow / command center dashboards: 1000px
+*/
+.lumbox-feature-img--2-phones {
+  max-width: 380px;
+}
+
+.lumbox-feature-img--3-phones {
+  max-width: 570px;
+}
+
+.lumbox-feature-img--laptop {
+  max-width: 790px;
+}
+
+.lumbox-feature-img--dashboard,
+.lumbox-feature-img--wide {
+  max-width: 1000px;
 }
 
 /* ==========================================================================
@@ -805,6 +829,17 @@
 
   .lumbox-feature-desc {
     font-size: 16px;
+  }
+
+  .lumbox-feature-img--2-phones {
+    max-width: min(320px, 85vw);
+  }
+
+  .lumbox-feature-img--3-phones,
+  .lumbox-feature-img--laptop,
+  .lumbox-feature-img--dashboard,
+  .lumbox-feature-img--wide {
+    max-width: 100%;
   }
 
   .lumbox-discover-grid {
