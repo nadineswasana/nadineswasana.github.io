@@ -96,28 +96,47 @@ export default function ProjectsSection() {
         </div>
 
         <div className="projects-grid">
-          {projects.map((project, index) => (
-            <article 
-              key={project.id} 
-              className="project-card"
-              ref={(el) => (cardsRef.current[index] = el)}
-            >
-              <div className="project-image-box">
-                <img 
-                  src={project.image} 
-                  alt={project.alt} 
-                  className="project-img"
-                  loading="lazy"
-                />
-              </div>
+          {projects.map((project, index) => {
+            const isClickable = project.id === 'lumbox';
+            return (
+              <article 
+                key={project.id} 
+                className={`project-card ${isClickable ? 'project-card--clickable' : ''}`}
+                ref={(el) => (cardsRef.current[index] = el)}
+                onClick={() => {
+                  if (isClickable) {
+                    window.location.hash = '#/project/lumbox';
+                  }
+                }}
+                role={isClickable ? 'button' : undefined}
+                tabIndex={isClickable ? 0 : undefined}
+                onKeyDown={(e) => {
+                  if (isClickable && (e.key === 'Enter' || e.key === ' ')) {
+                    e.preventDefault();
+                    window.location.hash = '#/project/lumbox';
+                  }
+                }}
+              >
+                <div className="project-image-box">
+                  <img 
+                    src={project.image} 
+                    alt={project.alt} 
+                    className="project-img"
+                    loading="lazy"
+                  />
+                  {isClickable && (
+                    <span className="project-badge-interactive">View Case Study ↗</span>
+                  )}
+                </div>
 
-              <div className="project-content">
-                <span className="project-category">{project.category}</span>
-                <h3 className="project-title">{project.title}</h3>
-                <p className="project-desc">{project.description}</p>
-              </div>
-            </article>
-          ))}
+                <div className="project-content">
+                  <span className="project-category">{project.category}</span>
+                  <h3 className="project-title">{project.title}</h3>
+                  <p className="project-desc">{project.description}</p>
+                </div>
+              </article>
+            );
+          })}
         </div>
       </div>
     </section>

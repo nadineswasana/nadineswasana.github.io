@@ -1,0 +1,824 @@
+/* ==========================================================================
+   LUMBOX PROJECT DETAIL STYLES
+   Pixel-perfect implementation matching Figma node 383:1297
+   ========================================================================== */
+
+.lumbox-detail-page {
+  background-color: #FFFCF7;
+  color: #1E1E1E;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  min-height: 100vh;
+  position: relative;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Base Container */
+.lumbox-container {
+  width: 100%;
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 0 32px;
+}
+
+/* ==========================================================================
+   1. STICKY HEADER
+   ========================================================================== */
+.lumbox-header {
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+  background-color: rgba(255, 252, 248, 0.94);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-bottom: 1px solid rgba(192, 146, 68, 0.2);
+  transition: all 0.3s ease;
+}
+
+.lumbox-header-inner {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 18px 32px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.lumbox-brand-btn {
+  background: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+  font-family: 'Libre Baskerville', serif;
+  font-size: 24px;
+  font-weight: 500;
+  color: #534203;
+  cursor: pointer;
+  letter-spacing: -0.2px;
+  transition: opacity 0.2s ease;
+}
+
+.lumbox-brand-btn:hover {
+  opacity: 0.8;
+}
+
+.lumbox-close-btn {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid #534203;
+  background: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.lumbox-close-btn:hover {
+  background-color: rgba(83, 66, 3, 0.08);
+  transform: scale(1.06);
+}
+
+/* ==========================================================================
+   2. HERO SECTION
+   ========================================================================== */
+.lumbox-hero-section {
+  padding: 60px 0 40px;
+}
+
+.lumbox-hero-intro {
+  max-width: 980px;
+  margin-bottom: 40px;
+}
+
+.lumbox-hero-title {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 1.3;
+  color: #534203;
+  margin: 0 0 20px;
+  letter-spacing: -0.3px;
+}
+
+.lumbox-hero-description {
+  font-family: 'Inter', sans-serif;
+  font-size: 20px;
+  line-height: 1.6;
+  color: #444444;
+  margin: 0;
+}
+
+.lumbox-hero-mockup-wrapper {
+  width: 100%;
+  max-width: 980px;
+  margin: 30px auto 60px;
+  display: flex;
+  justify-content: center;
+}
+
+.lumbox-hero-mockup-img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: contain;
+}
+
+/* Metadata Bar */
+.lumbox-meta-grid {
+  display: grid;
+  grid-template-columns: 1.4fr 1.2fr 0.9fr 0.7fr 0.9fr;
+  gap: 28px;
+  padding: 36px 0;
+  border-top: 1px solid rgba(192, 146, 68, 0.35);
+  border-bottom: 1px solid rgba(192, 146, 68, 0.35);
+  margin-top: 20px;
+}
+
+.lumbox-meta-card {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.lumbox-meta-label {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 18px;
+  font-weight: 700;
+  color: #534203;
+  letter-spacing: -0.1px;
+}
+
+.lumbox-meta-value {
+  font-family: 'DM Mono', monospace;
+  font-size: 14px;
+  line-height: 1.55;
+  color: #1E1E1E;
+  margin: 0;
+  white-space: pre-line;
+}
+
+/* ==========================================================================
+   COMMON TWO-COLUMN SECTION LAYOUT
+   ========================================================================== */
+.lumbox-section {
+  padding: 72px 0;
+  border-bottom: 1px solid rgba(192, 146, 68, 0.2);
+}
+
+.lumbox-two-col {
+  display: grid;
+  grid-template-columns: 220px 1fr;
+  gap: 56px;
+  align-items: flex-start;
+}
+
+.lumbox-col-left {
+  position: relative;
+}
+
+.lumbox-section-tag {
+  font-family: 'DM Mono', monospace;
+  font-size: 28px;
+  font-weight: 500;
+  color: #1E1E1E;
+  letter-spacing: -0.28px;
+  text-transform: uppercase;
+  display: block;
+  line-height: 1.25;
+}
+
+.lumbox-col-right {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+
+.lumbox-section-heading {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 1.48;
+  color: #534203;
+  margin: 0;
+  letter-spacing: -0.28px;
+}
+
+.lumbox-body-text {
+  font-family: 'Inter', sans-serif;
+  font-size: 20px;
+  line-height: 1.65;
+  color: #444444;
+  margin: 0;
+}
+
+.lumbox-summary-callout {
+  padding-top: 8px;
+  font-size: 20px;
+  line-height: 1.65;
+  color: #333333;
+}
+
+/* Surface Cards Shared */
+.lumbox-surface-card {
+  background: #FFFFFF;
+  border: 1px solid rgba(192, 146, 68, 0.35);
+  border-radius: 16px;
+  padding: 28px;
+  box-shadow: 2px 4px 20px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.lumbox-surface-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 2px 8px 24px rgba(0, 0, 0, 0.08);
+}
+
+/* ==========================================================================
+   3. OVERVIEW SECTION
+   ========================================================================== */
+.lumbox-card-pair {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 28px;
+  margin-top: 12px;
+}
+
+.lumbox-card-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 14px;
+}
+
+.lumbox-card-icon {
+  font-size: 24px;
+  line-height: 1;
+}
+
+.lumbox-card-title {
+  font-family: 'DM Mono', monospace;
+  font-size: 22px;
+  font-weight: 500;
+  color: #534203;
+  letter-spacing: -0.2px;
+}
+
+.lumbox-card-body {
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #444444;
+  margin: 0;
+}
+
+/* ==========================================================================
+   4. PROBLEM SECTION
+   ========================================================================== */
+.lumbox-metrics-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+  margin-top: 12px;
+}
+
+.lumbox-metric-card {
+  background: #FFFFFF;
+  border: 1px solid rgba(192, 146, 68, 0.35);
+  border-radius: 16px;
+  padding: 24px 28px;
+  box-shadow: 2px 4px 20px rgba(0, 0, 0, 0.05);
+}
+
+.lumbox-metric-num {
+  font-family: 'Inter', sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  color: #534203;
+  margin-bottom: 10px;
+  letter-spacing: -0.3px;
+}
+
+.lumbox-metric-desc {
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  line-height: 1.55;
+  color: #444444;
+  margin: 0;
+}
+
+/* ==========================================================================
+   5. GOALS & IMPACT SECTION
+   ========================================================================== */
+.lumbox-impact-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+  margin-top: 8px;
+}
+
+.lumbox-impact-card {
+  background: #FFFFFF;
+  border: 1px solid rgba(192, 146, 68, 0.35);
+  border-radius: 16px;
+  padding: 24px 28px;
+  box-shadow: 2px 4px 20px rgba(0, 0, 0, 0.05);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.lumbox-impact-label {
+  font-family: 'Inter', sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  color: #534203;
+}
+
+.lumbox-impact-value {
+  font-family: 'Inter', sans-serif;
+  font-size: 28px;
+  font-weight: 600;
+  color: #1E1E1E;
+  letter-spacing: -0.2px;
+}
+
+.lumbox-impact-highlight {
+  font-size: 34px;
+  font-weight: 700;
+  color: #534203;
+}
+
+/* ==========================================================================
+   6. HOW MIGHT WE SECTION
+   ========================================================================== */
+.lumbox-hmw-intro {
+  margin-bottom: 4px;
+}
+
+.lumbox-hmw-quote {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 26px;
+  font-style: italic;
+  font-weight: 500;
+  line-height: 1.6;
+  color: #534203;
+  margin: 0;
+  padding: 32px 36px;
+  background: rgba(255, 255, 255, 0.7);
+  border-left: 4px solid #C09244;
+  border-radius: 0 16px 16px 0;
+  box-shadow: 2px 4px 20px rgba(0, 0, 0, 0.03);
+}
+
+/* ==========================================================================
+   7. SOLUTION SECTION
+   ========================================================================== */
+.lumbox-solution-top {
+  margin-bottom: 48px;
+}
+
+.lumbox-solution-hero-img-wrap {
+  width: 100%;
+  max-width: 1120px;
+  margin: 0 auto 64px;
+  display: flex;
+  justify-content: center;
+}
+
+.lumbox-solution-hero-img {
+  width: 100%;
+  height: auto;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.06);
+}
+
+.lumbox-products-header {
+  margin-bottom: 36px;
+}
+
+.lumbox-products-tag {
+  font-family: 'DM Mono', monospace;
+  font-size: 28px;
+  font-weight: 500;
+  color: #1E1E1E;
+  letter-spacing: -0.28px;
+  display: block;
+  margin-bottom: 16px;
+}
+
+.lumbox-products-title {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 1.48;
+  color: #534203;
+  margin: 0;
+}
+
+.lumbox-products-cards-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+.lumbox-product-card {
+  background: #FFFFFF;
+  border: 1px solid rgba(192, 146, 68, 0.35);
+  border-radius: 16px;
+  padding: 24px 26px;
+  box-shadow: 2px 4px 20px rgba(0, 0, 0, 0.05);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.lumbox-product-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 2px 8px 24px rgba(0, 0, 0, 0.08);
+}
+
+.lumbox-product-title {
+  font-family: 'Inter', sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  color: #534203;
+  margin: 0;
+  line-height: 1.4;
+}
+
+.lumbox-product-desc {
+  font-family: 'Inter', sans-serif;
+  font-size: 13px;
+  line-height: 1.5;
+  color: #666666;
+  margin: 0;
+}
+
+/* ==========================================================================
+   8. FEATURES SHOWCASE SECTION
+   ========================================================================== */
+.lumbox-features-section {
+  padding: 80px 0;
+}
+
+.lumbox-features-container {
+  max-width: 1040px;
+  display: flex;
+  flex-direction: column;
+  gap: 84px;
+}
+
+.lumbox-feature-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.lumbox-feature-title {
+  font-family: 'DM Mono', monospace;
+  font-size: 26px;
+  font-weight: 500;
+  color: #1E1E1E;
+  letter-spacing: -0.28px;
+  line-height: 1.35;
+  max-width: 960px;
+  margin: 0 0 20px;
+  text-transform: uppercase;
+}
+
+.lumbox-feature-desc {
+  font-family: 'Inter', sans-serif;
+  font-size: 19px;
+  line-height: 1.65;
+  color: #444444;
+  max-width: 960px;
+  margin: 0 0 32px;
+  text-align: left;
+}
+
+.lumbox-feature-mockup-wrap {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 12px;
+}
+
+.lumbox-feature-img {
+  width: 100%;
+  max-width: 1000px;
+  height: auto;
+  display: block;
+  object-fit: contain;
+}
+
+/* ==========================================================================
+   9. CONCLUSION SECTION
+   ========================================================================== */
+.lumbox-conclusion-divider {
+  width: 100%;
+  height: 1px;
+  background-color: rgba(83, 66, 3, 0.2);
+  margin: 12px 0;
+}
+
+.lumbox-pillar-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.lumbox-pillar-card {
+  background: #FFFFFF;
+  border: 1px solid rgba(192, 146, 68, 0.35);
+  border-radius: 16px;
+  padding: 20px 24px;
+  box-shadow: 2px 4px 20px rgba(0, 0, 0, 0.05);
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.lumbox-pillar-emoji {
+  font-size: 24px;
+  line-height: 1;
+}
+
+.lumbox-pillar-label {
+  font-family: 'Inter', sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+  color: #1E1E1E;
+  line-height: 1.35;
+}
+
+.lumbox-conclusion-tagline {
+  font-family: 'Inter', sans-serif;
+  font-size: 20px;
+  line-height: 1.6;
+  color: #444444;
+  margin: 8px 0 0;
+  font-style: italic;
+}
+
+/* ==========================================================================
+   10. DISCOVER MORE PROJECTS SECTION
+   ========================================================================== */
+.lumbox-discover-section {
+  padding: 80px 0;
+}
+
+.lumbox-discover-heading {
+  font-family: 'DM Mono', monospace;
+  font-size: 28px;
+  font-weight: 500;
+  color: #1E1E1E;
+  letter-spacing: -0.28px;
+  margin: 0 0 44px;
+  text-transform: uppercase;
+}
+
+.lumbox-discover-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 28px;
+  margin-bottom: 60px;
+}
+
+.lumbox-discover-card {
+  background: #FFFFFF;
+  border: 1px solid rgba(192, 146, 68, 0.35);
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 2px 4px 20px rgba(0, 0, 0, 0.05);
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.lumbox-discover-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 30px rgba(83, 66, 3, 0.12);
+}
+
+.lumbox-discover-img-wrap {
+  width: 100%;
+  height: 220px;
+  background-color: #F8F4EE;
+  overflow: hidden;
+}
+
+.lumbox-discover-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+
+.lumbox-discover-card:hover .lumbox-discover-img {
+  transform: scale(1.03);
+}
+
+.lumbox-discover-info {
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  flex: 1;
+}
+
+.lumbox-discover-cat {
+  font-family: 'DM Mono', monospace;
+  font-size: 13px;
+  font-weight: 500;
+  color: #C09244;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.lumbox-discover-title {
+  font-family: 'Inter', sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  color: #1E1E1E;
+  line-height: 1.4;
+  margin: 0;
+}
+
+.lumbox-discover-desc {
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  line-height: 1.6;
+  color: #555555;
+  margin: 0;
+}
+
+.lumbox-cta-row {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.lumbox-cta-btn {
+  background: linear-gradient(180deg, #FFA000 0%, #534203 100%);
+  color: #FFFFFF;
+  font-family: 'Libre Baskerville', serif;
+  font-size: 24px;
+  font-weight: 500;
+  border: none;
+  border-radius: 54px;
+  padding: 14px 48px;
+  cursor: pointer;
+  box-shadow: 0 8px 24px rgba(83, 66, 3, 0.28);
+  transition: transform 0.2s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.lumbox-cta-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 28px rgba(83, 66, 3, 0.38);
+}
+
+.lumbox-cta-btn:active {
+  transform: translateY(0);
+}
+
+/* ==========================================================================
+   11. CLOSING BANNER
+   ========================================================================== */
+.lumbox-closing-banner {
+  padding: 80px 0 100px;
+  border-top: 1px solid rgba(192, 146, 68, 0.2);
+}
+
+.lumbox-closing-quote {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 1.6;
+  color: #534203;
+  text-align: center;
+  max-width: 860px;
+  margin: 0 auto;
+  letter-spacing: -0.28px;
+}
+
+/* ==========================================================================
+   RESPONSIVE MEDIA QUERIES
+   ========================================================================== */
+@media (max-width: 1024px) {
+  .lumbox-meta-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .lumbox-two-col {
+    grid-template-columns: 180px 1fr;
+    gap: 36px;
+  }
+
+  .lumbox-products-cards-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .lumbox-pillar-cards {
+    grid-template-columns: 1fr;
+  }
+
+  .lumbox-discover-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .lumbox-container {
+    padding: 0 20px;
+  }
+
+  .lumbox-header-inner {
+    padding: 16px 20px;
+  }
+
+  .lumbox-brand-btn {
+    font-size: 20px;
+  }
+
+  .lumbox-hero-title {
+    font-size: 26px;
+  }
+
+  .lumbox-hero-description {
+    font-size: 16px;
+  }
+
+  .lumbox-meta-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .lumbox-two-col {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .lumbox-section-tag {
+    font-size: 22px;
+  }
+
+  .lumbox-section-heading {
+    font-size: 22px;
+  }
+
+  .lumbox-body-text {
+    font-size: 16px;
+  }
+
+  .lumbox-card-pair {
+    grid-template-columns: 1fr;
+  }
+
+  .lumbox-metrics-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .lumbox-impact-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .lumbox-hmw-quote {
+    font-size: 20px;
+    padding: 24px;
+  }
+
+  .lumbox-products-cards-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .lumbox-feature-title {
+    font-size: 20px;
+  }
+
+  .lumbox-feature-desc {
+    font-size: 16px;
+  }
+
+  .lumbox-discover-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .lumbox-cta-btn {
+    font-size: 20px;
+    padding: 12px 36px;
+    width: 100%;
+    max-width: 340px;
+  }
+
+  .lumbox-closing-quote {
+    font-size: 20px;
+  }
+}

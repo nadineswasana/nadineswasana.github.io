@@ -20,8 +20,16 @@
   transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
+.project-card--clickable {
+  cursor: pointer;
+}
+
 .project-card:hover {
   transform: translateY(-4px);
+}
+
+.project-card--clickable:hover {
+  transform: translateY(-6px);
 }
 
 .project-image-box {
@@ -36,6 +44,30 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.project-badge-interactive {
+  position: absolute;
+  top: 14px;
+  right: 14px;
+  background: rgba(83, 66, 3, 0.85);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  color: #FFFDF9;
+  font-family: var(--font-mono);
+  font-size: 12px;
+  font-weight: 500;
+  padding: 6px 12px;
+  border-radius: 20px;
+  letter-spacing: 0.02em;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  transition: all 0.3s ease;
+  pointer-events: none;
+}
+
+.project-card--clickable:hover .project-badge-interactive {
+  background: #534203;
+  transform: scale(1.05);
 }
 
 .project-img {
