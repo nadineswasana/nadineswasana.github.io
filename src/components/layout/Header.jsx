@@ -4,8 +4,7 @@ import './Header.css';
 const navItems = [
   { label: 'Works', id: 'projects' },
   { label: 'Experiences', id: 'experiences' },
-  { label: 'Awards', id: 'honors' },
-  { label: 'Publication', id: 'publication' }
+  { label: 'Awards', id: 'honors' }
 ];
 
 export default function Header() {
