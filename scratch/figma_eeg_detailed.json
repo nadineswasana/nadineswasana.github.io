@@ -1,0 +1,4454 @@
+[
+  {
+    "id": "649:830",
+    "name": "Main",
+    "type": "FRAME",
+    "bbox": {
+      "x": 4330.0,
+      "y": -52.0,
+      "width": 1440.0,
+      "height": 1176.0
+    },
+    "children": [
+      {
+        "id": "649:831",
+        "name": "Project title and description",
+        "type": "FRAME",
+        "bbox": {
+          "x": 4565.0,
+          "y": 113.0,
+          "width": 970.0,
+          "height": 186.0
+        },
+        "children": [
+          {
+            "id": "649:832",
+            "name": "Project title",
+            "type": "TEXT",
+            "bbox": {
+              "x": 4565.0,
+              "y": 113.0,
+              "width": 970.0,
+              "height": 110.0
+            },
+            "text": "Evaluating the Robustness of Classical Machine Learning in Cross-Subject EEG Seizure Detection",
+            "style": {
+              "fontFamily": "Libre Baskerville",
+              "fontWeight": 600,
+              "fontSize": 36.0
+            }
+          },
+          {
+            "id": "649:833",
+            "name": "Project description",
+            "type": "TEXT",
+            "bbox": {
+              "x": 4580.0,
+              "y": 239.0,
+              "width": 940.0,
+              "height": 60.0
+            },
+            "text": "A classical ML pipeline trained on 3.5M+ EEG windows to test whether seizure detection still works on patients the model has never seen. Presented at BIOXPLORE 2026 (IEEE & Scopus-indexed).",
+            "style": {
+              "fontFamily": "Inter",
+              "fontWeight": 400,
+              "fontSize": 20.0
+            }
+          }
+        ]
+      },
+      {
+        "id": "649:842",
+        "name": "Project details",
+        "type": "FRAME",
+        "bbox": {
+          "x": 4490.0,
+          "y": 894.0,
+          "width": 1120.0,
+          "height": 182.0
+        },
+        "children": [
+          {
+            "id": "649:843",
+            "name": "Project info",
+            "type": "FRAME",
+            "bbox": {
+              "x": 4490.0,
+              "y": 894.0,
+              "width": 233.0,
+              "height": 110.0
+            },
+            "children": [
+              {
+                "id": "649:844",
+                "name": "Type label",
+                "type": "TEXT",
+                "bbox": {
+                  "x": 4490.0,
+                  "y": 894.0,
+                  "width": 233.0,
+                  "height": 22.0
+                },
+                "text": "TYPE",
+                "style": {
+                  "fontFamily": "Libre Baskerville",
+                  "fontWeight": 700,
+                  "fontSize": 18.0
+                }
+              },
+              {
+                "id": "649:845",
+                "name": "Type value",
+                "type": "TEXT",
+                "bbox": {
+                  "x": 4490.0,
+                  "y": 932.0,
+                  "width": 233.0,
+                  "height": 72.0
+                },
+                "text": "Research Paper / Machine Learning Study, IEEE Conference",
+                "style": {
+                  "fontFamily": "DM Mono",
+                  "fontWeight": 400,
+                  "fontSize": 14.0
+                }
+              }
+            ]
+          },
+          {
+            "id": "649:846",
+            "name": "Team info",
+            "type": "FRAME",
+            "bbox": {
+              "x": 4788.5,
+              "y": 894.0,
+              "width": 208.0,
+              "height": 182.0
+            },
+            "children": [
+              {
+                "id": "649:847",
+                "name": "Team label",
+                "type": "TEXT",
+                "bbox": {
+                  "x": 4788.5,
+                  "y": 894.0,
+                  "width": 208.0,
+                  "height": 22.0
+                },
+                "text": "THE TEAM",
+                "style": {
+                  "fontFamily": "Libre Baskerville",
+                  "fontWeight": 700,
+                  "fontSize": 18.0
+                }
+              },
+              {
+                "id": "649:848",
+                "name": "Team value",
+                "type": "TEXT",
+                "bbox": {
+                  "x": 4788.5,
+                  "y": 932.0,
+                  "width": 208.0,
+                  "height": 144.0
+                },
+                "text": "Daffa Farras Putra Tarigan\nKevin Fransisco\nAqila Ananti\nMuhammad Zick Al-Farizi\nNadya Syifa Azzahra",
+                "style": {
+                  "fontFamily": "DM Mono",
+                  "fontWeight": 400,
+                  "fontSize": 14.0
+                }
+              }
+            ]
+          },
+          {
+            "id": "649:849",
+            "name": "Role info",
+            "type": "FRAME",
+            "bbox": {
+              "x": 5062.0,
+              "y": 894.0,
+              "width": 124.0,
+              "height": 62.0
+            },
+            "children": [
+              {
+                "id": "649:850",
+                "name": "Role label",
+                "type": "TEXT",
+                "bbox": {
+                  "x": 5062.0,
+                  "y": 894.0,
+                  "width": 124.0,
+                  "height": 22.0
+                },
+                "text": "ROLE",
+                "style": {
+                  "fontFamily": "Libre Baskerville",
+                  "fontWeight": 700,
+                  "fontSize": 18.0
+                }
+              },
+              {
+                "id": "649:851",
+                "name": "Role value",
+                "type": "TEXT",
+                "bbox": {
+                  "x": 5062.0,
+                  "y": 932.0,
+                  "width": 124.0,
+                  "height": 24.0
+                },
+                "text": "Researcher",
+                "style": {
+                  "fontFamily": "DM Mono",
+                  "fontWeight": 400,
+                  "fontSize": 14.0
+                }
+              }
+            ]
+          },
+          {
+            "id": "649:852",
+            "name": "Time info",
+            "type": "FRAME",
+            "bbox": {
+              "x": 5251.5,
+              "y": 894.0,
+              "width": 101.0,
+              "height": 86.0
+            },
+            "children": [
+              {
+                "id": "649:853",
+                "name": "Time label",
+                "type": "TEXT",
+                "bbox": {
+                  "x": 5251.5,
+                  "y": 894.0,
+                  "width": 101.0,
+                  "height": 22.0
+                },
+                "text": "TIME",
+                "style": {
+                  "fontFamily": "Libre Baskerville",
+                  "fontWeight": 700,
+                  "fontSize": 18.0
+                }
+              },
+              {
+                "id": "649:854",
+                "name": "Time value",
+                "type": "TEXT",
+                "bbox": {
+                  "x": 5251.5,
+                  "y": 932.0,
+                  "width": 101.0,
+                  "height": 48.0
+                },
+                "text": "March 2026 - August 2026",
+                "style": {
+                  "fontFamily": "DM Mono",
+                  "fontWeight": 400,
+                  "fontSize": 14.0
+                }
+              }
+            ]
+          },
+          {
+            "id": "649:855",
+            "name": "Result info",
+            "type": "FRAME",
+            "bbox": {
+              "x": 5418.0,
+              "y": 894.0,
+              "width": 192.0,
+              "height": 158.0
+            },
+            "children": [
+              {
+                "id": "649:856",
+                "name": "Result label",
+                "type": "TEXT",
+                "bbox": {
+                  "x": 5418.0,
+                  "y": 894.0,
+                  "width": 192.0,
+                  "height": 22.0
+                },
+                "text": "RESULT",
+                "style": {
+                  "fontFamily": "Libre Baskerville",
+                  "fontWeight": 700,
+                  "fontSize": 18.0
+                }
+              },
+              {
+                "id": "649:857",
+                "name": "Result value",
+                "type": "TEXT",
+                "bbox": {
+                  "x": 5418.0,
+                  "y": 932.0,
+                  "width": 192.0,
+                  "height": 120.0
+                },
+                "text": "Presented at BIOXPLORE 2026 (IEEE Conference No. 68070X, Bantul, 5 August 2026). Indexed by IEEE & Scopus.",
+                "style": {
+                  "fontFamily": "DM Mono",
+                  "fontWeight": 400,
+                  "fontSize": 14.0
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "662:1699",
+        "name": "Frame 37707",
+        "type": "FRAME",
+        "bbox": {
+          "x": 4548.0,
+          "y": 398.0,
+          "width": 1003.68212890625,
+          "height": 346.0
+        },
+        "children": [
+          {
+            "id": "662:1686",
+            "name": "Publication Logos",
+            "type": "FRAME",
+            "bbox": {
+              "x": 4548.0,
+              "y": 398.0,
+              "width": 1003.68212890625,
+              "height": 247.0
+            },
+            "children": [
+              {
+                "id": "662:1687",
+                "name": "Publication Logo",
+                "type": "RECTANGLE",
+                "bbox": {
+                  "x": 4548.0,
+                  "y": 398.0,
+                  "width": 439.111083984375,
+                  "height": 247.0
+                }
+              },
+              {
+                "id": "662:1688",
+                "name": "Publication Logo",
+                "type": "RECTANGLE",
+                "bbox": {
+                  "x": 5027.1650390625,
+                  "y": 416.43408203125,
+                  "width": 214.86453247070312,
+                  "height": 210.1318359375
+                }
+              },
+              {
+                "id": "662:1689",
+                "name": "Publication Logo",
+                "type": "RECTANGLE",
+                "bbox": {
+                  "x": 5282.083984375,
+                  "y": 407.0478515625,
+                  "width": 269.598388671875,
+                  "height": 228.904296875
+                }
+              }
+            ]
+          },
+          {
+            "id": "662:1696",
+            "name": "Button",
+            "type": "FRAME",
+            "bbox": {
+              "x": 4859.8408203125,
+              "y": 679.0,
+              "width": 380.0,
+              "height": 65.0
+            },
+            "children": [
+              {
+                "id": "662:1697",
+                "name": "Read on IEEE Xplore",
+                "type": "TEXT",
+                "bbox": {
+                  "x": 4897.8408203125,
+                  "y": 689.0,
+                  "width": 304.0,
+                  "height": 45.0
+                },
+                "text": "Read on IEEE Xplore",
+                "style": {
+                  "fontFamily": "Libre Baskerville",
+                  "fontWeight": 500,
+                  "fontSize": 28.0
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "649:858",
+    "name": "Overview",
+    "type": "FRAME",
+    "bbox": {
+      "x": 4330.0,
+      "y": 1124.0,
+      "width": 1440.0,
+      "height": 800.0
+    },
+    "children": [
+      {
+        "id": "649:859",
+        "name": "Overview label",
+        "type": "TEXT",
+        "bbox": {
+          "x": 4490.0,
+          "y": 1158.0,
+          "width": 199.0,
+          "height": 24.0
+        },
+        "text": "OVERVIEW",
+        "style": {
+          "fontFamily": "DM Mono",
+          "fontWeight": 500,
+          "fontSize": 28.0
+        }
+      },
+      {
+        "id": "649:860",
+        "name": "Overview content",
+        "type": "FRAME",
+        "bbox": {
+          "x": 4745.0,
+          "y": 1158.0,
+          "width": 865.0,
+          "height": 732.0
+        },
+        "children": [
+          {
+            "id": "649:861",
+            "name": "Overview text and line",
+            "type": "FRAME",
+            "bbox": {
+              "x": 4745.0,
+              "y": 1158.0,
+              "width": 865.0,
+              "height": 345.0
+            },
+            "children": [
+              {
+                "id": "649:862",
+                "name": "Overview text",
+                "type": "TEXT",
+                "bbox": {
+                  "x": 4745.0,
+                  "y": 1158.0,
+                  "width": 865.0,
+                  "height": 225.0
+                },
+                "text": "Epilepsy affects millions of people, and EEG interpretation still depends on specialists reviewing recordings by hand, which is slow and hard to scale. Many published models report near-perfect accuracy, but they are often tested on data from the same patients they trained on.",
+                "style": {
+                  "fontFamily": "Libre Baskerville",
+                  "fontWeight": 500,
+                  "fontSize": 28.0
+                }
+              },
+              {
+                "id": "649:863",
+                "name": "Line 1",
+                "type": "LINE",
+                "bbox": {
+                  "x": 4745.0,
+                  "y": 1413.0,
+                  "width": 865.0000094771349,
+                  "height": 0.0
+                }
+              },
+              {
+                "id": "649:864",
+                "name": "Overview text",
+                "type": "TEXT",
+                "bbox": {
+                  "x": 4745.0,
+                  "y": 1443.0,
+                  "width": 865.0,
+                  "height": 60.0
+                },
+                "text": "This project is our research submission to BIOXPLORE 2026. We ask a harder question: how well do classical machine learning models work on completely unseen patients?",
+                "style": {
+                  "fontFamily": "Inter",
+                  "fontWeight": 400,
+                  "fontSize": 20.0
+                }
+              }
+            ]
+          },
+          {
+            "id": "649:865",
+            "name": "Problem and solution",
+            "type": "FRAME",
+            "bbox": {
+              "x": 4745.0,
+              "y": 1532.0,
+              "width": 865.0,
+              "height": 358.0
+            },
+            "children": [
+              {
+                "id": "649:866",
+                "name": "Problem section",
+                "type": "FRAME",
+                "bbox": {
+                  "x": 4745.0,
+                  "y": 1532.0,
+                  "width": 411.5,
+                  "height": 358.0
+                },
+                "children": [
+                  {
+                    "id": "649:867",
+                    "name": "Problem content",
+                    "type": "FRAME",
+                    "bbox": {
+                      "x": 4768.0,
+                      "y": 1582.0,
+                      "width": 365.0,
+                      "height": 228.0
+                    },
+                    "children": [
+                      {
+                        "id": "649:868",
+                        "name": "Problem info",
+                        "type": "FRAME",
+                        "bbox": {
+                          "x": 4872.5,
+                          "y": 1582.0,
+                          "width": 156.0,
+                          "height": 64.0
+                        },
+                        "children": [
+                          {
+                            "id": "649:869",
+                            "name": "Problem emoji",
+                            "type": "TEXT",
+                            "bbox": {
+                              "x": 4872.5,
+                              "y": 1582.0,
+                              "width": 156.0,
+                              "height": 24.0
+                            },
+                            "text": "\ud83d\ude22",
+                            "style": {
+                              "fontFamily": "DM Mono",
+                              "fontWeight": 500,
+                              "fontSize": 24.0
+                            }
+                          },
+                          {
+                            "id": "649:870",
+                            "name": "Problem label",
+                            "type": "TEXT",
+                            "bbox": {
+                              "x": 4872.5,
+                              "y": 1622.0,
+                              "width": 156.0,
+                              "height": 24.0
+                            },
+                            "text": "THE PROBLEM",
+                            "style": {
+                              "fontFamily": "DM Mono",
+                              "fontWeight": 500,
+                              "fontSize": 24.0
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "id": "649:871",
+                        "name": "Problem description",
+                        "type": "TEXT",
+                        "bbox": {
+                          "x": 4768.0,
+                          "y": 1670.0,
+                          "width": 365.0,
+                          "height": 140.0
+                        },
+                        "text": "Seizure windows make up only 0.067% of the data, and every patient's brain signals look different. Under these conditions, accuracy and ROC-AUC can make a useless model look excellent.",
+                        "style": {
+                          "fontFamily": "Inter",
+                          "fontWeight": 400,
+                          "fontSize": 16.0
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "649:872",
+                "name": "Solution section",
+                "type": "FRAME",
+                "bbox": {
+                  "x": 5198.5,
+                  "y": 1532.0,
+                  "width": 411.5,
+                  "height": 358.0
+                },
+                "children": [
+                  {
+                    "id": "649:873",
+                    "name": "Solution content",
+                    "type": "FRAME",
+                    "bbox": {
+                      "x": 5222.0,
+                      "y": 1569.0,
+                      "width": 365.0,
+                      "height": 284.0
+                    },
+                    "children": [
+                      {
+                        "id": "649:874",
+                        "name": "Solution info",
+                        "type": "FRAME",
+                        "bbox": {
+                          "x": 5315.0,
+                          "y": 1569.0,
+                          "width": 179.0,
+                          "height": 64.0
+                        },
+                        "children": [
+                          {
+                            "id": "649:875",
+                            "name": "Solution emoji",
+                            "type": "TEXT",
+                            "bbox": {
+                              "x": 5315.0,
+                              "y": 1569.0,
+                              "width": 179.0,
+                              "height": 24.0
+                            },
+                            "text": "\ud83d\udccc",
+                            "style": {
+                              "fontFamily": "DM Mono",
+                              "fontWeight": 500,
+                              "fontSize": 24.0
+                            }
+                          },
+                          {
+                            "id": "649:876",
+                            "name": "Solution label",
+                            "type": "TEXT",
+                            "bbox": {
+                              "x": 5315.0,
+                              "y": 1609.0,
+                              "width": 179.0,
+                              "height": 24.0
+                            },
+                            "text": "THE SOLUTION",
+                            "style": {
+                              "fontFamily": "DM Mono",
+                              "fontWeight": 500,
+                              "fontSize": 24.0
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "id": "649:877",
+                        "name": "Solution description",
+                        "type": "TEXT",
+                        "bbox": {
+                          "x": 5222.0,
+                          "y": 1657.0,
+                          "width": 365.0,
+                          "height": 196.0
+                        },
+                        "text": "We built a strict, leak-free evaluation pipeline. It combines subject-wise splitting, Leave-One-Subject-Out validation, and AUC-PR as the primary metric. We used it to benchmark four classical models under realistic deployment conditions. We did not propose a new algorithm. Instead, we provide an honest empirical baseline.",
+                        "style": {
+                          "fontFamily": "Inter",
+                          "fontWeight": 400,
+                          "fontSize": 16.0
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "649:878",
+    "name": "Problem",
+    "type": "FRAME",
+    "bbox": {
+      "x": 4330.0,
+      "y": 1924.0,
+      "width": 1440.0,
+      "height": 2004.971923828125
+    },
+    "children": [
+      {
+        "id": "649:879",
+        "name": "Problem label",
+        "type": "TEXT",
+        "bbox": {
+          "x": 4490.0,
+          "y": 1961.0,
+          "width": 199.0,
+          "height": 24.0
+        },
+        "text": "PROBLEM",
+        "style": {
+          "fontFamily": "DM Mono",
+          "fontWeight": 500,
+          "fontSize": 28.0
+        }
+      },
+      {
+        "id": "649:1265",
+        "name": "Frame 37672",
+        "type": "FRAME",
+        "bbox": {
+          "x": 4745.0,
+          "y": 1961.0,
+          "width": 865.0,
+          "height": 1930.971923828125
+        },
+        "children": [
+          {
+            "id": "649:880",
+            "name": "Problem content",
+            "type": "FRAME",
+            "bbox": {
+              "x": 4745.0,
+              "y": 1961.0,
+              "width": 865.0,
+              "height": 684.0
+            },
+            "children": [
+              {
+                "id": "649:881",
+                "name": "Problem description",
+                "type": "TEXT",
+                "bbox": {
+                  "x": 4745.0,
+                  "y": 1961.0,
+                  "width": 865.0,
+                  "height": 135.0
+                },
+                "text": "To see why seizure detection breaks in practice, we looked at the CHB-MIT scalp EEG data and measured how hard the task is.",
+                "style": {
+                  "fontFamily": "Libre Baskerville",
+                  "fontWeight": 500,
+                  "fontSize": 28.0
+                }
+              },
+              {
+                "id": "649:882",
+                "name": "Line 1",
+                "type": "LINE",
+                "bbox": {
+                  "x": 4745.0,
+                  "y": 2129.0,
+                  "width": 865.0000094771349,
+                  "height": 0.0
+                }
+              },
+              {
+                "id": "649:883",
+                "name": "Problem metrics",
+                "type": "FRAME",
+                "bbox": {
+                  "x": 4745.0,
+                  "y": 2162.0,
+                  "width": 865.0,
+                  "height": 390.0
+                },
+                "children": [
+                  {
+                    "id": "649:884",
+                    "name": "Metric 1",
+                    "type": "FRAME",
+                    "bbox": {
+                      "x": 4745.0,
+                      "y": 2162.0,
+                      "width": 411.5,
+                      "height": 175.0
+                    },
+                    "children": [
+                      {
+                        "id": "649:885",
+                        "name": "Metric 1 value",
+                        "type": "TEXT",
+                        "bbox": {
+                          "x": 4875.0,
+                          "y": 2191.0,
+                          "width": 151.0,
+                          "height": 45.0
+                        },
+                        "text": "3,537,881",
+                        "style": {
+                          "fontFamily": "Inter",
+                          "fontWeight": 700,
+                          "fontSize": 32.0
+                        }
+                      },
+                      {
+                        "id": "649:886",
+                        "name": "Metric 1 description",
+                        "type": "TEXT",
+                        "bbox": {
+                          "x": 4776.0,
+                          "y": 2252.0,
+                          "width": 365.0,
+                          "height": 56.0
+                        },
+                        "text": "two-second EEG windows from the CHB-MIT database (23 cases, 198 annotated seizures).",
+                        "style": {
+                          "fontFamily": "Inter",
+                          "fontWeight": 400,
+                          "fontSize": 16.0
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "649:887",
+                    "name": "Metric 2",
+                    "type": "FRAME",
+                    "bbox": {
+                      "x": 5198.5,
+                      "y": 2162.0,
+                      "width": 411.5,
+                      "height": 175.0
+                    },
+                    "children": [
+                      {
+                        "id": "649:888",
+                        "name": "Metric 2 value",
+                        "type": "TEXT",
+                        "bbox": {
+                          "x": 5353.5,
+                          "y": 2191.0,
+                          "width": 118.0,
+                          "height": 45.0
+                        },
+                        "text": "0.067%",
+                        "style": {
+                          "fontFamily": "Inter",
+                          "fontWeight": 700,
+                          "fontSize": 32.0
+                        }
+                      },
+                      {
+                        "id": "649:889",
+                        "name": "Metric 2 description",
+                        "type": "TEXT",
+                        "bbox": {
+                          "x": 5229.5,
+                          "y": 2252.0,
+                          "width": 365.0,
+                          "height": 56.0
+                        },
+                        "text": "only 2,365 windows are seizures, against 3,535,516 non-seizure windows.",
+                        "style": {
+                          "fontFamily": "Inter",
+                          "fontWeight": 400,
+                          "fontSize": 16.0
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "649:890",
+                    "name": "Metric 3",
+                    "type": "FRAME",
+                    "bbox": {
+                      "x": 4745.0,
+                      "y": 2377.0,
+                      "width": 411.5,
+                      "height": 175.0
+                    },
+                    "children": [
+                      {
+                        "id": "649:891",
+                        "name": "Metric 3 value",
+                        "type": "TEXT",
+                        "bbox": {
+                          "x": 4862.0,
+                          "y": 2406.0,
+                          "width": 194.0,
+                          "height": 45.0
+                        },
+                        "text": "787 features",
+                        "style": {
+                          "fontFamily": "Inter",
+                          "fontWeight": 700,
+                          "fontSize": 32.0
+                        }
+                      },
+                      {
+                        "id": "649:892",
+                        "name": "Metric 3 description",
+                        "type": "TEXT",
+                        "bbox": {
+                          "x": 4776.0,
+                          "y": 2467.0,
+                          "width": 365.0,
+                          "height": 56.0
+                        },
+                        "text": "extracted per window (77 zero-variance features were removed afterward).",
+                        "style": {
+                          "fontFamily": "Inter",
+                          "fontWeight": 400,
+                          "fontSize": 16.0
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "649:893",
+                    "name": "Metric 4",
+                    "type": "FRAME",
+                    "bbox": {
+                      "x": 5198.5,
+                      "y": 2377.0,
+                      "width": 411.5,
+                      "height": 175.0
+                    },
+                    "children": [
+                      {
+                        "id": "649:894",
+                        "name": "Metric 4 value",
+                        "type": "TEXT",
+                        "bbox": {
+                          "x": 5282.5,
+                          "y": 2406.0,
+                          "width": 261.0,
+                          "height": 45.0
+                        },
+                        "text": "0 patient overlap",
+                        "style": {
+                          "fontFamily": "Inter",
+                          "fontWeight": 700,
+                          "fontSize": 32.0
+                        }
+                      },
+                      {
+                        "id": "649:895",
+                        "name": "Metric 4 description",
+                        "type": "TEXT",
+                        "bbox": {
+                          "x": 5229.5,
+                          "y": 2467.0,
+                          "width": 365.0,
+                          "height": 56.0
+                        },
+                        "text": "train and test sets contain different patients (2,768,685 train and 769,196 test windows).",
+                        "style": {
+                          "fontFamily": "Inter",
+                          "fontWeight": 400,
+                          "fontSize": 16.0
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "649:896",
+                "name": "Problem summary",
+                "type": "TEXT",
+                "bbox": {
+                  "x": 4745.0,
+                  "y": 2585.0,
+                  "width": 865.0,
+                  "height": 60.0
+                },
+                "text": "The crisis is not a lack of harvest, capital, or ambition, it is the absence of a unifying layer that connects what already exists",
+                "style": {
+                  "fontFamily": "Inter",
+                  "fontWeight": 400,
+                  "fontSize": 20.0
+                }
+              }
+            ]
+          },
+          {
+            "id": "649:1248",
+            "name": "Problem content",
+            "type": "FRAME",
+            "bbox": {
+              "x": 4745.0,
+              "y": 2701.0,
+              "width": 865.0,
+              "height": 1190.971923828125
+            },
+            "children": [
+              {
+                "id": "649:1249",
+                "name": "Problem description",
+                "type": "TEXT",
+                "bbox": {
+                  "x": 4745.0,
+                  "y": 2701.0,
+                  "width": 865.0,
+                  "height": 45.0
+                },
+                "text": "Three things make this task difficult:",
+                "style": {
+                  "fontFamily": "Libre Baskerville",
+                  "fontWeight": 500,
+                  "fontSize": 28.0
+                }
+              },
+              {
+                "id": "649:1250",
+                "name": "Line 1",
+                "type": "LINE",
+                "bbox": {
+                  "x": 4745.0,
+                  "y": 2779.0,
+                  "width": 865.0000094771349,
+                  "height": 0.0
+                }
+              },
+              {
+                "id": "649:1251",
+                "name": "Problem metrics",
+                "type": "FRAME",
+                "bbox": {
+                  "x": 4745.0,
+                  "y": 2812.0,
+                  "width": 865.0,
+                  "height": 427.79998779296875
+                },
+                "children": [
+                  {
+                    "id": "649:1252",
+                    "name": "Metric 1",
+                    "type": "FRAME",
+                    "bbox": {
+                      "x": 4745.0,
+                      "y": 2812.0,
+                      "width": 865.0,
+                      "height": 126.5999984741211
+                    },
+                    "children": [
+                      {
+                        "id": "649:1253",
+                        "name": "Metric 1 value",
+                        "type": "TEXT",
+                        "bbox": {
+                          "x": 4776.2998046875,
+                          "y": 2841.300048828125,
+                          "width": 231.0,
+                          "height": 24.0
+                        },
+                        "text": "Severe class imbalance.",
+                        "style": {
+                          "fontFamily": "Inter",
+                          "fontWeight": 700,
+                          "fontSize": 20.0
+                        }
+                      },
+                      {
+                        "id": "649:1254",
+                        "name": "Metric 1 description",
+                        "type": "TEXT",
+                        "bbox": {
+                          "x": 4776.2998046875,
+                          "y": 2881.300048828125,
+                          "width": 802.4000244140625,
+                          "height": 28.0
+                        },
+                        "text": "A model that always predicts \"no seizure\" is right 99.9% of the time.",
+                        "style": {
+                          "fontFamily": "Inter",
+                          "fontWeight": 400,
+                          "fontSize": 16.0
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "649:1266",
+                    "name": "Metric 2",
+                    "type": "FRAME",
+                    "bbox": {
+                      "x": 4745.0,
+                      "y": 2948.60009765625,
+                      "width": 865.0,
+                      "height": 154.60000610351562
+                    },
+                    "children": [
+                      {
+                        "id": "649:1267",
+                        "name": "Metric 1 value",
+                        "type": "TEXT",
+                        "bbox": {
+                          "x": 4776.2998046875,
+                          "y": 2977.900146484375,
+                          "width": 230.0,
+                          "height": 24.0
+                        },
+                        "text": "Inter-subject variability.",
+                        "style": {
+                          "fontFamily": "Inter",
+                          "fontWeight": 700,
+                          "fontSize": 20.0
+                        }
+                      },
+                      {
+                        "id": "649:1268",
+                        "name": "Metric 1 description",
+                        "type": "TEXT",
+                        "bbox": {
+                          "x": 4776.2998046875,
+                          "y": 3017.900146484375,
+                          "width": 802.4000244140625,
+                          "height": 56.0
+                        },
+                        "text": "Different patients produce different EEG patterns, so a model that works on one patient often fails on another.",
+                        "style": {
+                          "fontFamily": "Inter",
+                          "fontWeight": 400,
+                          "fontSize": 16.0
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "649:1269",
+                    "name": "Metric 3",
+                    "type": "FRAME",
+                    "bbox": {
+                      "x": 4745.0,
+                      "y": 3113.199951171875,
+                      "width": 865.0,
+                      "height": 126.5999984741211
+                    },
+                    "children": [
+                      {
+                        "id": "649:1270",
+                        "name": "Metric 1 value",
+                        "type": "TEXT",
+                        "bbox": {
+                          "x": 4776.2998046875,
+                          "y": 3142.5,
+                          "width": 189.0,
+                          "height": 24.0
+                        },
+                        "text": "Misleading metrics.",
+                        "style": {
+                          "fontFamily": "Inter",
+                          "fontWeight": 700,
+                          "fontSize": 20.0
+                        }
+                      },
+                      {
+                        "id": "649:1271",
+                        "name": "Metric 1 description",
+                        "type": "TEXT",
+                        "bbox": {
+                          "x": 4776.2998046875,
+                          "y": 3182.5,
+                          "width": 802.4000244140625,
+                          "height": 28.0
+                        },
+                        "text": "High accuracy or ROC-AUC does not mean good seizure detection.",
+                        "style": {
+                          "fontFamily": "Inter",
+                          "fontWeight": 400,
+                          "fontSize": 16.0
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "649:1264",
+                "name": "Problem summary",
+                "type": "TEXT",
+                "bbox": {
+                  "x": 4745.0,
+                  "y": 3272.800048828125,
+                  "width": 865.0,
+                  "height": 60.0
+                },
+                "text": "The problem is not a lack of models or accuracy scores. It is the lack of evaluation that reflects real clinical conditions.",
+                "style": {
+                  "fontFamily": "Inter",
+                  "fontWeight": 400,
+                  "fontSize": 20.0
+                }
+              },
+              {
+                "id": "650:1277",
+                "name": "Frame 37673",
+                "type": "FRAME",
+                "bbox": {
+                  "x": 4745.0,
+                  "y": 3365.800048828125,
+                  "width": 865.0,
+                  "height": 433.17193603515625
+                },
+                "children": [
+                  {
+                    "id": "650:1274",
+                    "name": "Screenshot 2026-10-09 at 6.11.19\u202fPM 1",
+                    "type": "RECTANGLE",
+                    "bbox": {
+                      "x": 4745.0,
+                      "y": 3365.800048828125,
+                      "width": 378.521484375,
+                      "height": 433.17193603515625
+                    }
+                  },
+                  {
+                    "id": "650:1275",
+                    "name": "Screenshot 2026-10-09 at 6.11.49\u202fPM 1",
+                    "type": "RECTANGLE",
+                    "bbox": {
+                      "x": 5138.30419921875,
+                      "y": 3365.800048828125,
+                      "width": 471.6960144042969,
+                      "height": 433.17193603515625
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "650:1278",
+                "name": "Problem summary",
+                "type": "TEXT",
+                "bbox": {
+                  "x": 4745.0,
+                  "y": 3831.971923828125,
+                  "width": 865.0,
+                  "height": 60.0
+                },
+                "text": "The heatmap shows near-zero linear correlation with the label and strong multicollinearity between neighboring electrodes, which is expected because of volume conduction.",
+                "style": {
+                  "fontFamily": "Libre Baskerville",
+                  "fontWeight": 400,
+                  "fontSize": 20.0
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "649:897",
+    "name": "Goals",
+    "type": "FRAME",
+    "bbox": {
+      "x": 4330.0,
+      "y": 3928.971923828125,
+      "width": 1440.0,
+      "height": 1130.199951171875
+    },
+    "children": [
+      {
+        "id": "649:898",
+        "name": "Goals label",
+        "type": "TEXT",
+        "bbox": {
+          "x": 4490.0,
+          "y": 3965.971923828125,
+          "width": 199.0,
+          "height": 144.0
+        },
+        "text": "GOALS &\nINTENDED\u2028IMPACT \n",
+        "style": {
+          "fontFamily": "DM Mono",
+          "fontWeight": 500,
+          "fontSize": 28.0
+        }
+      },
+      {
+        "id": "649:899",
+        "name": "Goals content",
+        "type": "FRAME",
+        "bbox": {
+          "x": 4745.0,
+          "y": 3965.971923828125,
+          "width": 865.0,
+          "height": 1056.199951171875
+        },
+        "children": [
+          {
+            "id": "649:900",
+            "name": "Goals text and line",
+            "type": "FRAME",
+            "bbox": {
+              "x": 4745.0,
+              "y": 3965.971923828125,
+              "width": 865.0,
+              "height": 310.0
+            },
+            "children": [
+              {
+                "id": "649:901",
+                "name": "Goals text",
+                "type": "TEXT",
+                "bbox": {
+                  "x": 4745.0,
+                  "y": 3965.971923828125,
+                  "width": 865.0,
+                  "height": 90.0
+                },
+                "text": "Reliable seizure detection needs honest evaluation before it needs a bigger model. We set out to test three hypotheses:",
+                "style": {
+                  "fontFamily": "Libre Baskerville",
+                  "fontWeight": 500,
+                  "fontSize": 28.0
+                }
+              },
+              {
+                "id": "650:1287",
+                "name": "Goals text",
+                "type": "TEXT",
+                "bbox": {
+                  "x": 4745.0,
+                  "y": 4079.971923828125,
+                  "width": 865.0,
+                  "height": 196.0
+                },
+                "text": "No significant performance difference exists among classical models for cross-subject detection.\nSevere class imbalance degrades detection performance.\nAccuracy alone is insufficient for evaluating seizure detection.",
+                "style": {
+                  "fontFamily": "Libre Baskerville",
+                  "fontWeight": 500,
+                  "fontSize": 20.0
+                }
+              }
+            ]
+          },
+          {
+            "id": "650:1299",
+            "name": "Frame",
+            "type": "FRAME",
+            "bbox": {
+              "x": 4745.0,
+              "y": 4307.9716796875,
+              "width": 865.0,
+              "height": 216.20001220703125
+            },
+            "children": [
+              {
+                "id": "650:1314",
+                "name": "Frame 37674",
+                "type": "FRAME",
+                "bbox": {
+                  "x": 4745.2998046875,
+                  "y": 4308.271484375,
+                  "width": 324.1500244140625,
+                  "height": 42.0
+                },
+                "children": [
+                  {
+                    "id": "650:1300",
+                    "name": "Goal",
+                    "type": "TEXT",
+                    "bbox": {
+                      "x": 4757.2998046875,
+                      "y": 4314.271484375,
+                      "width": 44.0,
+                      "height": 30.0
+                    },
+                    "text": "Goal",
+                    "style": {
+                      "fontFamily": "Inter",
+                      "fontWeight": 600,
+                      "fontSize": 20.0
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "650:1316",
+                "name": "Frame 37676",
+                "type": "FRAME",
+                "bbox": {
+                  "x": 5069.4501953125,
+                  "y": 4350.271484375,
+                  "width": 540.25,
+                  "height": 43.400001525878906
+                },
+                "children": [
+                  {
+                    "id": "650:1317",
+                    "name": "Subject-wise split plus LOSO",
+                    "type": "TEXT",
+                    "bbox": {
+                      "x": 5082.150390625,
+                      "y": 4356.9716796875,
+                      "width": 268.0,
+                      "height": 30.0
+                    },
+                    "text": "Subject-wise split plus LOSO",
+                    "style": {
+                      "fontFamily": "Inter",
+                      "fontWeight": 400,
+                      "fontSize": 20.0
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "650:1320",
+                "name": "Frame 37678",
+                "type": "FRAME",
+                "bbox": {
+                  "x": 4745.2998046875,
+                  "y": 4393.671875,
+                  "width": 324.1500244140625,
+                  "height": 43.400001525878906
+                },
+                "children": [
+                  {
+                    "id": "650:1321",
+                    "name": "Primary metric",
+                    "type": "TEXT",
+                    "bbox": {
+                      "x": 4758.0,
+                      "y": 4400.3720703125,
+                      "width": 136.0,
+                      "height": 30.0
+                    },
+                    "text": "Primary metric",
+                    "style": {
+                      "fontFamily": "Inter",
+                      "fontWeight": 400,
+                      "fontSize": 20.0
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "650:1322",
+                "name": "Frame 37679",
+                "type": "FRAME",
+                "bbox": {
+                  "x": 5069.4501953125,
+                  "y": 4393.671875,
+                  "width": 540.25,
+                  "height": 43.400001525878906
+                },
+                "children": [
+                  {
+                    "id": "650:1323",
+                    "name": "AUC-PR",
+                    "type": "TEXT",
+                    "bbox": {
+                      "x": 5082.150390625,
+                      "y": 4400.3720703125,
+                      "width": 77.0,
+                      "height": 30.0
+                    },
+                    "text": "AUC-PR",
+                    "style": {
+                      "fontFamily": "Inter",
+                      "fontWeight": 400,
+                      "fontSize": 20.0
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "650:1324",
+                "name": "Frame 37680",
+                "type": "FRAME",
+                "bbox": {
+                  "x": 4745.2998046875,
+                  "y": 4437.07177734375,
+                  "width": 324.1500244140625,
+                  "height": 43.400001525878906
+                },
+                "children": [
+                  {
+                    "id": "650:1325",
+                    "name": "Imbalance strategies compared",
+                    "type": "TEXT",
+                    "bbox": {
+                      "x": 4758.0,
+                      "y": 4443.77197265625,
+                      "width": 292.0,
+                      "height": 30.0
+                    },
+                    "text": "Imbalance strategies compared",
+                    "style": {
+                      "fontFamily": "Inter",
+                      "fontWeight": 400,
+                      "fontSize": 20.0
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "650:1326",
+                "name": "Frame 37681",
+                "type": "FRAME",
+                "bbox": {
+                  "x": 5069.4501953125,
+                  "y": 4437.07177734375,
+                  "width": 540.25,
+                  "height": 43.400001525878906
+                },
+                "children": [
+                  {
+                    "id": "650:1327",
+                    "name": "2 (class weighting, random under-sampling)",
+                    "type": "TEXT",
+                    "bbox": {
+                      "x": 5082.150390625,
+                      "y": 4443.77197265625,
+                      "width": 407.0,
+                      "height": 30.0
+                    },
+                    "text": "2 (class weighting, random under-sampling)",
+                    "style": {
+                      "fontFamily": "Inter",
+                      "fontWeight": 400,
+                      "fontSize": 20.0
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "650:1328",
+                "name": "Frame 37682",
+                "type": "FRAME",
+                "bbox": {
+                  "x": 4745.2998046875,
+                  "y": 4480.4716796875,
+                  "width": 324.1500244140625,
+                  "height": 43.400001525878906
+                },
+                "children": [
+                  {
+                    "id": "650:1329",
+                    "name": "Models benchmarked",
+                    "type": "TEXT",
+                    "bbox": {
+                      "x": 4758.0,
+                      "y": 4487.171875,
+                      "width": 201.0,
+                      "height": 30.0
+                    },
+                    "text": "Models benchmarked",
+                    "style": {
+                      "fontFamily": "Inter",
+                      "fontWeight": 400,
+                      "fontSize": 20.0
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "650:1330",
+                "name": "Frame 37683",
+                "type": "FRAME",
+                "bbox": {
+                  "x": 5069.4501953125,
+                  "y": 4480.4716796875,
+                  "width": 540.25,
+                  "height": 43.400001525878906
+                },
+                "children": [
+                  {
+                    "id": "650:1331",
+                    "name": "4",
+                    "type": "TEXT",
+                    "bbox": {
+                      "x": 5082.150390625,
+                      "y": 4487.171875,
+                      "width": 13.0,
+                      "height": 30.0
+                    },
+                    "text": "4",
+                    "style": {
+                      "fontFamily": "Inter",
+                      "fontWeight": 400,
+                      "fontSize": 20.0
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "650:1318",
+                "name": "Frame 37677",
+                "type": "FRAME",
+                "bbox": {
+                  "x": 4745.2998046875,
+                  "y": 4350.271484375,
+                  "width": 324.1500244140625,
+                  "height": 43.400001525878906
+                },
+                "children": [
+                  {
+                    "id": "650:1319",
+                    "name": "Leakage-free validation",
+                    "type": "TEXT",
+                    "bbox": {
+                      "x": 4758.0,
+                      "y": 4356.9716796875,
+                      "width": 220.0,
+                      "height": 30.0
+                    },
+                    "text": "Leakage-free validation",
+                    "style": {
+                      "fontFamily": "Inter",
+                      "fontWeight": 400,
+                      "fontSize": 20.0
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "650:1315",
+                "name": "Frame 37675",
+                "type": "FRAME",
+                "bbox": {
+                  "x": 5069.4501953125,
+                  "y": 4308.271484375,
+                  "width": 540.25,
+                  "height": 42.0
+                },
+                "children": [
+                  {
+                    "id": "650:1301",
+                    "name": "Target",
+                    "type": "TEXT",
+                    "bbox": {
+                      "x": 5081.4501953125,
+                      "y": 4314.271484375,
+                      "width": 62.0,
+                      "height": 30.0
+                    },
+                    "text": "Target",
+                    "style": {
+                      "fontFamily": "Inter",
+                      "fontWeight": 600,
+                      "fontSize": 20.0
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "650:1345",
+            "name": "Goals text",
+            "type": "TEXT",
+            "bbox": {
+              "x": 4745.0,
+              "y": 4556.171875,
+              "width": 865.0,
+              "height": 45.0
+            },
+            "text": "Intended impact:",
+            "style": {
+              "fontFamily": "Libre Baskerville",
+              "fontWeight": 500,
+              "fontSize": 28.0
+            }
+          },
+          {
+            "id": "650:1347",
+            "name": "Goals text",
+            "type": "TEXT",
+            "bbox": {
+              "x": 4745.0,
+              "y": 4633.171875,
+              "width": 865.0,
+              "height": 241.0
+            },
+            "text": "A reliable baseline for future patient-independent EEG research.\nEvidence that clinically meaningful metrics should replace accuracy-only reporting.\nGuidance on models that fit initial clinical screening, where missed seizures cost more than false alarms.",
+            "style": {
+              "fontFamily": "Libre Baskerville",
+              "fontWeight": 500,
+              "fontSize": 20.0
+            }
+          },
+          {
+            "id": "650:1358",
+            "name": "Frame 37684",
+            "type": "FRAME",
+            "bbox": {
+              "x": 4745.0,
+              "y": 4906.171875,
+              "width": 865.0,
+              "height": 116.0
+            },
+            "children": [
+              {
+                "id": "650:1354",
+                "name": "Goals text",
+                "type": "TEXT",
+                "bbox": {
+                  "x": 4745.0,
+                  "y": 4906.171875,
+                  "width": 865.0,
+                  "height": 30.0
+                },
+                "text": "Research Question",
+                "style": {
+                  "fontFamily": "Libre Baskerville",
+                  "fontWeight": 500,
+                  "fontSize": 24.0
+                }
+              },
+              {
+                "id": "650:1348",
+                "name": "Award Item",
+                "type": "FRAME",
+                "bbox": {
+                  "x": 4745.0,
+                  "y": 4948.171875,
+                  "width": 865.0,
+                  "height": 74.0
+                },
+                "children": [
+                  {
+                    "id": "650:1349",
+                    "name": "Award Details",
+                    "type": "FRAME",
+                    "bbox": {
+                      "x": 4771.0,
+                      "y": 4960.171875,
+                      "width": 815.0,
+                      "height": 50.0
+                    },
+                    "children": [
+                      {
+                        "id": "650:1350",
+                        "name": "Award Title",
+                        "type": "TEXT",
+                        "bbox": {
+                          "x": 4771.0,
+                          "y": 4960.171875,
+                          "width": 815.0,
+                          "height": 50.0
+                        },
+                        "text": "\"How well do classical machine learning models generalize to completely unseen patients under extreme class imbalance and inter-subject variability?\"",
+                        "style": {
+                          "fontFamily": "Libre Baskerville",
+                          "fontWeight": 500,
+                          "fontSize": 20.0
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "649:923",
+    "name": "Solution",
+    "type": "FRAME",
+    "bbox": {
+      "x": 4330.0,
+      "y": 5059.171875,
+      "width": 1440.0,
+      "height": 5841.22705078125
+    },
+    "children": [
+      {
+        "id": "649:924",
+        "name": "Solution label and intro",
+        "type": "FRAME",
+        "bbox": {
+          "x": 4490.0,
+          "y": 5096.171875,
+          "width": 1120.0,
+          "height": 108.0
+        },
+        "children": [
+          {
+            "id": "649:925",
+            "name": "Solution label",
+            "type": "TEXT",
+            "bbox": {
+              "x": 4490.0,
+              "y": 5096.171875,
+              "width": 199.0,
+              "height": 108.0
+            },
+            "text": "Solution: Evaluation Pipeline",
+            "style": {
+              "fontFamily": "DM Mono",
+              "fontWeight": 500,
+              "fontSize": 28.0
+            }
+          },
+          {
+            "id": "650:1364",
+            "name": "Goals text",
+            "type": "TEXT",
+            "bbox": {
+              "x": 4745.0,
+              "y": 5096.171875,
+              "width": 865.0,
+              "height": 90.0
+            },
+            "text": "Instead of building a new detector, we built a realistic test bench in six steps.",
+            "style": {
+              "fontFamily": "Libre Baskerville",
+              "fontWeight": 500,
+              "fontSize": 28.0
+            }
+          }
+        ]
+      },
+      {
+        "id": "649:927",
+        "name": "Solution content",
+        "type": "FRAME",
+        "bbox": {
+          "x": 4490.0,
+          "y": 5236.171875,
+          "width": 1120.0,
+          "height": 5104.42724609375
+        },
+        "children": [
+          {
+            "id": "649:930",
+            "name": "Products title and description",
+            "type": "FRAME",
+            "bbox": {
+              "x": 4490.0,
+              "y": 5236.171875,
+              "width": 1120.0,
+              "height": 634.7237548828125
+            },
+            "children": [
+              {
+                "id": "649:931",
+                "name": "Products title",
+                "type": "TEXT",
+                "bbox": {
+                  "x": 4490.0,
+                  "y": 5236.171875,
+                  "width": 1120.0,
+                  "height": 36.0
+                },
+                "text": "1. Signal cleaning (bandpass filtering)",
+                "style": {
+                  "fontFamily": "DM Mono",
+                  "fontWeight": 500,
+                  "fontSize": 28.0
+                }
+              },
+              {
+                "id": "649:932",
+                "name": "Products description",
+                "type": "TEXT",
+                "bbox": {
+                  "x": 4490.0,
+                  "y": 5304.171875,
+                  "width": 1120.0,
+                  "height": 75.0
+                },
+                "text": "Raw EEG was filtered with a zero-phase, 4th-order Butterworth band-pass filter at 0.5\u201340 Hz. The 0.5 Hz cutoff removes baseline wander and sweat artifacts. The 40 Hz cutoff suppresses muscle noise and interference.",
+                "style": {
+                  "fontFamily": "Libre Baskerville",
+                  "fontWeight": 500,
+                  "fontSize": 20.0
+                }
+              },
+              {
+                "id": "655:1370",
+                "name": "Frame 37685",
+                "type": "FRAME",
+                "bbox": {
+                  "x": 4490.0,
+                  "y": 5411.171875,
+                  "width": 1120.0,
+                  "height": 459.7237243652344
+                },
+                "children": [
+                  {
+                    "id": "650:1366",
+                    "name": "Screenshot 2026-10-09 at 6.42.15\u202fPM 1",
+                    "type": "RECTANGLE",
+                    "bbox": {
+                      "x": 4490.0,
+                      "y": 5411.171875,
+                      "width": 1120.0,
+                      "height": 422.7237243652344
+                    }
+                  },
+                  {
+                    "id": "654:1368",
+                    "name": "Fig. 3: First 1,000 samples of channel FP1-F7 before and after filtering.",
+                    "type": "TEXT",
+                    "bbox": {
+                      "x": 4730.5,
+                      "y": 5845.8955078125,
+                      "width": 639.0,
+                      "height": 25.0
+                    },
+                    "text": "Fig. 3: First 1,000 samples of channel FP1-F7 before and after filtering.",
+                    "style": {
+                      "fontFamily": "Libre Baskerville",
+                      "fontWeight": 400,
+                      "fontSize": 20.0
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "657:1372",
+            "name": "Products title and description",
+            "type": "FRAME",
+            "bbox": {
+              "x": 4490.0,
+              "y": 5920.8955078125,
+              "width": 1120.0,
+              "height": 488.00665283203125
+            },
+            "children": [
+              {
+                "id": "657:1373",
+                "name": "Products title",
+                "type": "TEXT",
+                "bbox": {
+                  "x": 4490.0,
+                  "y": 5920.8955078125,
+                  "width": 1120.0,
+                  "height": 36.0
+                },
+                "text": "2. Windowing and labeling",
+                "style": {
+                  "fontFamily": "DM Mono",
+                  "fontWeight": 500,
+                  "fontSize": 28.0
+                }
+              },
+              {
+                "id": "657:1374",
+                "name": "Products description",
+                "type": "TEXT",
+                "bbox": {
+                  "x": 4490.0,
+                  "y": 5988.8955078125,
+                  "width": 1120.0,
+                  "height": 50.0
+                },
+                "text": "The signal is cut into 2-second windows with a 1-second step. A window is labeled \"seizure\" if it overlaps any part of an annotated seizure.",
+                "style": {
+                  "fontFamily": "Libre Baskerville",
+                  "fontWeight": 500,
+                  "fontSize": 20.0
+                }
+              },
+              {
+                "id": "657:1375",
+                "name": "Frame 37685",
+                "type": "FRAME",
+                "bbox": {
+                  "x": 4490.0,
+                  "y": 6070.8955078125,
+                  "width": 1120.0,
+                  "height": 338.00665283203125
+                },
+                "children": [
+                  {
+                    "id": "657:1379",
+                    "name": "Screenshot 2026-10-09 at 9.54.09\u202fPM 1",
+                    "type": "RECTANGLE",
+                    "bbox": {
+                      "x": 4490.0,
+                      "y": 6070.8955078125,
+                      "width": 1120.0,
+                      "height": 301.00665283203125
+                    }
+                  },
+                  {
+                    "id": "657:1377",
+                    "name": "Fig. 3: 4: Windowing and labeling of EEG segments.",
+                    "type": "TEXT",
+                    "bbox": {
+                      "x": 4812.5,
+                      "y": 6383.90234375,
+                      "width": 475.0,
+                      "height": 25.0
+                    },
+                    "text": "Fig. 3: 4: Windowing and labeling of EEG segments.",
+                    "style": {
+                      "fontFamily": "Libre Baskerville",
+                      "fontWeight": 400,
+                      "fontSize": 20.0
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "657:1382",
+            "name": "Products title and description",
+            "type": "FRAME",
+            "bbox": {
+              "x": 4490.0,
+              "y": 6458.90234375,
+              "width": 1120.0,
+              "height": 991.3615112304688
+            },
+            "children": [
+              {
+                "id": "657:1383",
+                "name": "Products title",
+                "type": "TEXT",
+                "bbox": {
+                  "x": 4490.0,
+                  "y": 6458.90234375,
+                  "width": 1120.0,
+                  "height": 36.0
+                },
+                "text": "3. Feature engineering (787 features)",
+                "style": {
+                  "fontFamily": "DM Mono",
+                  "fontWeight": 500,
+                  "fontSize": 28.0
+                }
+              },
+              {
+                "id": "657:1384",
+                "name": "Products description",
+                "type": "TEXT",
+                "bbox": {
+                  "x": 4490.0,
+                  "y": 6526.90234375,
+                  "width": 1120.0,
+                  "height": 175.0
+                },
+                "text": "Time domain:\nmean, standard deviation, variance, and Shannon entropy. Lower entropy often signals seizure-related hypersynchrony.\n\nFrequency domain:\nWelch's power spectral density and band power in Delta (0.5\u20134 Hz), Theta (4\u20138 Hz), Alpha (8\u201313 Hz), and Beta (13\u201330 Hz).",
+                "style": {
+                  "fontFamily": "Libre Baskerville",
+                  "fontWeight": 500,
+                  "fontSize": 20.0
+                }
+              },
+              {
+                "id": "657:1385",
+                "name": "Frame 37685",
+                "type": "FRAME",
+                "bbox": {
+                  "x": 4490.0,
+                  "y": 6733.90234375,
+                  "width": 1120.0,
+                  "height": 716.3615112304688
+                },
+                "children": [
+                  {
+                    "id": "657:1400",
+                    "name": "Screenshot 2026-10-09 at 9.58.43\u202fPM 1",
+                    "type": "RECTANGLE",
+                    "bbox": {
+                      "x": 4490.0,
+                      "y": 6733.90234375,
+                      "width": 1120.0,
+                      "height": 679.3615112304688
+                    }
+                  },
+                  {
+                    "id": "657:1387",
+                    "name": "Fig. 5: Average alpha power by brain region. Fig. 6: Full EDF-to-feature pipeline.",
+                    "type": "TEXT",
+                    "bbox": {
+                      "x": 4682.5,
+                      "y": 7425.263671875,
+                      "width": 735.0,
+                      "height": 25.0
+                    },
+                    "text": "Fig. 5: Average alpha power by brain region. Fig. 6: Full EDF-to-feature pipeline.",
+                    "style": {
+                      "fontFamily": "Libre Baskerville",
+                      "fontWeight": 400,
+                      "fontSize": 20.0
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "657:1403",
+            "name": "Products title and description",
+            "type": "FRAME",
+            "bbox": {
+              "x": 4490.0,
+              "y": 7500.263671875,
+              "width": 1120.0,
+              "height": 352.65216064453125
+            },
+            "children": [
+              {
+                "id": "657:1404",
+                "name": "Products title",
+                "type": "TEXT",
+                "bbox": {
+                  "x": 4490.0,
+                  "y": 7500.263671875,
+                  "width": 1120.0,
+                  "height": 36.0
+                },
+                "text": "4. Modeling and imbalance handling",
+                "style": {
+                  "fontFamily": "DM Mono",
+                  "fontWeight": 500,
+                  "fontSize": 28.0
+                }
+              },
+              {
+                "id": "657:1405",
+                "name": "Products description",
+                "type": "TEXT",
+                "bbox": {
+                  "x": 4490.0,
+                  "y": 7568.263671875,
+                  "width": 1120.0,
+                  "height": 100.0
+                },
+                "text": "Data is split by patient, never by window. Logistic Regression, SVM (RBF), Random Forest, and XGBoost (GPU, Optuna-tuned) were tested. Class weighting and random under-sampling were applied to training data only, to avoid evaluation bias. LOSO validation was run on Logistic Regression, because simple models keep learned weights interpretable.",
+                "style": {
+                  "fontFamily": "Libre Baskerville",
+                  "fontWeight": 500,
+                  "fontSize": 20.0
+                }
+              },
+              {
+                "id": "657:1406",
+                "name": "Frame 37685",
+                "type": "FRAME",
+                "bbox": {
+                  "x": 4490.0,
+                  "y": 7700.263671875,
+                  "width": 1120.0,
+                  "height": 152.65216064453125
+                },
+                "children": [
+                  {
+                    "id": "658:1427",
+                    "name": "Screenshot 2026-10-09 at 10.12.53\u202fPM 1",
+                    "type": "RECTANGLE",
+                    "bbox": {
+                      "x": 4490.0,
+                      "y": 7700.263671875,
+                      "width": 1120.0,
+                      "height": 115.65216827392578
+                    }
+                  },
+                  {
+                    "id": "657:1408",
+                    "name": "Fig. 7: EDF-to-feature pipeline.",
+                    "type": "TEXT",
+                    "bbox": {
+                      "x": 4906.5,
+                      "y": 7827.916015625,
+                      "width": 287.0,
+                      "height": 25.0
+                    },
+                    "text": "Fig. 7: EDF-to-feature pipeline.",
+                    "style": {
+                      "fontFamily": "Libre Baskerville",
+                      "fontWeight": 400,
+                      "fontSize": 20.0
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "658:1418",
+            "name": "Products title and description",
+            "type": "FRAME",
+            "bbox": {
+              "x": 4490.0,
+              "y": 7902.916015625,
+              "width": 1120.0,
+              "height": 667.2391357421875
+            },
+            "children": [
+              {
+                "id": "658:1419",
+                "name": "Products title",
+                "type": "TEXT",
+                "bbox": {
+                  "x": 4490.0,
+                  "y": 7902.916015625,
+                  "width": 1120.0,
+                  "height": 36.0
+                },
+                "text": "5. Why AUC-PR, not accuracy",
+                "style": {
+                  "fontFamily": "DM Mono",
+                  "fontWeight": 500,
+                  "fontSize": 28.0
+                }
+              },
+              {
+                "id": "658:1420",
+                "name": "Products description",
+                "type": "TEXT",
+                "bbox": {
+                  "x": 4490.0,
+                  "y": 7970.916015625,
+                  "width": 1120.0,
+                  "height": 25.0
+                },
+                "text": "ROC curves look strong, but PR curves reveal poor detection of the minority seizure class.",
+                "style": {
+                  "fontFamily": "Libre Baskerville",
+                  "fontWeight": 500,
+                  "fontSize": 20.0
+                }
+              },
+              {
+                "id": "658:1422",
+                "name": "Frame 37685",
+                "type": "FRAME",
+                "bbox": {
+                  "x": 4490.0,
+                  "y": 8027.916015625,
+                  "width": 1120.0,
+                  "height": 542.2391357421875
+                },
+                "children": [
+                  {
+                    "id": "658:1425",
+                    "name": "Screenshot 2026-10-09 at 10.15.10\u202fPM 1",
+                    "type": "RECTANGLE",
+                    "bbox": {
+                      "x": 4490.0,
+                      "y": 8027.916015625,
+                      "width": 1120.0,
+                      "height": 505.2391357421875
+                    }
+                  },
+                  {
+                    "id": "658:1423",
+                    "name": "Fig. 8: ROC and PR curves side by side.",
+                    "type": "TEXT",
+                    "bbox": {
+                      "x": 4872.0,
+                      "y": 8545.1552734375,
+                      "width": 356.0,
+                      "height": 25.0
+                    },
+                    "text": "Fig. 8: ROC and PR curves side by side.",
+                    "style": {
+                      "fontFamily": "Libre Baskerville",
+                      "fontWeight": 400,
+                      "fontSize": 20.0
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "658:1429",
+            "name": "Products title and description",
+            "type": "FRAME",
+            "bbox": {
+              "x": 4490.0,
+              "y": 8620.1552734375,
+              "width": 1120.0,
+              "height": 1720.444091796875
+            },
+            "children": [
+              {
+                "id": "658:1430",
+                "name": "Products title",
+                "type": "TEXT",
+                "bbox": {
+                  "x": 4490.0,
+                  "y": 8620.1552734375,
+                  "width": 1120.0,
+                  "height": 36.0
+                },
+                "text": "6. Results and trade-offs",
+                "style": {
+                  "fontFamily": "DM Mono",
+                  "fontWeight": 500,
+                  "fontSize": 28.0
+                }
+              },
+              {
+                "id": "658:1432",
+                "name": "Frame 37685",
+                "type": "FRAME",
+                "bbox": {
+                  "x": 4490.0,
+                  "y": 8688.1552734375,
+                  "width": 1120.0,
+                  "height": 253.20001220703125
+                },
+                "children": [
+                  {
+                    "id": "658:1435",
+                    "name": "Frame",
+                    "type": "FRAME",
+                    "bbox": {
+                      "x": 4490.0,
+                      "y": 8688.1552734375,
+                      "width": 1120.0,
+                      "height": 216.20001220703125
+                    },
+                    "children": [
+                      {
+                        "id": "658:1436",
+                        "name": "Frame 37674",
+                        "type": "FRAME",
+                        "bbox": {
+                          "x": 4490.2998046875,
+                          "y": 8688.455078125,
+                          "width": 319.8285827636719,
+                          "height": 42.0
+                        },
+                        "children": [
+                          {
+                            "id": "658:1437",
+                            "name": "Model",
+                            "type": "TEXT",
+                            "bbox": {
+                              "x": 4502.2998046875,
+                              "y": 8694.455078125,
+                              "width": 60.0,
+                              "height": 30.0
+                            },
+                            "text": "Model",
+                            "style": {
+                              "fontFamily": "Inter",
+                              "fontWeight": 600,
+                              "fontSize": 20.0
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "id": "658:1438",
+                        "name": "Frame 37676",
+                        "type": "FRAME",
+                        "bbox": {
+                          "x": 4810.12841796875,
+                          "y": 8730.455078125,
+                          "width": 159.91429138183594,
+                          "height": 43.400001525878906
+                        },
+                        "children": [
+                          {
+                            "id": "658:1439",
+                            "name": "0.9991",
+                            "type": "TEXT",
+                            "bbox": {
+                              "x": 4822.82861328125,
+                              "y": 8737.1552734375,
+                              "width": 64.0,
+                              "height": 30.0
+                            },
+                            "text": "0.9991",
+                            "style": {
+                              "fontFamily": "Inter",
+                              "fontWeight": 400,
+                              "fontSize": 20.0
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "id": "658:1496",
+                        "name": "Frame 37688",
+                        "type": "FRAME",
+                        "bbox": {
+                          "x": 4970.04296875,
+                          "y": 8730.455078125,
+                          "width": 159.91429138183594,
+                          "height": 43.400001525878906
+                        },
+                        "children": [
+                          {
+                            "id": "658:1497",
+                            "name": "0.0000",
+                            "type": "TEXT",
+                            "bbox": {
+                              "x": 4982.7431640625,
+                              "y": 8737.1552734375,
+                              "width": 66.0,
+                              "height": 30.0
+                            },
+                            "text": "0.0000",
+                            "style": {
+                              "fontFamily": "Inter",
+                              "fontWeight": 400,
+                              "fontSize": 20.0
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "id": "658:1498",
+                        "name": "Frame 37689",
+                        "type": "FRAME",
+                        "bbox": {
+                          "x": 5129.95703125,
+                          "y": 8730.455078125,
+                          "width": 159.91429138183594,
+                          "height": 43.400001525878906
+                        },
+                        "children": [
+                          {
+                            "id": "658:1499",
+                            "name": "0.0000",
+                            "type": "TEXT",
+                            "bbox": {
+                              "x": 5142.6572265625,
+                              "y": 8737.1552734375,
+                              "width": 66.0,
+                              "height": 30.0
+                            },
+                            "text": "0.0000",
+                            "style": {
+                              "fontFamily": "Inter",
+                              "fontWeight": 400,
+                              "fontSize": 20.0
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "id": "658:1500",
+                        "name": "Frame 37690",
+                        "type": "FRAME",
+                        "bbox": {
+                          "x": 5289.87158203125,
+                          "y": 8730.455078125,
+                          "width": 159.91429138183594,
+                          "height": 43.400001525878906
+                        },
+                        "children": [
+                          {
+                            "id": "658:1501",
+                            "name": "0.0000",
+                            "type": "TEXT",
+                            "bbox": {
+                              "x": 5302.57177734375,
+                              "y": 8737.1552734375,
+                              "width": 66.0,
+                              "height": 30.0
+                            },
+                            "text": "0.0000",
+                            "style": {
+                              "fontFamily": "Inter",
+                              "fontWeight": 400,
+                              "fontSize": 20.0
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "id": "658:1502",
+                        "name": "Frame 37691",
+                        "type": "FRAME",
+                        "bbox": {
+                          "x": 5449.78564453125,
+                          "y": 8730.455078125,
+                          "width": 159.91429138183594,
+                          "height": 43.400001525878906
+                        },
+                        "children": [
+                          {
+                            "id": "658:1503",
+                            "name": "0.0079",
+                            "type": "TEXT",
+                            "bbox": {
+                              "x": 5462.48583984375,
+                              "y": 8737.1552734375,
+                              "width": 65.0,
+                              "height": 30.0
+                            },
+                            "text": "0.0079",
+                            "style": {
+                              "fontFamily": "Inter",
+                              "fontWeight": 400,
+                              "fontSize": 20.0
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "id": "658:1440",
+                        "name": "Frame 37678",
+                        "type": "FRAME",
+                        "bbox": {
+                          "x": 4490.2998046875,
+                          "y": 8773.85546875,
+                          "width": 319.8285827636719,
+                          "height": 43.400001525878906
+                        },
+                        "children": [
+                          {
+                            "id": "658:1441",
+                            "name": "SVM (RBF, GPU)",
+                            "type": "TEXT",
+                            "bbox": {
+                              "x": 4503.0,
+                              "y": 8780.5556640625,
+                              "width": 152.0,
+                              "height": 30.0
+                            },
+                            "text": "SVM (RBF, GPU)",
+                            "style": {
+                              "fontFamily": "Inter",
+                              "fontWeight": 400,
+                              "fontSize": 20.0
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "id": "658:1442",
+                        "name": "Frame 37679",
+                        "type": "FRAME",
+                        "bbox": {
+                          "x": 4810.12841796875,
+                          "y": 8773.85546875,
+                          "width": 159.91429138183594,
+                          "height": 43.400001525878906
+                        },
+                        "children": [
+                          {
+                            "id": "658:1443",
+                            "name": "0.9979",
+                            "type": "TEXT",
+                            "bbox": {
+                              "x": 4822.82861328125,
+                              "y": 8780.5556640625,
+                              "width": 65.0,
+                              "height": 30.0
+                            },
+                            "text": "0.9979",
+                            "style": {
+                              "fontFamily": "Inter",
+                              "fontWeight": 400,
+                              "fontSize": 20.0
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "id": "658:1504",
+                        "name": "Frame 37692",
+                        "type": "FRAME",
+                        "bbox": {
+                          "x": 4970.04296875,
+                          "y": 8773.85546875,
+                          "width": 159.91429138183594,
+                          "height": 43.400001525878906
+                        },
+                        "children": [
+                          {
+                            "id": "658:1505",
+                            "name": "0.0121",
+                            "type": "TEXT",
+                            "bbox": {
+                              "x": 4982.7431640625,
+                              "y": 8780.5556640625,
+                              "width": 60.0,
+                              "height": 30.0
+                            },
+                            "text": "0.0121",
+                            "style": {
+                              "fontFamily": "Inter",
+                              "fontWeight": 400,
+                              "fontSize": 20.0
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "id": "658:1506",
+                        "name": "Frame 37693",
+                        "type": "FRAME",
+                        "bbox": {
+                          "x": 5129.95703125,
+                          "y": 8773.85546875,
+                          "width": 159.91429138183594,
+                          "height": 43.400001525878906
+                        },
+                        "children": [
+                          {
+                            "id": "658:1507",
+                            "name": "0.0302",
+                            "type": "TEXT",
+                            "bbox": {
+                              "x": 5142.6572265625,
+                              "y": 8780.5556640625,
+                              "width": 66.0,
+                              "height": 30.0
+                            },
+                            "text": "0.0302",
+                            "style": {
+                              "fontFamily": "Inter",
+                              "fontWeight": 400,
+                              "fontSize": 20.0
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "id": "658:1508",
+                        "name": "Frame 37694",
+                        "type": "FRAME",
+                        "bbox": {
+                          "x": 5289.87158203125,
+                          "y": 8773.85546875,
+                          "width": 159.91429138183594,
+                          "height": 43.400001525878906
+                        },
+                        "children": [
+                          {
+                            "id": "658:1509",
+                            "name": "0.0172",
+                            "type": "TEXT",
+                            "bbox": {
+                              "x": 5302.57177734375,
+                              "y": 8780.5556640625,
+                              "width": 62.0,
+                              "height": 30.0
+                            },
+                            "text": "0.0172",
+                            "style": {
+                              "fontFamily": "Inter",
+                              "fontWeight": 400,
+                              "fontSize": 20.0
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "id": "658:1510",
+                        "name": "Frame 37695",
+                        "type": "FRAME",
+                        "bbox": {
+                          "x": 5449.78564453125,
+                          "y": 8773.85546875,
+                          "width": 159.91429138183594,
+                          "height": 43.400001525878906
+                        },
+                        "children": [
+                          {
+                            "id": "658:1511",
+                            "name": "0.0047",
+                            "type": "TEXT",
+                            "bbox": {
+                              "x": 5462.48583984375,
+                              "y": 8780.5556640625,
+                              "width": 66.0,
+                              "height": 30.0
+                            },
+                            "text": "0.0047",
+                            "style": {
+                              "fontFamily": "Inter",
+                              "fontWeight": 400,
+                              "fontSize": 20.0
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "id": "658:1444",
+                        "name": "Frame 37680",
+                        "type": "FRAME",
+                        "bbox": {
+                          "x": 4490.2998046875,
+                          "y": 8817.2548828125,
+                          "width": 319.8285827636719,
+                          "height": 43.400001525878906
+                        },
+                        "children": [
+                          {
+                            "id": "658:1445",
+                            "name": "Logistic Regression",
+                            "type": "TEXT",
+                            "bbox": {
+                              "x": 4503.0,
+                              "y": 8823.955078125,
+                              "width": 181.0,
+                              "height": 30.0
+                            },
+                            "text": "Logistic Regression",
+                            "style": {
+                              "fontFamily": "Inter",
+                              "fontWeight": 400,
+                              "fontSize": 20.0
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "id": "658:1446",
+                        "name": "Frame 37681",
+                        "type": "FRAME",
+                        "bbox": {
+                          "x": 4810.12841796875,
+                          "y": 8817.2548828125,
+                          "width": 159.91429138183594,
+                          "height": 43.400001525878906
+                        },
+                        "children": [
+                          {
+                            "id": "658:1447",
+                            "name": "0.8946",
+                            "type": "TEXT",
+                            "bbox": {
+                              "x": 4822.82861328125,
+                              "y": 8823.955078125,
+                              "width": 67.0,
+                              "height": 30.0
+                            },
+                            "text": "0.8946",
+                            "style": {
+                              "fontFamily": "Inter",
+                              "fontWeight": 400,
+                              "fontSize": 20.0
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "id": "658:1512",
+                        "name": "Frame 37696",
+                        "type": "FRAME",
+                        "bbox": {
+                          "x": 4970.04296875,
+                          "y": 8817.2548828125,
+                          "width": 159.91429138183594,
+                          "height": 43.400001525878906
+                        },
+                        "children": [
+                          {
+                            "id": "658:1513",
+                            "name": "0.0043",
+                            "type": "TEXT",
+                            "bbox": {
+                              "x": 4982.7431640625,
+                              "y": 8823.955078125,
+                              "width": 67.0,
+                              "height": 30.0
+                            },
+                            "text": "0.0043",
+                            "style": {
+                              "fontFamily": "Inter",
+                              "fontWeight": 400,
+                              "fontSize": 20.0
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "id": "658:1514",
+                        "name": "Frame 37697",
+                        "type": "FRAME",
+                        "bbox": {
+                          "x": 5129.95703125,
+                          "y": 8817.2548828125,
+                          "width": 159.91429138183594,
+                          "height": 43.400001525878906
+                        },
+                        "children": [
+                          {
+                            "id": "658:1515",
+                            "name": "0.7495",
+                            "type": "TEXT",
+                            "bbox": {
+                              "x": 5142.6572265625,
+                              "y": 8823.955078125,
+                              "width": 64.0,
+                              "height": 30.0
+                            },
+                            "text": "0.7495",
+                            "style": {
+                              "fontFamily": "Inter",
+                              "fontWeight": 400,
+                              "fontSize": 20.0
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "id": "658:1516",
+                        "name": "Frame 37698",
+                        "type": "FRAME",
+                        "bbox": {
+                          "x": 5289.87158203125,
+                          "y": 8817.2548828125,
+                          "width": 159.91429138183594,
+                          "height": 43.400001525878906
+                        },
+                        "children": [
+                          {
+                            "id": "658:1517",
+                            "name": "0.0085",
+                            "type": "TEXT",
+                            "bbox": {
+                              "x": 5302.57177734375,
+                              "y": 8823.955078125,
+                              "width": 66.0,
+                              "height": 30.0
+                            },
+                            "text": "0.0085",
+                            "style": {
+                              "fontFamily": "Inter",
+                              "fontWeight": 400,
+                              "fontSize": 20.0
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "id": "658:1518",
+                        "name": "Frame 37699",
+                        "type": "FRAME",
+                        "bbox": {
+                          "x": 5449.78564453125,
+                          "y": 8817.2548828125,
+                          "width": 159.91429138183594,
+                          "height": 43.400001525878906
+                        },
+                        "children": [
+                          {
+                            "id": "658:1519",
+                            "name": "0.0278",
+                            "type": "TEXT",
+                            "bbox": {
+                              "x": 5462.48583984375,
+                              "y": 8823.955078125,
+                              "width": 65.0,
+                              "height": 30.0
+                            },
+                            "text": "0.0278",
+                            "style": {
+                              "fontFamily": "Inter",
+                              "fontWeight": 400,
+                              "fontSize": 20.0
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "id": "658:1448",
+                        "name": "Frame 37682",
+                        "type": "FRAME",
+                        "bbox": {
+                          "x": 4490.2998046875,
+                          "y": 8860.6552734375,
+                          "width": 319.8285827636719,
+                          "height": 43.400001525878906
+                        },
+                        "children": [
+                          {
+                            "id": "658:1449",
+                            "name": "XGBoost (GPU, Optuna)",
+                            "type": "TEXT",
+                            "bbox": {
+                              "x": 4503.0,
+                              "y": 8867.35546875,
+                              "width": 221.0,
+                              "height": 30.0
+                            },
+                            "text": "XGBoost (GPU, Optuna)",
+                            "style": {
+                              "fontFamily": "Inter",
+                              "fontWeight": 400,
+                              "fontSize": 20.0
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "id": "658:1450",
+                        "name": "Frame 37683",
+                        "type": "FRAME",
+                        "bbox": {
+                          "x": 4810.12841796875,
+                          "y": 8860.6552734375,
+                          "width": 159.91429138183594,
+                          "height": 43.400001525878906
+                        },
+                        "children": [
+                          {
+                            "id": "658:1451",
+                            "name": "0.9988",
+                            "type": "TEXT",
+                            "bbox": {
+                              "x": 4822.82861328125,
+                              "y": 8867.35546875,
+                              "width": 66.0,
+                              "height": 30.0
+                            },
+                            "text": "0.9988",
+                            "style": {
+                              "fontFamily": "Inter",
+                              "fontWeight": 400,
+                              "fontSize": 20.0
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "id": "658:1520",
+                        "name": "Frame 37700",
+                        "type": "FRAME",
+                        "bbox": {
+                          "x": 4970.04296875,
+                          "y": 8860.6552734375,
+                          "width": 159.91429138183594,
+                          "height": 43.400001525878906
+                        },
+                        "children": [
+                          {
+                            "id": "658:1521",
+                            "name": "0.0000",
+                            "type": "TEXT",
+                            "bbox": {
+                              "x": 4982.7431640625,
+                              "y": 8867.35546875,
+                              "width": 66.0,
+                              "height": 30.0
+                            },
+                            "text": "0.0000",
+                            "style": {
+                              "fontFamily": "Inter",
+                              "fontWeight": 400,
+                              "fontSize": 20.0
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "id": "658:1522",
+                        "name": "Frame 37701",
+                        "type": "FRAME",
+                        "bbox": {
+                          "x": 5129.95703125,
+                          "y": 8860.6552734375,
+                          "width": 159.91429138183594,
+                          "height": 43.400001525878906
+                        },
+                        "children": [
+                          {
+                            "id": "658:1523",
+                            "name": "0.0000",
+                            "type": "TEXT",
+                            "bbox": {
+                              "x": 5142.6572265625,
+                              "y": 8867.35546875,
+                              "width": 66.0,
+                              "height": 30.0
+                            },
+                            "text": "0.0000",
+                            "style": {
+                              "fontFamily": "Inter",
+                              "fontWeight": 400,
+                              "fontSize": 20.0
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "id": "658:1524",
+                        "name": "Frame 37702",
+                        "type": "FRAME",
+                        "bbox": {
+                          "x": 5289.87158203125,
+                          "y": 8860.6552734375,
+                          "width": 159.91429138183594,
+                          "height": 43.400001525878906
+                        },
+                        "children": [
+                          {
+                            "id": "658:1525",
+                            "name": "0.0000",
+                            "type": "TEXT",
+                            "bbox": {
+                              "x": 5302.57177734375,
+                              "y": 8867.35546875,
+                              "width": 66.0,
+                              "height": 30.0
+                            },
+                            "text": "0.0000",
+                            "style": {
+                              "fontFamily": "Inter",
+                              "fontWeight": 400,
+                              "fontSize": 20.0
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "id": "658:1526",
+                        "name": "Frame 37703",
+                        "type": "FRAME",
+                        "bbox": {
+                          "x": 5449.78564453125,
+                          "y": 8860.6552734375,
+                          "width": 159.91429138183594,
+                          "height": 43.400001525878906
+                        },
+                        "children": [
+                          {
+                            "id": "658:1527",
+                            "name": "0.0153",
+                            "type": "TEXT",
+                            "bbox": {
+                              "x": 5462.48583984375,
+                              "y": 8867.35546875,
+                              "width": 63.0,
+                              "height": 30.0
+                            },
+                            "text": "0.0153",
+                            "style": {
+                              "fontFamily": "Inter",
+                              "fontWeight": 400,
+                              "fontSize": 20.0
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "id": "658:1452",
+                        "name": "Frame 37677",
+                        "type": "FRAME",
+                        "bbox": {
+                          "x": 4490.2998046875,
+                          "y": 8730.455078125,
+                          "width": 319.8285827636719,
+                          "height": 43.400001525878906
+                        },
+                        "children": [
+                          {
+                            "id": "658:1453",
+                            "name": "Random Forest",
+                            "type": "TEXT",
+                            "bbox": {
+                              "x": 4503.0,
+                              "y": 8737.1552734375,
+                              "width": 141.0,
+                              "height": 30.0
+                            },
+                            "text": "Random Forest",
+                            "style": {
+                              "fontFamily": "Inter",
+                              "fontWeight": 400,
+                              "fontSize": 20.0
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "id": "658:1454",
+                        "name": "Frame 37675",
+                        "type": "FRAME",
+                        "bbox": {
+                          "x": 4810.12841796875,
+                          "y": 8688.455078125,
+                          "width": 159.91429138183594,
+                          "height": 42.0
+                        },
+                        "children": [
+                          {
+                            "id": "658:1455",
+                            "name": "Accuracy",
+                            "type": "TEXT",
+                            "bbox": {
+                              "x": 4822.12841796875,
+                              "y": 8694.455078125,
+                              "width": 91.0,
+                              "height": 30.0
+                            },
+                            "text": "Accuracy",
+                            "style": {
+                              "fontFamily": "Inter",
+                              "fontWeight": 600,
+                              "fontSize": 20.0
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "id": "658:1488",
+                        "name": "Frame 37684",
+                        "type": "FRAME",
+                        "bbox": {
+                          "x": 4970.04296875,
+                          "y": 8688.455078125,
+                          "width": 159.91429138183594,
+                          "height": 42.0
+                        },
+                        "children": [
+                          {
+                            "id": "658:1489",
+                            "name": "Precision",
+                            "type": "TEXT",
+                            "bbox": {
+                              "x": 4982.04296875,
+                              "y": 8694.455078125,
+                              "width": 88.0,
+                              "height": 30.0
+                            },
+                            "text": "Precision",
+                            "style": {
+                              "fontFamily": "Inter",
+                              "fontWeight": 600,
+                              "fontSize": 20.0
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "id": "658:1490",
+                        "name": "Frame 37685",
+                        "type": "FRAME",
+                        "bbox": {
+                          "x": 5129.95703125,
+                          "y": 8688.455078125,
+                          "width": 159.91429138183594,
+                          "height": 42.0
+                        },
+                        "children": [
+                          {
+                            "id": "658:1491",
+                            "name": "Recall",
+                            "type": "TEXT",
+                            "bbox": {
+                              "x": 5141.95703125,
+                              "y": 8694.455078125,
+                              "width": 58.0,
+                              "height": 30.0
+                            },
+                            "text": "Recall",
+                            "style": {
+                              "fontFamily": "Inter",
+                              "fontWeight": 600,
+                              "fontSize": 20.0
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "id": "658:1492",
+                        "name": "Frame 37686",
+                        "type": "FRAME",
+                        "bbox": {
+                          "x": 5289.87158203125,
+                          "y": 8688.455078125,
+                          "width": 159.91429138183594,
+                          "height": 42.0
+                        },
+                        "children": [
+                          {
+                            "id": "658:1493",
+                            "name": "F1",
+                            "type": "TEXT",
+                            "bbox": {
+                              "x": 5301.87158203125,
+                              "y": 8694.455078125,
+                              "width": 22.0,
+                              "height": 30.0
+                            },
+                            "text": "F1",
+                            "style": {
+                              "fontFamily": "Inter",
+                              "fontWeight": 600,
+                              "fontSize": 20.0
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "id": "658:1494",
+                        "name": "Frame 37687",
+                        "type": "FRAME",
+                        "bbox": {
+                          "x": 5449.78564453125,
+                          "y": 8688.455078125,
+                          "width": 159.91429138183594,
+                          "height": 42.0
+                        },
+                        "children": [
+                          {
+                            "id": "658:1495",
+                            "name": "AUC-PR",
+                            "type": "TEXT",
+                            "bbox": {
+                              "x": 5461.78564453125,
+                              "y": 8694.455078125,
+                              "width": 79.0,
+                              "height": 30.0
+                            },
+                            "text": "AUC-PR",
+                            "style": {
+                              "fontFamily": "Inter",
+                              "fontWeight": 600,
+                              "fontSize": 20.0
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "id": "658:1434",
+                    "name": "Fig. 8: ROC and PR curves side by side.",
+                    "type": "TEXT",
+                    "bbox": {
+                      "x": 4872.0,
+                      "y": 8916.35546875,
+                      "width": 356.0,
+                      "height": 25.0
+                    },
+                    "text": "Fig. 8: ROC and PR curves side by side.",
+                    "style": {
+                      "fontFamily": "Libre Baskerville",
+                      "fontWeight": 400,
+                      "fontSize": 20.0
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "658:1528",
+                "name": "Goals text",
+                "type": "TEXT",
+                "bbox": {
+                  "x": 4490.0,
+                  "y": 8973.35546875,
+                  "width": 1120.0,
+                  "height": 437.0
+                },
+                "text": "Random Forest and XGBoost: Accuracy is above 0.998, but recall is zero. They collapsed into predicting only \"non-seizure\".\nLogistic Regression: It caught about 75% of seizure windows and has the highest AUC-PR. The cost is roughly 80,000 false positives, which could cause alarm fatigue for neurologists.\nUnder-sampling: Recall rose (Random Forest reached 0.9395), but precision fell to about 0.003. The SVM's AUC-PR could not be computed (NaN).\nClass weighting: Results stayed close to baseline. Logistic Regression again led with an AUC-PR of 0.0278.\nXGBoost tuning: Optuna tuning reached an objective score of 0.3353, yet recall was still zero. Model complexity did not fix the problem.",
+                "style": {
+                  "fontFamily": "Libre Baskerville",
+                  "fontWeight": 500,
+                  "fontSize": 20.0
+                }
+              },
+              {
+                "id": "658:1532",
+                "name": "Frame 37686",
+                "type": "FRAME",
+                "bbox": {
+                  "x": 4490.0,
+                  "y": 9442.35546875,
+                  "width": 1120.0,
+                  "height": 433.1220703125
+                },
+                "children": [
+                  {
+                    "id": "658:1595",
+                    "name": "Screenshot 2026-10-09 at 10.27.58\u202fPM 1",
+                    "type": "RECTANGLE",
+                    "bbox": {
+                      "x": 4490.0,
+                      "y": 9442.35546875,
+                      "width": 1120.0,
+                      "height": 396.1220703125
+                    }
+                  },
+                  {
+                    "id": "658:1594",
+                    "name": "Fig. 9: Baseline confusion matrices.",
+                    "type": "TEXT",
+                    "bbox": {
+                      "x": 4891.0,
+                      "y": 9850.4775390625,
+                      "width": 318.0,
+                      "height": 25.0
+                    },
+                    "text": "Fig. 9: Baseline confusion matrices.",
+                    "style": {
+                      "fontFamily": "Libre Baskerville",
+                      "fontWeight": 400,
+                      "fontSize": 20.0
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "658:1597",
+                "name": "Frame 37687",
+                "type": "FRAME",
+                "bbox": {
+                  "x": 4490.0,
+                  "y": 9907.4775390625,
+                  "width": 1120.0,
+                  "height": 433.1220703125
+                },
+                "children": [
+                  {
+                    "id": "658:1598",
+                    "name": "Screenshot 2026-10-09 at 10.27.58\u202fPM 1",
+                    "type": "RECTANGLE",
+                    "bbox": {
+                      "x": 4490.0,
+                      "y": 9907.4775390625,
+                      "width": 1120.0,
+                      "height": 396.1220703125
+                    }
+                  },
+                  {
+                    "id": "658:1599",
+                    "name": "Fig. 10: Confusion matrices after under-sampling.",
+                    "type": "TEXT",
+                    "bbox": {
+                      "x": 4825.5,
+                      "y": 10315.599609375,
+                      "width": 449.0,
+                      "height": 25.0
+                    },
+                    "text": "Fig. 10: Confusion matrices after under-sampling.",
+                    "style": {
+                      "fontFamily": "Libre Baskerville",
+                      "fontWeight": 400,
+                      "fontSize": 20.0
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "658:1628",
+        "name": "Frame 37706",
+        "type": "FRAME",
+        "bbox": {
+          "x": 4490.0,
+          "y": 10372.599609375,
+          "width": 1120.0,
+          "height": 490.79998779296875
+        },
+        "children": [
+          {
+            "id": "658:1615",
+            "name": "Frame 37704",
+            "type": "FRAME",
+            "bbox": {
+              "x": 4525.0,
+              "y": 10407.599609375,
+              "width": 509.0,
+              "height": 420.79998779296875
+            },
+            "children": [
+              {
+                "id": "658:1603",
+                "name": "Problem description",
+                "type": "TEXT",
+                "bbox": {
+                  "x": 4525.0,
+                  "y": 10407.599609375,
+                  "width": 509.0,
+                  "height": 45.0
+                },
+                "text": "What's New",
+                "style": {
+                  "fontFamily": "Libre Baskerville",
+                  "fontWeight": 500,
+                  "fontSize": 28.0
+                }
+              },
+              {
+                "id": "658:1604",
+                "name": "Problem metrics",
+                "type": "FRAME",
+                "bbox": {
+                  "x": 4525.0,
+                  "y": 10464.599609375,
+                  "width": 509.0,
+                  "height": 363.79998779296875
+                },
+                "children": [
+                  {
+                    "id": "658:1605",
+                    "name": "Metric 1",
+                    "type": "FRAME",
+                    "bbox": {
+                      "x": 4525.0,
+                      "y": 10464.599609375,
+                      "width": 509.0,
+                      "height": 114.5999984741211
+                    },
+                    "children": [
+                      {
+                        "id": "658:1607",
+                        "name": "Metric 1 description",
+                        "type": "TEXT",
+                        "bbox": {
+                          "x": 4556.2998046875,
+                          "y": 10493.8994140625,
+                          "width": 446.3999938964844,
+                          "height": 56.0
+                        },
+                        "text": "Realistic evaluation protocol: Strict subject-wise split and LOSO validation to prevent leakage.",
+                        "style": {
+                          "fontFamily": "Inter",
+                          "fontWeight": 400,
+                          "fontSize": 16.0
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "658:1608",
+                    "name": "Metric 2",
+                    "type": "FRAME",
+                    "bbox": {
+                      "x": 4525.0,
+                      "y": 10589.19921875,
+                      "width": 509.0,
+                      "height": 114.5999984741211
+                    },
+                    "children": [
+                      {
+                        "id": "658:1610",
+                        "name": "Metric 1 description",
+                        "type": "TEXT",
+                        "bbox": {
+                          "x": 4556.2998046875,
+                          "y": 10618.4990234375,
+                          "width": 446.3999938964844,
+                          "height": 56.0
+                        },
+                        "text": "Proper metrics: AUC-PR as the primary metric, to avoid misleading performance claims.",
+                        "style": {
+                          "fontFamily": "Inter",
+                          "fontWeight": 400,
+                          "fontSize": 16.0
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "658:1611",
+                    "name": "Metric 3",
+                    "type": "FRAME",
+                    "bbox": {
+                      "x": 4525.0,
+                      "y": 10713.7998046875,
+                      "width": 509.0,
+                      "height": 114.5999984741211
+                    },
+                    "children": [
+                      {
+                        "id": "658:1613",
+                        "name": "Metric 1 description",
+                        "type": "TEXT",
+                        "bbox": {
+                          "x": 4556.2998046875,
+                          "y": 10743.099609375,
+                          "width": 446.3999938964844,
+                          "height": 56.0
+                        },
+                        "text": "Practical insight: Simpler models can outperform complex ones under extreme imbalance.",
+                        "style": {
+                          "fontFamily": "Inter",
+                          "fontWeight": 400,
+                          "fontSize": 16.0
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "658:1616",
+            "name": "Frame 37705",
+            "type": "FRAME",
+            "bbox": {
+              "x": 5066.0,
+              "y": 10407.599609375,
+              "width": 509.0,
+              "height": 420.79998779296875
+            },
+            "children": [
+              {
+                "id": "658:1617",
+                "name": "Problem description",
+                "type": "TEXT",
+                "bbox": {
+                  "x": 5066.0,
+                  "y": 10407.599609375,
+                  "width": 509.0,
+                  "height": 45.0
+                },
+                "text": "Limitations",
+                "style": {
+                  "fontFamily": "Libre Baskerville",
+                  "fontWeight": 500,
+                  "fontSize": 28.0
+                }
+              },
+              {
+                "id": "658:1618",
+                "name": "Problem metrics",
+                "type": "FRAME",
+                "bbox": {
+                  "x": 5066.0,
+                  "y": 10464.599609375,
+                  "width": 509.0,
+                  "height": 363.79998779296875
+                },
+                "children": [
+                  {
+                    "id": "658:1619",
+                    "name": "Metric 1",
+                    "type": "FRAME",
+                    "bbox": {
+                      "x": 5066.0,
+                      "y": 10464.599609375,
+                      "width": 509.0,
+                      "height": 114.5999984741211
+                    },
+                    "children": [
+                      {
+                        "id": "658:1621",
+                        "name": "Metric 1 description",
+                        "type": "TEXT",
+                        "bbox": {
+                          "x": 5097.2998046875,
+                          "y": 10493.8994140625,
+                          "width": 446.3999938964844,
+                          "height": 56.0
+                        },
+                        "text": "Repeated trials and statistical significance tests were not run because of limited compute.",
+                        "style": {
+                          "fontFamily": "Inter",
+                          "fontWeight": 400,
+                          "fontSize": 16.0
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "658:1622",
+                    "name": "Metric 2",
+                    "type": "FRAME",
+                    "bbox": {
+                      "x": 5066.0,
+                      "y": 10589.19921875,
+                      "width": 509.0,
+                      "height": 114.59999084472656
+                    },
+                    "children": [
+                      {
+                        "id": "658:1624",
+                        "name": "Metric 1 description",
+                        "type": "TEXT",
+                        "bbox": {
+                          "x": 5097.2998046875,
+                          "y": 10632.4990234375,
+                          "width": 446.3999938964844,
+                          "height": 28.0
+                        },
+                        "text": "LOSO was applied only to Logistic Regression.",
+                        "style": {
+                          "fontFamily": "Inter",
+                          "fontWeight": 400,
+                          "fontSize": 16.0
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "658:1625",
+                    "name": "Metric 3",
+                    "type": "FRAME",
+                    "bbox": {
+                      "x": 5066.0,
+                      "y": 10713.7998046875,
+                      "width": 509.0,
+                      "height": 114.5999984741211
+                    },
+                    "children": [
+                      {
+                        "id": "658:1627",
+                        "name": "Metric 1 description",
+                        "type": "TEXT",
+                        "bbox": {
+                          "x": 5097.2998046875,
+                          "y": 10743.099609375,
+                          "width": 446.3999938964844,
+                          "height": 56.0
+                        },
+                        "text": "Deep learning was intentionally excluded, to keep the comparison controlled and interpretable.",
+                        "style": {
+                          "fontFamily": "Inter",
+                          "fontWeight": 400,
+                          "fontSize": 16.0
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "649:1007",
+    "name": "Conclusion",
+    "type": "FRAME",
+    "bbox": {
+      "x": 4330.0,
+      "y": 10900.3984375,
+      "width": 1440.0,
+      "height": 652.0
+    },
+    "children": [
+      {
+        "id": "649:1008",
+        "name": "Conclusion label",
+        "type": "TEXT",
+        "bbox": {
+          "x": 4490.0,
+          "y": 10937.3984375,
+          "width": 166.0,
+          "height": 36.0
+        },
+        "text": "CONCLUSION",
+        "style": {
+          "fontFamily": "DM Mono",
+          "fontWeight": 500,
+          "fontSize": 28.0
+        }
+      },
+      {
+        "id": "649:1009",
+        "name": "Conclusion content",
+        "type": "FRAME",
+        "bbox": {
+          "x": 4711.98828125,
+          "y": 10937.3984375,
+          "width": 898.011962890625,
+          "height": 578.0
+        },
+        "children": [
+          {
+            "id": "649:1010",
+            "name": "Conclusion text and line",
+            "type": "FRAME",
+            "bbox": {
+              "x": 4711.98828125,
+              "y": 10937.3984375,
+              "width": 898.011962890625,
+              "height": 294.0
+            },
+            "children": [
+              {
+                "id": "649:1011",
+                "name": "Conclusion text",
+                "type": "TEXT",
+                "bbox": {
+                  "x": 4711.98828125,
+                  "y": 10937.3984375,
+                  "width": 898.011962890625,
+                  "height": 270.0
+                },
+                "text": "Classical ML struggles with cross-subject seizure detection. Accuracy is unreliable for imbalanced medical data, so AUC-PR should be used instead. Future work will explore autoencoder-based anomaly detection, contrastive learning (Siamese networks), Focal Loss with hard example mining, and repeated LOSO runs with non-parametric significance tests.",
+                "style": {
+                  "fontFamily": "Libre Baskerville",
+                  "fontWeight": 500,
+                  "fontSize": 28.0
+                }
+              },
+              {
+                "id": "649:1012",
+                "name": "Line 1",
+                "type": "LINE",
+                "bbox": {
+                  "x": 4711.98828125,
+                  "y": 11231.3984375,
+                  "width": 898.0119704000936,
+                  "height": 0.0
+                }
+              }
+            ]
+          },
+          {
+            "id": "658:1651",
+            "name": "Conclusion icons",
+            "type": "FRAME",
+            "bbox": {
+              "x": 4711.98828125,
+              "y": 11266.3984375,
+              "width": 898.011962890625,
+              "height": 184.0
+            },
+            "children": [
+              {
+                "id": "658:1652",
+                "name": "Icon 1",
+                "type": "FRAME",
+                "bbox": {
+                  "x": 4711.98828125,
+                  "y": 11266.3984375,
+                  "width": 278.0,
+                  "height": 184.0
+                },
+                "children": [
+                  {
+                    "id": "658:1653",
+                    "name": "Icon 1 description",
+                    "type": "FRAME",
+                    "bbox": {
+                      "x": 4747.2880859375,
+                      "y": 11302.3984375,
+                      "width": 207.39999389648438,
+                      "height": 112.0
+                    },
+                    "children": [
+                      {
+                        "id": "658:1655",
+                        "name": "Icon 1 label",
+                        "type": "TEXT",
+                        "bbox": {
+                          "x": 4747.2880859375,
+                          "y": 11302.3984375,
+                          "width": 207.39999389648438,
+                          "height": 112.0
+                        },
+                        "text": "Honest Evaluation: Patient-independent validation, not inflated scores.",
+                        "style": {
+                          "fontFamily": "Inter",
+                          "fontWeight": 400,
+                          "fontSize": 20.0
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "658:1665",
+                "name": "Icon 4",
+                "type": "FRAME",
+                "bbox": {
+                  "x": 5021.98828125,
+                  "y": 11266.3984375,
+                  "width": 278.0,
+                  "height": 184.0
+                },
+                "children": [
+                  {
+                    "id": "658:1666",
+                    "name": "Icon 1 description",
+                    "type": "FRAME",
+                    "bbox": {
+                      "x": 5057.2880859375,
+                      "y": 11316.3984375,
+                      "width": 207.39999389648438,
+                      "height": 84.0
+                    },
+                    "children": [
+                      {
+                        "id": "658:1667",
+                        "name": "Icon 1 label",
+                        "type": "TEXT",
+                        "bbox": {
+                          "x": 5057.2880859375,
+                          "y": 11316.3984375,
+                          "width": 207.39999389648438,
+                          "height": 84.0
+                        },
+                        "text": "Right Metrics: AUC-PR over accuracy for clinical relevance.",
+                        "style": {
+                          "fontFamily": "Inter",
+                          "fontWeight": 600,
+                          "fontSize": 20.0
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "658:1660",
+                "name": "Icon 3",
+                "type": "FRAME",
+                "bbox": {
+                  "x": 5331.98828125,
+                  "y": 11266.3984375,
+                  "width": 278.0,
+                  "height": 184.0
+                },
+                "children": [
+                  {
+                    "id": "658:1661",
+                    "name": "Icon 3 description",
+                    "type": "FRAME",
+                    "bbox": {
+                      "x": 5367.2880859375,
+                      "y": 11302.3984375,
+                      "width": 207.39999389648438,
+                      "height": 112.0
+                    },
+                    "children": [
+                      {
+                        "id": "658:1663",
+                        "name": "Icon 3 label",
+                        "type": "TEXT",
+                        "bbox": {
+                          "x": 5367.2880859375,
+                          "y": 11302.3984375,
+                          "width": 207.39999389648438,
+                          "height": 112.0
+                        },
+                        "text": "Next Step: Representation learning and anomaly detection.",
+                        "style": {
+                          "fontFamily": "Inter",
+                          "fontWeight": 400,
+                          "fontSize": 20.0
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "649:1026",
+            "name": "Conclusion summary",
+            "type": "TEXT",
+            "bbox": {
+              "x": 4711.98828125,
+              "y": 11485.3984375,
+              "width": 898.011962890625,
+              "height": 30.0
+            },
+            "text": "\"High accuracy is not detection. Measuring honestly is the first step to saving lives.\"",
+            "style": {
+              "fontFamily": "Inter",
+              "fontWeight": 400,
+              "fontSize": 20.0
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "649:1027",
+    "name": "Conclusion",
+    "type": "FRAME",
+    "bbox": {
+      "x": 4330.0,
+      "y": 11552.3984375,
+      "width": 1440.0,
+      "height": 1396.0
+    },
+    "children": [
+      {
+        "id": "649:1028",
+        "name": "Discover more projects",
+        "type": "TEXT",
+        "bbox": {
+          "x": 4868.0,
+          "y": 11610.3984375,
+          "width": 364.0,
+          "height": 36.0
+        },
+        "text": "DISCOVER MORE PROJECTS",
+        "style": {
+          "fontFamily": "DM Mono",
+          "fontWeight": 500,
+          "fontSize": 28.0
+        }
+      },
+      {
+        "id": "649:1029",
+        "name": "Projects",
+        "type": "FRAME",
+        "bbox": {
+          "x": 4489.0,
+          "y": 11698.3984375,
+          "width": 1122.0,
+          "height": 1075.0
+        },
+        "children": [
+          {
+            "id": "649:1030",
+            "name": "lastlonger",
+            "type": "FRAME",
+            "bbox": {
+              "x": 4489.0,
+              "y": 11698.3984375,
+              "width": 531.0,
+              "height": 508.0
+            },
+            "children": [
+              {
+                "id": "649:1031",
+                "name": "Rectangle 2",
+                "type": "RECTANGLE",
+                "bbox": {
+                  "x": 4489.0,
+                  "y": 11698.3984375,
+                  "width": 531.0,
+                  "height": 280.0
+                }
+              },
+              {
+                "id": "649:1032",
+                "name": "project-headline",
+                "type": "FRAME",
+                "bbox": {
+                  "x": 4489.0,
+                  "y": 12006.3984375,
+                  "width": 531.0,
+                  "height": 200.0
+                },
+                "children": [
+                  {
+                    "id": "649:1033",
+                    "name": "Project Management / UX Research",
+                    "type": "TEXT",
+                    "bbox": {
+                      "x": 4489.0,
+                      "y": 12006.3984375,
+                      "width": 531.0,
+                      "height": 26.0
+                    },
+                    "text": "Project Management / UX Research",
+                    "style": {
+                      "fontFamily": "DM Mono",
+                      "fontWeight": 500,
+                      "fontSize": 20.0
+                    }
+                  },
+                  {
+                    "id": "649:1034",
+                    "name": "LastLonger: End-to-End Device Lifecycle Management App",
+                    "type": "TEXT",
+                    "bbox": {
+                      "x": 4489.0,
+                      "y": 12048.3984375,
+                      "width": 531.0,
+                      "height": 64.0
+                    },
+                    "text": "LastLonger: End-to-End Device Lifecycle Management App",
+                    "style": {
+                      "fontFamily": "Inter",
+                      "fontWeight": 500,
+                      "fontSize": 20.0
+                    }
+                  },
+                  {
+                    "id": "649:1035",
+                    "name": "An app driving sustainable solutions and a circular economy through responsible device lifecycles, reducing e-waste through responsible reuse and resale pathways.",
+                    "type": "TEXT",
+                    "bbox": {
+                      "x": 4489.0,
+                      "y": 12128.3984375,
+                      "width": 531.0,
+                      "height": 78.0
+                    },
+                    "text": "An app driving sustainable solutions and a circular economy through responsible device lifecycles, reducing e-waste through responsible reuse and resale pathways.",
+                    "style": {
+                      "fontFamily": "Inter",
+                      "fontWeight": 400,
+                      "fontSize": 16.0
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "649:1036",
+            "name": "korpus",
+            "type": "FRAME",
+            "bbox": {
+              "x": 5080.0,
+              "y": 11698.3984375,
+              "width": 531.0,
+              "height": 508.0
+            },
+            "children": [
+              {
+                "id": "649:1037",
+                "name": "Rectangle 2",
+                "type": "RECTANGLE",
+                "bbox": {
+                  "x": 5080.0,
+                  "y": 11698.3984375,
+                  "width": 531.0,
+                  "height": 280.0
+                }
+              },
+              {
+                "id": "649:1038",
+                "name": "project-headline",
+                "type": "FRAME",
+                "bbox": {
+                  "x": 5080.0,
+                  "y": 12006.3984375,
+                  "width": 531.0,
+                  "height": 199.0
+                },
+                "children": [
+                  {
+                    "id": "649:1039",
+                    "name": "Product Management / UX Research",
+                    "type": "TEXT",
+                    "bbox": {
+                      "x": 5080.0,
+                      "y": 12006.3984375,
+                      "width": 531.0,
+                      "height": 26.0
+                    },
+                    "text": "Product Management / UX Research",
+                    "style": {
+                      "fontFamily": "DM Mono",
+                      "fontWeight": 500,
+                      "fontSize": 20.0
+                    }
+                  },
+                  {
+                    "id": "649:1040",
+                    "name": "KORPUS: Fullstack Digital Platform to Activate Indonesia\u2019s 83.000+ Village Cooperatives",
+                    "type": "TEXT",
+                    "bbox": {
+                      "x": 5080.0,
+                      "y": 12048.3984375,
+                      "width": 531.0,
+                      "height": 64.0
+                    },
+                    "text": "KORPUS: Fullstack Digital Platform to Activate Indonesia\u2019s 83.000+ Village Cooperatives",
+                    "style": {
+                      "fontFamily": "Inter",
+                      "fontWeight": 500,
+                      "fontSize": 20.0
+                    }
+                  },
+                  {
+                    "id": "649:1041",
+                    "name": "A frictionless onboarding and digital wallet system to scale cooperative participation nationwide for Hackathon Digital Cooperatives Expo 2026",
+                    "type": "TEXT",
+                    "bbox": {
+                      "x": 5080.0,
+                      "y": 12128.3984375,
+                      "width": 531.0,
+                      "height": 77.0
+                    },
+                    "text": "A frictionless onboarding and digital wallet system to scale cooperative participation nationwide for Hackathon Digital Cooperatives Expo 2026",
+                    "style": {
+                      "fontFamily": "Inter",
+                      "fontWeight": 400,
+                      "fontSize": 16.0
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "649:1042",
+            "name": "seizure",
+            "type": "FRAME",
+            "bbox": {
+              "x": 4489.0,
+              "y": 12266.3984375,
+              "width": 531.0,
+              "height": 507.0
+            },
+            "children": [
+              {
+                "id": "649:1043",
+                "name": "Rectangle 2",
+                "type": "RECTANGLE",
+                "bbox": {
+                  "x": 4489.0,
+                  "y": 12266.3984375,
+                  "width": 531.0,
+                  "height": 280.0
+                }
+              },
+              {
+                "id": "649:1044",
+                "name": "project-headline",
+                "type": "FRAME",
+                "bbox": {
+                  "x": 4489.0,
+                  "y": 12574.3984375,
+                  "width": 531.0,
+                  "height": 199.0
+                },
+                "children": [
+                  {
+                    "id": "649:1045",
+                    "name": "Research / Machine Learning",
+                    "type": "TEXT",
+                    "bbox": {
+                      "x": 4489.0,
+                      "y": 12574.3984375,
+                      "width": 531.0,
+                      "height": 26.0
+                    },
+                    "text": "Research / Machine Learning",
+                    "style": {
+                      "fontFamily": "DM Mono",
+                      "fontWeight": 500,
+                      "fontSize": 20.0
+                    }
+                  },
+                  {
+                    "id": "649:1046",
+                    "name": "Evaluating the Robustness of Classical Machine Learning in Cross-Subject EEG Seizure Detection",
+                    "type": "TEXT",
+                    "bbox": {
+                      "x": 4489.0,
+                      "y": 12616.3984375,
+                      "width": 531.0,
+                      "height": 64.0
+                    },
+                    "text": "Evaluating the Robustness of Classical Machine Learning in Cross-Subject EEG Seizure Detection",
+                    "style": {
+                      "fontFamily": "Inter",
+                      "fontWeight": 500,
+                      "fontSize": 19.5
+                    }
+                  },
+                  {
+                    "id": "649:1047",
+                    "name": "A classical ML pipeline trained on 3.5M+ EEG segments to flag seizure risk and accelerate clinical triage, presented at BIOXPLORE 2026. IEEE & Scopus-indexed.",
+                    "type": "TEXT",
+                    "bbox": {
+                      "x": 4489.0,
+                      "y": 12696.3984375,
+                      "width": 531.0,
+                      "height": 77.0
+                    },
+                    "text": "A classical ML pipeline trained on 3.5M+ EEG segments to flag seizure risk and accelerate clinical triage, presented at BIOXPLORE 2026. IEEE & Scopus-indexed.",
+                    "style": {
+                      "fontFamily": "Inter",
+                      "fontWeight": 400,
+                      "fontSize": 16.0
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "649:1048",
+        "name": "Button",
+        "type": "FRAME",
+        "bbox": {
+          "x": 4858.5,
+          "y": 12825.3984375,
+          "width": 383.0,
+          "height": 65.0
+        },
+        "children": [
+          {
+            "id": "649:1049",
+            "name": "View My Experiences",
+            "type": "TEXT",
+            "bbox": {
+              "x": 4896.5,
+              "y": 12835.3984375,
+              "width": 307.0,
+              "height": 45.0
+            },
+            "text": "View My Experiences",
+            "style": {
+              "fontFamily": "Libre Baskerville",
+              "fontWeight": 500,
+              "fontSize": 28.0
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "658:1640",
+    "name": "Footer",
+    "type": "FRAME",
+    "bbox": {
+      "x": 4330.0,
+      "y": 12948.3984375,
+      "width": 1440.0,
+      "height": 623.0
+    },
+    "children": [
+      {
+        "id": "658:1641",
+        "name": "Footer Content",
+        "type": "FRAME",
+        "bbox": {
+          "x": 4751.0,
+          "y": 13034.3984375,
+          "width": 598.0,
+          "height": 241.0
+        },
+        "children": [
+          {
+            "id": "658:1642",
+            "name": "Footer Statement",
+            "type": "TEXT",
+            "bbox": {
+              "x": 4751.0,
+              "y": 13034.3984375,
+              "width": 598.0,
+              "height": 171.0
+            },
+            "text": "Let\u2019s bridge your next business goals with intelligent technology.",
+            "style": {
+              "fontFamily": "Libre Baskerville",
+              "fontWeight": 700,
+              "fontSize": 46.0
+            }
+          },
+          {
+            "id": "658:1643",
+            "name": "Footer Description",
+            "type": "TEXT",
+            "bbox": {
+              "x": 4751.0,
+              "y": 13225.3984375,
+              "width": 598.0,
+              "height": 50.0
+            },
+            "text": "Always open to collaborating on complex challenges and turning them into seamless, high-impact user experiences.",
+            "style": {
+              "fontFamily": "Libre Baskerville",
+              "fontWeight": 400,
+              "fontSize": 20.0
+            }
+          }
+        ]
+      },
+      {
+        "id": "658:1644",
+        "name": "Contact Actions",
+        "type": "FRAME",
+        "bbox": {
+          "x": 4810.5,
+          "y": 13332.3984375,
+          "width": 479.0,
+          "height": 76.0
+        },
+        "children": [
+          {
+            "id": "658:1645",
+            "name": "Contact Button",
+            "type": "FRAME",
+            "bbox": {
+              "x": 4810.5,
+              "y": 13332.3984375,
+              "width": 226.0,
+              "height": 76.0
+            },
+            "children": [
+              {
+                "id": "658:1646",
+                "name": "Email Label",
+                "type": "TEXT",
+                "bbox": {
+                  "x": 4842.5,
+                  "y": 13349.3984375,
+                  "width": 162.0,
+                  "height": 42.0
+                },
+                "text": "Email Me",
+                "style": {
+                  "fontFamily": "Newsreader",
+                  "fontWeight": 400,
+                  "fontSize": 40.0
+                }
+              }
+            ]
+          },
+          {
+            "id": "658:1647",
+            "name": "Contact Button",
+            "type": "FRAME",
+            "bbox": {
+              "x": 5063.5,
+              "y": 13332.3984375,
+              "width": 226.0,
+              "height": 76.0
+            },
+            "children": [
+              {
+                "id": "658:1648",
+                "name": "LinkedIn Label",
+                "type": "TEXT",
+                "bbox": {
+                  "x": 5095.5,
+                  "y": 13349.3984375,
+                  "width": 162.0,
+                  "height": 42.0
+                },
+                "text": "LinkedIn",
+                "style": {
+                  "fontFamily": "Newsreader",
+                  "fontWeight": 400,
+                  "fontSize": 40.0
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "658:1649",
+        "name": "Copyright",
+        "type": "TEXT",
+        "bbox": {
+          "x": 4825.5,
+          "y": 13517.3984375,
+          "width": 449.0,
+          "height": 23.0
+        },
+        "text": "\u00a9 2026 Nadine Swasana. Designed with human needs in mind.",
+        "style": {
+          "fontFamily": "Newsreader",
+          "fontWeight": 400,
+          "fontSize": 18.0
+        }
+      }
+    ]
+  },
+  {
+    "id": "649:1052",
+    "name": "Header",
+    "type": "FRAME",
+    "bbox": {
+      "x": 4330.0,
+      "y": -52.0,
+      "width": 1440.0,
+      "height": 120.0
+    },
+    "children": [
+      {
+        "id": "649:1053",
+        "name": "User name",
+        "type": "TEXT",
+        "bbox": {
+          "x": 4490.0,
+          "y": -5.0,
+          "width": 186.0,
+          "height": 25.0
+        },
+        "text": "Nadine Swasana",
+        "style": {
+          "fontFamily": "Libre Baskerville",
+          "fontWeight": 500,
+          "fontSize": 24.0
+        }
+      },
+      {
+        "id": "649:1054",
+        "name": "Btn-Close",
+        "type": "FRAME",
+        "bbox": {
+          "x": 5533.0,
+          "y": -12.0,
+          "width": 40.0,
+          "height": 40.0
+        },
+        "children": [
+          {
+            "id": "649:1055",
+            "name": "Close-Line--Streamline-Mingcute",
+            "type": "FRAME",
+            "bbox": {
+              "x": 5542.0,
+              "y": -3.0,
+              "width": 22.0,
+              "height": 22.0
+            },
+            "children": [
+              {
+                "id": "649:1056",
+                "name": "Group",
+                "type": "GROUP",
+                "bbox": {
+                  "x": 5542.0,
+                  "y": -3.0,
+                  "width": 22.0,
+                  "height": 22.0
+                },
+                "children": [
+                  {
+                    "id": "649:1057",
+                    "name": "Vector",
+                    "type": "VECTOR",
+                    "bbox": {
+                      "x": 5542.0,
+                      "y": -3.0,
+                      "width": 22.0,
+                      "height": 22.0
+                    }
+                  },
+                  {
+                    "id": "649:1058",
+                    "name": "Vector",
+                    "type": "VECTOR",
+                    "bbox": {
+                      "x": 5546.23828125,
+                      "y": 1.2609310150146484,
+                      "width": 13.500667572021484,
+                      "height": 13.500667572021484
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
