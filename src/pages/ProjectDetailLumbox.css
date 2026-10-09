@@ -4,7 +4,7 @@
    ========================================================================== */
 
 .lumbox-detail-page {
-  background-color: #FFFCF7;
+  background-color: #FFFCF8;
   color: #1E1E1E;
   font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
   min-height: 100vh;
@@ -30,7 +30,7 @@
   left: 0;
   width: 100%;
   z-index: 100;
-  background-color: rgba(250, 246, 237, 0.92);
+  background-color: rgba(255, 252, 248, 0.95);
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
   border-bottom: 1px solid rgba(192, 146, 68, 0.2);
