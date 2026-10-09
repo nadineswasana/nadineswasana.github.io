@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from 'react';
+import { useEffect, useRef } from 'react';
 import gsap from 'gsap';
 import './CurrentlyBuildingSection.css';
 import buildingPreview from '../../../assets/currently-building/building-preview.png';
@@ -39,7 +39,7 @@ export default function CurrentlyBuildingSection() {
           <div className="building-image-wrapper">
             <img 
               src={buildingPreview} 
-              alt="Customs Brokerage Portal in progress" 
+              alt="HSE Consulting Firm Platform preview" 
               className="building-image"
               loading="lazy"
             />
@@ -50,10 +50,10 @@ export default function CurrentlyBuildingSection() {
               Project Management / Product Design / System Analysis
             </span>
             <h3 className="building-title">
-              (DUMMY PROJECT) System Design and Analysis for End-to-End Brokerage Portal, Cloud-Ready Customs Management
+              System Design and Analysis for an HSE Consulting Firm’s Training Management &amp; Certification Platform
             </h3>
             <p className="building-desc">
-              This is my final project for <strong>Minor Project in Information Systems</strong> course, where students have to work directly with a real company to solve an actual business problem. I'm partnering with a real customs brokerage firm managing end-to-end import-export operations, conducting system analysis to identify inefficiencies in their current processes and designing a solution to streamline their workflows across regulatory, logistics, and stakeholder coordination.
+              Designing a system for an HSE (health, safety, and environment) consulting firm serving clients across oil &amp; gas, construction, and mining — covering from a catalog of BNSP (National Professional Certification Agency) accredited training schemes to client registration, contracts, invoicing, and an LMS where materials unlock once payment is confirmed.
             </p>
           </div>
         </div>
