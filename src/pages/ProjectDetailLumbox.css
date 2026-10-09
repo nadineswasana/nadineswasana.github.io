@@ -420,44 +420,19 @@
   margin: 0;
 }
 
-.lumbox-products-cards-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 24px;
-}
-
-.lumbox-product-card {
-  background: #FFFFFF;
-  border: 1px solid rgba(192, 146, 68, 0.35);
-  border-radius: 16px;
-  padding: 24px 26px;
-  box-shadow: 2px 4px 20px rgba(0, 0, 0, 0.05);
+.lumbox-products-mockup-wrap {
+  width: 100%;
+  max-width: 1120px;
+  margin: 36px auto 0;
   display: flex;
-  flex-direction: column;
-  gap: 10px;
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  justify-content: center;
 }
 
-.lumbox-product-card:hover {
-  transform: translateY(-2px);
-  box-shadow: 2px 8px 24px rgba(0, 0, 0, 0.08);
-}
-
-.lumbox-product-title {
-  font-family: 'Inter', sans-serif;
-  font-size: 18px;
-  font-weight: 600;
-  color: #534203;
-  margin: 0;
-  line-height: 1.4;
-}
-
-.lumbox-product-desc {
-  font-family: 'Inter', sans-serif;
-  font-size: 13px;
-  line-height: 1.5;
-  color: #666666;
-  margin: 0;
+.lumbox-products-mockup-img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: contain;
 }
 
 /* ==========================================================================
@@ -746,10 +721,6 @@
     gap: 36px;
   }
 
-  .lumbox-products-cards-grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
-
   .lumbox-pillar-cards {
     grid-template-columns: 1fr;
   }
@@ -817,10 +788,6 @@
   .lumbox-hmw-quote {
     font-size: 20px;
     padding: 24px;
-  }
-
-  .lumbox-products-cards-grid {
-    grid-template-columns: 1fr;
   }
 
   .lumbox-feature-title {

@@ -4,6 +4,7 @@ import './ProjectDetailLumbox.css';
 // Lumbox Mockup Assets
 import heroDevicesImg from '../assets/project-detail/lumbox/lumbox-hero-devices.png';
 import solutionOverviewImg from '../assets/project-detail/lumbox/lumbox-solution-overview.png';
+import productsSurfacesImg from '../assets/project-detail/lumbox/lumbox-products-surfaces.png';
 import feature1Img from '../assets/project-detail/lumbox/lumbox-feature-1-connect.png';
 import feature2Img from '../assets/project-detail/lumbox/lumbox-feature-2-integrity.png';
 import feature3Img from '../assets/project-detail/lumbox/lumbox-feature-3-lumbung.png';
@@ -290,19 +291,12 @@ export default function ProjectDetailLumbox({ onBack, onNavigateExperience }) {
               </h2>
             </div>
 
-            <div className="lumbox-products-cards-grid">
-              <div className="lumbox-product-card">
-                <h3 className="lumbox-product-title">Lumbox Mobile (Mobile App)</h3>
-                <p className="lumbox-product-desc">for collectors, middlemen, and village cooperatives</p>
-              </div>
-              <div className="lumbox-product-card">
-                <h3 className="lumbox-product-title">Lumbox for Business (Desktop Web - B2B Command Layer)</h3>
-                <p className="lumbox-product-desc">for ID FOOD (orchestrator) and verified business buyers</p>
-              </div>
-              <div className="lumbox-product-card">
-                <h3 className="lumbox-product-title">Lumbox Connect (WhatsApp Bot/Zero App Required)</h3>
-                <p className="lumbox-product-desc">for Indonesia's 48 million smallholder farmers</p>
-              </div>
+            <div className="lumbox-products-mockup-wrap">
+              <img 
+                src={productsSurfacesImg} 
+                alt="Products of Lumbox: Three surfaces (Lumbox Connect WhatsApp bot, Lumbox for Business Desktop Web, and Lumbox Mobile App)" 
+                className="lumbox-products-mockup-img"
+              />
             </div>
           </div>
         </section>
