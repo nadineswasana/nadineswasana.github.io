@@ -42,7 +42,7 @@ export default function Footer() {
 
         {/* Copyright */}
         <p className="footer-copyright">
-          © 2026 Nadine Swasana. Designed with human needs in mind.
+          © 2026 Nadine Swasana. All rights reserved.
         </p>
       </div>
     </footer>
