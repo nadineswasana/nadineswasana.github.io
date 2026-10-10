@@ -1,6 +1,6 @@
 /* ==========================================================================
    Project Detail: EEG Seizure Detection Research Paper
-   Shared Design Language with LUMBOX Detail & Home Navbar
+   Matches Latest Figma Node 649:827 & LUMBOX Design Language
    ========================================================================== */
 
 .eeg-detail-page {
@@ -13,7 +13,7 @@
   -webkit-font-smoothing: antialiased;
 }
 
-/* 1. STICKY HEADER (Matches Home Navbar Branding) */
+/* 1. STICKY HEADER (Matches Home Navbar Branding & Figma 649:1052) */
 .eeg-header {
   position: sticky;
   top: 0;
@@ -144,7 +144,7 @@
   margin: 0;
 }
 
-/* 3. HERO / MAIN */
+/* 3. HERO / MAIN (Figma Node 649:830) */
 .eeg-hero-section {
   padding: 60px 0 40px;
   border-bottom: 1px solid rgba(192, 146, 68, 0.2);
@@ -152,17 +152,7 @@
 
 .eeg-hero-head {
   max-width: 960px;
-  margin-bottom: 28px;
-}
-
-.eeg-hero-type-tag {
-  font-family: 'DM Mono', monospace;
-  font-size: 16px;
-  color: #1E1E1E;
-  text-transform: uppercase;
-  letter-spacing: -0.16px;
-  display: block;
-  margin-bottom: 14px;
+  margin-bottom: 24px;
 }
 
 .eeg-hero-title {
@@ -183,57 +173,7 @@
   margin: 0;
 }
 
-/* Publication Logos & IEEE CTA (Transparent row, no card box) */
-.eeg-pub-cta-banner {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 28px;
-  padding: 16px 0;
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-
-.eeg-pub-logos-wrap {
-  flex: 0 1 auto;
-}
-
-.eeg-pub-logos-img {
-  width: 100%;
-  max-width: 390px;
-  height: auto;
-  display: block;
-  object-fit: contain;
-}
-
-.eeg-pub-action {
-  flex-shrink: 0;
-}
-
-.eeg-ieee-btn {
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-  background-color: #534203;
-  color: #FFFFFF;
-  padding: 12px 28px;
-  border-radius: 9999px;
-  font-family: 'Inter', sans-serif;
-  font-size: 15px;
-  font-weight: 600;
-  border: none;
-  cursor: pointer;
-  box-shadow: 0 6px 18px rgba(83, 66, 3, 0.2);
-  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
-}
-
-.eeg-ieee-btn:hover {
-  background-color: #3b2f02;
-  transform: translateY(-2px);
-  box-shadow: 0 10px 22px rgba(83, 66, 3, 0.3);
-}
-
-/* Metadata Bar (Matches Lumbox: NOT wrapped in filled container cards) */
+/* Metadata Bar (649:842) - Matches Lumbox: Clean borders, no card wrapper */
 .eeg-meta-grid {
   display: grid;
   grid-template-columns: 1.4fr 1.2fr 0.9fr 0.8fr 1.1fr;
@@ -272,7 +212,61 @@
   white-space: pre-line;
 }
 
-/* 4. OVERVIEW CARDS (Matches Lumbox Surface Cards) */
+/* Publication Logos & IEEE CTA Banner (Frame 37707 - 662:1699) */
+.eeg-pub-cta-banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 28px;
+  padding: 32px 0 12px 0;
+}
+
+.eeg-pub-logos-wrap {
+  flex: 0 1 auto;
+}
+
+.eeg-pub-logos-img {
+  width: 100%;
+  max-width: 390px;
+  height: auto;
+  display: block;
+  object-fit: contain;
+}
+
+.eeg-pub-action {
+  flex-shrink: 0;
+}
+
+/* Shared Gold Gradient CTA Button (Matches Figma Button 662:1696, 681:581, 649:1048) */
+.eeg-gold-btn {
+  background: linear-gradient(180deg, #FFA000 0%, #534203 100%);
+  color: #FFFFFF;
+  font-family: 'Libre Baskerville', serif;
+  font-size: 24px;
+  font-weight: 500;
+  border: none;
+  border-radius: 54px;
+  padding: 14px 44px;
+  cursor: pointer;
+  box-shadow: 0 8px 24px rgba(83, 66, 3, 0.28);
+  transition: transform 0.2s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.eeg-gold-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 28px rgba(83, 66, 3, 0.38);
+}
+
+.eeg-gold-btn:active {
+  transform: translateY(0);
+}
+
+/* 4. OVERVIEW CARDS (Figma Node 649:858) */
 .eeg-card-pair {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -322,7 +316,7 @@
   margin: 0;
 }
 
-/* 5. PROBLEM METRICS & DIFFICULTIES */
+/* 5. PROBLEM METRICS & DIFFICULTIES (Figma Node 649:878) */
 .eeg-metrics-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -407,47 +401,7 @@
   margin: 0;
 }
 
-/* Figures display */
-.eeg-figures-row {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 24px;
-  margin-top: 12px;
-}
-
-.eeg-figure-box {
-  background: #FFFFFF;
-  border: 1px solid rgba(192, 146, 68, 0.35);
-  border-radius: 16px;
-  padding: 16px;
-  box-shadow: 2px 4px 20px rgba(0, 0, 0, 0.04);
-  overflow: hidden;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.eeg-figure-box.single {
-  margin-top: 16px;
-}
-
-.eeg-figure-img {
-  width: 100%;
-  height: auto;
-  display: block;
-  border-radius: 10px;
-  object-fit: contain;
-}
-
-.eeg-figure-caption {
-  font-family: 'Inter', sans-serif;
-  font-size: 15px;
-  line-height: 1.6;
-  color: #666666;
-  margin: -12px 0 0 0;
-}
-
-/* 6. GOALS & METHODOLOGY */
+/* 6. GOALS & METHODOLOGY (Figma Node 649:897) */
 .eeg-hypotheses-list {
   list-style: none;
   padding: 0;
@@ -473,35 +427,6 @@
   color: #534203;
 }
 
-.eeg-research-question-box {
-  background: #FFFFFF;
-  border: 2px solid #534203;
-  border-radius: 16px;
-  padding: 28px 32px;
-  box-shadow: 2px 4px 20px rgba(0, 0, 0, 0.05);
-}
-
-.eeg-rq-tag {
-  display: inline-block;
-  font-family: 'DM Mono', monospace;
-  font-size: 14px;
-  font-weight: 600;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  color: #B77200;
-  margin-bottom: 12px;
-}
-
-.eeg-rq-quote {
-  font-family: 'Libre Baskerville', serif;
-  font-size: 22px;
-  font-weight: 500;
-  line-height: 1.5;
-  color: #534203;
-  margin: 0;
-}
-
-/* Tables */
 .eeg-table-wrap {
   width: 100%;
   overflow-x: auto;
@@ -566,81 +491,35 @@
   font-weight: bold;
 }
 
-/* 7. SOLUTION PIPELINE STEPS */
-.eeg-step-item {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  margin-bottom: 48px;
-  padding-bottom: 48px;
-  border-bottom: 1px dashed rgba(192, 146, 68, 0.4);
+.eeg-research-question-box {
+  background: #FFFFFF;
+  border: 2px solid #534203;
+  border-radius: 16px;
+  padding: 28px 32px;
+  box-shadow: 2px 4px 20px rgba(0, 0, 0, 0.05);
 }
 
-.eeg-step-item:last-child {
-  margin-bottom: 0;
-  padding-bottom: 0;
-  border-bottom: none;
-}
-
-.eeg-step-title {
-  font-family: 'Libre Baskerville', serif;
-  font-size: 24px;
+.eeg-rq-tag {
+  display: inline-block;
+  font-family: 'DM Mono', monospace;
+  font-size: 14px;
   font-weight: 600;
-  line-height: 1.4;
-  color: #534203;
-  margin: 0;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #B77200;
+  margin-bottom: 12px;
 }
 
-.eeg-tradeoffs-insights {
-  display: flex;
-  flex-direction: column;
-  gap: 14px;
-  margin-top: 8px;
-}
-
-.eeg-insight-para {
-  font-family: 'Inter', sans-serif;
-  font-size: 18px;
-  line-height: 1.65;
-  color: #444444;
-  margin: 0;
-}
-
-.eeg-meta-summary-block {
-  margin-top: 16px;
-}
-
-.eeg-cards-heading {
+.eeg-rq-quote {
   font-family: 'Libre Baskerville', serif;
   font-size: 22px;
-  font-weight: 600;
+  font-weight: 500;
+  line-height: 1.5;
   color: #534203;
-  margin: 0 0 16px 0;
-}
-
-.eeg-tri-cards-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 24px;
-}
-
-.eeg-tri-card {
-  background: #FFFFFF;
-  border: 1px solid rgba(192, 146, 68, 0.35);
-  border-radius: 16px;
-  padding: 24px;
-  box-shadow: 2px 4px 20px rgba(0, 0, 0, 0.04);
-}
-
-.eeg-tri-text {
-  font-family: 'Inter', sans-serif;
-  font-size: 16px;
-  line-height: 1.6;
-  color: #444444;
   margin: 0;
 }
 
-/* 8. CONCLUSION SECTION */
+/* 7. CONCLUSION (Figma Node 649:1007) */
 .eeg-pillars-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -697,7 +576,7 @@
   margin: 0;
 }
 
-/* 9. DISCOVER MORE PROJECTS */
+/* 8. DISCOVER MORE PROJECTS (Figma Node 649:1027) */
 .eeg-discover-section {
   background-color: transparent;
 }
@@ -794,32 +673,6 @@
   margin-top: 48px;
 }
 
-.eeg-cta-btn {
-  background: linear-gradient(180deg, #FFA000 0%, #534203 100%);
-  color: #FFFFFF;
-  font-family: 'Libre Baskerville', serif;
-  font-size: 24px;
-  font-weight: 500;
-  border: none;
-  border-radius: 54px;
-  padding: 14px 48px;
-  cursor: pointer;
-  box-shadow: 0 8px 24px rgba(83, 66, 3, 0.28);
-  transition: transform 0.2s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.2s cubic-bezier(0.16, 1, 0.3, 1);
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.eeg-cta-btn:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 12px 28px rgba(83, 66, 3, 0.38);
-}
-
-.eeg-cta-btn:active {
-  transform: translateY(0);
-}
-
 /* ==========================================================================
    RESPONSIVE BREAKPOINTS (Tablet & Mobile)
    ========================================================================== */
@@ -845,7 +698,6 @@
   }
 
   .eeg-diff-cards-grid,
-  .eeg-tri-cards-grid,
   .eeg-pillars-grid {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -864,7 +716,7 @@
     width: 100%;
   }
 
-  .eeg-ieee-btn {
+  .eeg-gold-btn {
     width: 100%;
     justify-content: center;
   }
@@ -923,12 +775,7 @@
   }
 
   .eeg-diff-cards-grid,
-  .eeg-tri-cards-grid,
   .eeg-pillars-grid {
-    grid-template-columns: 1fr;
-  }
-
-  .eeg-figures-row {
     grid-template-columns: 1fr;
   }
 
@@ -942,9 +789,9 @@
     font-size: 18px;
   }
 
-  .eeg-cta-btn {
+  .eeg-gold-btn {
     font-size: 20px;
-    padding: 12px 36px;
+    padding: 12px 32px;
     width: 100%;
     max-width: 340px;
   }

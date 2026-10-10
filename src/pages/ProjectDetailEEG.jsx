@@ -2,16 +2,7 @@ import { useEffect } from 'react';
 import Footer from '../components/layout/Footer';
 import './ProjectDetailEEG.css';
 
-// EEG Figure Assets
-import fig1Img from '../assets/project-detail/eeg/eeg-fig1-chbmit-overview.png';
-import fig2Img from '../assets/project-detail/eeg/eeg-fig2-channel-correlation.png';
-import fig3Img from '../assets/project-detail/eeg/eeg-fig3-bandpass-filtering.png';
-import fig4Img from '../assets/project-detail/eeg/eeg-fig4-windowing-labeling.png';
-import fig56Img from '../assets/project-detail/eeg/eeg-fig5-6-features-pipeline.png';
-import fig7Img from '../assets/project-detail/eeg/eeg-fig7-edf-feature-pipeline.png';
-import fig8Img from '../assets/project-detail/eeg/eeg-fig8-roc-pr-curves.png';
-import fig9Img from '../assets/project-detail/eeg/eeg-fig9-baseline-confusion-matrices.png';
-import fig10Img from '../assets/project-detail/eeg/eeg-fig10-undersampling-confusion-matrices.png';
+// Publication Credentials Logo
 import pubLogosImg from '../assets/project-detail/eeg/pub_logo_662_1686.png';
 
 // Related Projects Assets
@@ -54,7 +45,7 @@ export default function ProjectDetailEEG({ onBack, onNavigateExperience, onNavig
 
   return (
     <div className="eeg-detail-page">
-      {/* 1. STICKY HEADER */}
+      {/* 1. STICKY HEADER (Matches Home Navbar Branding & Figma Node 649:1052) */}
       <header className="eeg-header">
         <div className="eeg-header-inner">
           <button 
@@ -80,46 +71,20 @@ export default function ProjectDetailEEG({ onBack, onNavigateExperience, onNavig
       </header>
 
       <main className="eeg-main-content">
-        {/* 2. MAIN / HERO */}
+        {/* 2. MAIN / HERO (Figma Node 649:830) */}
         <section className="eeg-hero-section">
           <div className="eeg-container">
+            {/* Project title and description (649:831) */}
             <div className="eeg-hero-head">
-              <span className="eeg-hero-type-tag">
-                Research Paper / Machine Learning Study, IEEE Conference
-              </span>
               <h1 className="eeg-hero-title">
                 Evaluating the Robustness of Classical Machine Learning in Cross-Subject EEG Seizure Detection
               </h1>
               <p className="eeg-hero-desc">
-                A classical ML pipeline trained on 3.5M+ EEG windows to test whether seizure detection still works on patients the model has never seen. Presented at BIOXPLORE 2026 (IEEE & Scopus-indexed).
+                A classical ML pipeline trained on 3.5M+ EEG windows to test whether seizure detection still works on patients the model has never seen. Presented at BIOXPLORE 2026 (IEEE &amp; Scopus-indexed).
               </p>
             </div>
 
-            {/* Publication Logos Banner & IEEE CTA */}
-            <div className="eeg-pub-cta-banner">
-              <div className="eeg-pub-logos-wrap">
-                <img 
-                  src={pubLogosImg} 
-                  alt="IEEE, Scopus, and BIOXPLORE publication credentials" 
-                  className="eeg-pub-logos-img"
-                />
-              </div>
-              <div className="eeg-pub-action">
-                <button 
-                  type="button" 
-                  className="eeg-ieee-btn"
-                  onClick={handleOpenIeee}
-                >
-                  <span>Read on IEEE Xplore</span>
-                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round">
-                    <line x1="7" y1="17" x2="17" y2="7"></line>
-                    <polyline points="7 7 17 7 17 17"></polyline>
-                  </svg>
-                </button>
-              </div>
-            </div>
-
-            {/* Metadata Grid */}
+            {/* Project details / Metadata Grid (649:842) - Matches Lumbox: Clean borders, no card wrapper */}
             <div className="eeg-meta-grid">
               <div className="eeg-meta-card">
                 <span className="eeg-meta-label">TYPE</span>
@@ -148,14 +113,34 @@ export default function ProjectDetailEEG({ onBack, onNavigateExperience, onNavig
               <div className="eeg-meta-card">
                 <span className="eeg-meta-label">RESULT</span>
                 <p className="eeg-meta-value">
-                  Presented at BIOXPLORE 2026 (IEEE Conference No. 68070X, Bantul, 5 August 2026). Indexed by IEEE & Scopus.
+                  Presented at BIOXPLORE 2026 (IEEE Conference No. 68070X, Bantul, 5 August 2026). Indexed by IEEE &amp; Scopus.
                 </p>
+              </div>
+            </div>
+
+            {/* Frame 37707 (662:1699): Publication Logos & "Read on IEEE Xplore" CTA Button */}
+            <div className="eeg-pub-cta-banner">
+              <div className="eeg-pub-logos-wrap">
+                <img 
+                  src={pubLogosImg} 
+                  alt="IEEE, Scopus, and BIOXPLORE publication credentials" 
+                  className="eeg-pub-logos-img"
+                />
+              </div>
+              <div className="eeg-pub-action">
+                <button 
+                  type="button" 
+                  className="eeg-gold-btn"
+                  onClick={handleOpenIeee}
+                >
+                  Read on IEEE Xplore
+                </button>
               </div>
             </div>
           </div>
         </section>
 
-        {/* 3. OVERVIEW */}
+        {/* 3. OVERVIEW (Figma Node 649:858) */}
         <section className="eeg-section eeg-overview-section">
           <div className="eeg-container eeg-two-col">
             <div className="eeg-col-left">
@@ -193,7 +178,7 @@ export default function ProjectDetailEEG({ onBack, onNavigateExperience, onNavig
           </div>
         </section>
 
-        {/* 4. PROBLEM */}
+        {/* 4. PROBLEM (Figma Node 649:878) */}
         <section className="eeg-section eeg-problem-section">
           <div className="eeg-container eeg-two-col">
             <div className="eeg-col-left">
@@ -204,7 +189,7 @@ export default function ProjectDetailEEG({ onBack, onNavigateExperience, onNavig
                 To see why seizure detection breaks in practice, we looked at the CHB-MIT scalp EEG data and measured how hard the task is.
               </h2>
 
-              {/* 4 Key Metrics */}
+              {/* 4 Key Metrics (649:883) */}
               <div className="eeg-metrics-grid">
                 <div className="eeg-metric-item">
                   <span className="eeg-metric-num">3,537,881</span>
@@ -232,8 +217,15 @@ export default function ProjectDetailEEG({ onBack, onNavigateExperience, onNavig
                 </div>
               </div>
 
-              {/* Three Difficulties */}
-              <h3 className="eeg-subheading" style={{ marginTop: '3.5rem' }}>
+              {/* Problem Callout 1 (649:896) */}
+              <div className="eeg-highlight-quote-box">
+                <p className="eeg-highlight-quote">
+                  "The crisis is not a lack of harvest, capital, or ambition, it is the absence of a unifying layer that connects what already exists"
+                </p>
+              </div>
+
+              {/* Three Difficulties (649:1248) */}
+              <h3 className="eeg-subheading" style={{ marginTop: '16px' }}>
                 Three things make this task difficult:
               </h3>
               <div className="eeg-diff-cards-grid">
@@ -257,38 +249,17 @@ export default function ProjectDetailEEG({ onBack, onNavigateExperience, onNavig
                 </div>
               </div>
 
-              {/* Core Problem Callout */}
+              {/* Problem Callout 2 (649:1264) */}
               <div className="eeg-highlight-quote-box">
                 <p className="eeg-highlight-quote">
                   "The problem is not a lack of models or accuracy scores. It is the lack of evaluation that reflects real clinical conditions."
                 </p>
               </div>
-
-              {/* Side-by-side Figures 1 & 2 */}
-              <div className="eeg-figures-row">
-                <div className="eeg-figure-box">
-                  <img 
-                    src={fig1Img} 
-                    alt="Fig. 1: Dataset distribution across 23 subjects in CHB-MIT" 
-                    className="eeg-figure-img"
-                  />
-                </div>
-                <div className="eeg-figure-box">
-                  <img 
-                    src={fig2Img} 
-                    alt="Fig. 2: Channel correlation heatmap" 
-                    className="eeg-figure-img"
-                  />
-                </div>
-              </div>
-              <p className="eeg-figure-caption">
-                <strong>Fig. 1:</strong> Dataset distribution across 23 subjects. <strong>Fig. 2:</strong> Channel correlation heatmap showing near-zero linear correlation with the label and strong multicollinearity between neighboring electrodes, which is expected because of volume conduction.
-              </p>
             </div>
           </div>
         </section>
 
-        {/* 5. GOALS & INTENDED IMPACT */}
+        {/* 5. GOALS & INTENDED IMPACT (Figma Node 649:897) */}
         <section className="eeg-section eeg-goals-section">
           <div className="eeg-container eeg-two-col">
             <div className="eeg-col-left">
@@ -314,15 +285,7 @@ export default function ProjectDetailEEG({ onBack, onNavigateExperience, onNavig
                 </li>
               </ul>
 
-              {/* Research Question Box */}
-              <div className="eeg-research-question-box">
-                <span className="eeg-rq-tag">RESEARCH QUESTION</span>
-                <p className="eeg-rq-quote">
-                  "How well do classical machine learning models generalize to completely unseen patients under extreme class imbalance and inter-subject variability?"
-                </p>
-              </div>
-
-              {/* Target Metrics Comparison Table */}
+              {/* Target Metrics Comparison Table (650:1299) */}
               <div className="eeg-table-wrap">
                 <table className="eeg-data-table">
                   <thead>
@@ -352,8 +315,8 @@ export default function ProjectDetailEEG({ onBack, onNavigateExperience, onNavig
                 </table>
               </div>
 
-              {/* Intended Impact */}
-              <h3 className="eeg-subheading" style={{ marginTop: '3.5rem' }}>
+              {/* Intended Impact (650:1345) */}
+              <h3 className="eeg-subheading" style={{ marginTop: '24px' }}>
                 Intended impact:
               </h3>
               <ul className="eeg-impact-list">
@@ -370,251 +333,19 @@ export default function ProjectDetailEEG({ onBack, onNavigateExperience, onNavig
                   <span>Guidance on models that fit initial clinical screening, where missed seizures cost more than false alarms.</span>
                 </li>
               </ul>
-            </div>
-          </div>
-        </section>
 
-        {/* 6. SOLUTION / PIPELINE */}
-        <section className="eeg-section eeg-solution-section">
-          <div className="eeg-container eeg-two-col">
-            <div className="eeg-col-left">
-              <span className="eeg-section-tag">SOLUTION</span>
-            </div>
-            <div className="eeg-col-right">
-              {/* Step 1 */}
-              <div className="eeg-step-item">
-                <h3 className="eeg-step-title">1. Signal cleaning (bandpass filtering)</h3>
-                <p className="eeg-body-text">
-                  Raw EEG was filtered with a zero-phase, 4th-order Butterworth band-pass filter at 0.5–40 Hz. The 0.5 Hz cutoff removes baseline wander and sweat artifacts. The 40 Hz cutoff suppresses muscle noise and interference.
+              {/* Research Question Card (650:1358) */}
+              <div className="eeg-research-question-box">
+                <span className="eeg-rq-tag">RESEARCH QUESTION</span>
+                <p className="eeg-rq-quote">
+                  "How well do classical machine learning models generalize to completely unseen patients under extreme class imbalance and inter-subject variability?"
                 </p>
-                <div className="eeg-figure-box single">
-                  <img 
-                    src={fig3Img} 
-                    alt="Fig. 3: First 1,000 samples of channel FP1-F7 before and after filtering" 
-                    className="eeg-figure-img"
-                  />
-                </div>
-                <p className="eeg-figure-caption">
-                  <strong>Fig. 3:</strong> First 1,000 samples of channel FP1-F7 before and after filtering.
-                </p>
-              </div>
-
-              {/* Step 2 */}
-              <div className="eeg-step-item">
-                <h3 className="eeg-step-title">2. Windowing and labeling</h3>
-                <p className="eeg-body-text">
-                  The signal is cut into 2-second windows with a 1-second step. A window is labeled "seizure" if it overlaps any part of an annotated seizure.
-                </p>
-                <div className="eeg-figure-box single">
-                  <img 
-                    src={fig4Img} 
-                    alt="Fig. 4: Windowing and labeling of EEG segments" 
-                    className="eeg-figure-img"
-                  />
-                </div>
-                <p className="eeg-figure-caption">
-                  <strong>Fig. 4:</strong> Windowing and labeling of EEG segments.
-                </p>
-              </div>
-
-              {/* Step 3 */}
-              <div className="eeg-step-item">
-                <h3 className="eeg-step-title">3. Feature engineering (787 features)</h3>
-                <p className="eeg-body-text">
-                  <strong>Time domain:</strong> mean, standard deviation, variance, and Shannon entropy. Lower entropy often signals seizure-related hypersynchrony.<br /><br />
-                  <strong>Frequency domain:</strong> Welch's power spectral density and band power in Delta (0.5–4 Hz), Theta (4–8 Hz), Alpha (8–13 Hz), and Beta (13–30 Hz).
-                </p>
-                <div className="eeg-figure-box single">
-                  <img 
-                    src={fig56Img} 
-                    alt="Fig. 5: Average alpha power by brain region. Fig. 6: Full EDF-to-feature pipeline" 
-                    className="eeg-figure-img"
-                  />
-                </div>
-                <p className="eeg-figure-caption">
-                  <strong>Fig. 5:</strong> Average alpha power by brain region. <strong>Fig. 6:</strong> Full EDF-to-feature pipeline.
-                </p>
-              </div>
-
-              {/* Step 4 */}
-              <div className="eeg-step-item">
-                <h3 className="eeg-step-title">4. Modeling and imbalance handling</h3>
-                <p className="eeg-body-text">
-                  Data is split by patient, never by window. Logistic Regression, SVM (RBF), Random Forest, and XGBoost (GPU, Optuna-tuned) were tested. Class weighting and random under-sampling were applied to training data only, to avoid evaluation bias. LOSO validation was run on Logistic Regression, because simple models keep learned weights interpretable.
-                </p>
-                <div className="eeg-figure-box single">
-                  <img 
-                    src={fig7Img} 
-                    alt="Fig. 7: EDF-to-feature pipeline and modeling flow" 
-                    className="eeg-figure-img"
-                  />
-                </div>
-                <p className="eeg-figure-caption">
-                  <strong>Fig. 7:</strong> EDF-to-feature pipeline.
-                </p>
-              </div>
-
-              {/* Step 5 */}
-              <div className="eeg-step-item">
-                <h3 className="eeg-step-title">5. Why AUC-PR, not accuracy</h3>
-                <p className="eeg-body-text">
-                  ROC curves look strong, but PR curves reveal poor detection of the minority seizure class.
-                </p>
-                <div className="eeg-figure-box single">
-                  <img 
-                    src={fig8Img} 
-                    alt="Fig. 8: ROC and PR curves side by side" 
-                    className="eeg-figure-img"
-                  />
-                </div>
-                <p className="eeg-figure-caption">
-                  <strong>Fig. 8:</strong> ROC and PR curves side by side.
-                </p>
-              </div>
-
-              {/* Step 6 */}
-              <div className="eeg-step-item">
-                <h3 className="eeg-step-title">6. Results and trade-offs</h3>
-                
-                {/* Performance Results Table */}
-                <div className="eeg-table-wrap">
-                  <table className="eeg-data-table eeg-results-table">
-                    <thead>
-                      <tr>
-                        <th scope="col">Model</th>
-                        <th scope="col">Accuracy</th>
-                        <th scope="col">Precision</th>
-                        <th scope="col">Recall</th>
-                        <th scope="col">F1</th>
-                        <th scope="col">AUC-PR</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      <tr>
-                        <td><strong>Logistic Regression</strong></td>
-                        <td>0.8946</td>
-                        <td>0.0043</td>
-                        <td>0.7495</td>
-                        <td>0.0085</td>
-                        <td>0.0278</td>
-                      </tr>
-                      <tr>
-                        <td><strong>SVM (RBF, GPU)</strong></td>
-                        <td>0.9979</td>
-                        <td>0.0121</td>
-                        <td>0.0302</td>
-                        <td>0.0172</td>
-                        <td>0.0047</td>
-                      </tr>
-                      <tr>
-                        <td><strong>Random Forest</strong></td>
-                        <td>0.9991</td>
-                        <td>0.0000</td>
-                        <td>0.0000</td>
-                        <td>0.0000</td>
-                        <td>0.0079</td>
-                      </tr>
-                      <tr>
-                        <td><strong>XGBoost (GPU, Optuna)</strong></td>
-                        <td>0.9988</td>
-                        <td>0.0000</td>
-                        <td>0.0000</td>
-                        <td>0.0000</td>
-                        <td>0.0153</td>
-                      </tr>
-                    </tbody>
-                  </table>
-                </div>
-
-                {/* Key Insights List */}
-                <div className="eeg-tradeoffs-insights">
-                  <p className="eeg-insight-para">
-                    <strong>Random Forest and XGBoost:</strong> Accuracy is above 0.998, but recall is zero. They collapsed into predicting only "non-seizure".
-                  </p>
-                  <p className="eeg-insight-para">
-                    <strong>Logistic Regression:</strong> It caught about 75% of seizure windows and has the highest AUC-PR. The cost is roughly 80,000 false positives, which could cause alarm fatigue for neurologists.
-                  </p>
-                  <p className="eeg-insight-para">
-                    <strong>Under-sampling:</strong> Recall rose (Random Forest reached 0.9395), but precision fell to about 0.003. The SVM's AUC-PR could not be computed (NaN).
-                  </p>
-                  <p className="eeg-insight-para">
-                    <strong>Class weighting:</strong> Results stayed close to baseline. Logistic Regression again led with an AUC-PR of 0.0278.
-                  </p>
-                  <p className="eeg-insight-para">
-                    <strong>XGBoost tuning:</strong> Optuna tuning reached an objective score of 0.3353, yet recall was still zero. Model complexity did not fix the problem.
-                  </p>
-                </div>
-
-                {/* Figures 9 & 10 */}
-                <div className="eeg-figures-row">
-                  <div className="eeg-figure-box">
-                    <img 
-                      src={fig9Img} 
-                      alt="Fig. 9: Baseline confusion matrices" 
-                      className="eeg-figure-img"
-                    />
-                  </div>
-                  <div className="eeg-figure-box">
-                    <img 
-                      src={fig10Img} 
-                      alt="Fig. 10: Confusion matrices after under-sampling" 
-                      className="eeg-figure-img"
-                    />
-                  </div>
-                </div>
-                <p className="eeg-figure-caption">
-                  <strong>Fig. 9:</strong> Baseline confusion matrices. <strong>Fig. 10:</strong> Confusion matrices after under-sampling.
-                </p>
-
-                {/* What's New Cards */}
-                <div className="eeg-meta-summary-block">
-                  <h4 className="eeg-cards-heading">What's New</h4>
-                  <div className="eeg-tri-cards-grid">
-                    <div className="eeg-tri-card">
-                      <p className="eeg-tri-text">
-                        <strong>Realistic evaluation protocol:</strong> Strict subject-wise split and LOSO validation to prevent leakage.
-                      </p>
-                    </div>
-                    <div className="eeg-tri-card">
-                      <p className="eeg-tri-text">
-                        <strong>Proper metrics:</strong> AUC-PR as the primary metric, to avoid misleading performance claims.
-                      </p>
-                    </div>
-                    <div className="eeg-tri-card">
-                      <p className="eeg-tri-text">
-                        <strong>Practical insight:</strong> Simpler models can outperform complex ones under extreme imbalance.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-
-                {/* Limitations Cards */}
-                <div className="eeg-meta-summary-block">
-                  <h4 className="eeg-cards-heading">Limitations</h4>
-                  <div className="eeg-tri-cards-grid">
-                    <div className="eeg-tri-card">
-                      <p className="eeg-tri-text">
-                        Repeated trials and statistical significance tests were not run because of limited compute.
-                      </p>
-                    </div>
-                    <div className="eeg-tri-card">
-                      <p className="eeg-tri-text">
-                        LOSO was applied only to Logistic Regression.
-                      </p>
-                    </div>
-                    <div className="eeg-tri-card">
-                      <p className="eeg-tri-text">
-                        Deep learning was intentionally excluded, to keep the comparison controlled and interpretable.
-                      </p>
-                    </div>
-                  </div>
-                </div>
               </div>
             </div>
           </div>
         </section>
 
-        {/* 7. CONCLUSION */}
+        {/* 6. CONCLUSION (Figma Node 649:1007) */}
         <section className="eeg-section eeg-conclusion-section">
           <div className="eeg-container eeg-two-col">
             <div className="eeg-col-left">
@@ -625,7 +356,7 @@ export default function ProjectDetailEEG({ onBack, onNavigateExperience, onNavig
                 Classical ML struggles with cross-subject seizure detection. Accuracy is unreliable for imbalanced medical data, so AUC-PR should be used instead. Future work will explore autoencoder-based anomaly detection, contrastive learning (Siamese networks), Focal Loss with hard example mining, and repeated LOSO runs with non-parametric significance tests.
               </h2>
 
-              {/* 3 Pillar Cards */}
+              {/* 3 Pillar Cards (658:1651) */}
               <div className="eeg-pillars-grid">
                 <div className="eeg-pillar-card">
                   <div className="eeg-pillar-icon">⚖️</div>
@@ -650,17 +381,28 @@ export default function ProjectDetailEEG({ onBack, onNavigateExperience, onNavig
                 </div>
               </div>
 
-              {/* Quote Banner */}
+              {/* Quote Banner (649:1026) */}
               <div className="eeg-conclusion-quote-box">
                 <p className="eeg-conclusion-quote">
                   "High accuracy is not detection. Measuring honestly is the first step to saving lives."
                 </p>
               </div>
+
+              {/* Button "Read on IEEE Xplore" in Conclusion (681:581) */}
+              <div className="eeg-cta-row" style={{ marginTop: '36px' }}>
+                <button 
+                  type="button" 
+                  className="eeg-gold-btn"
+                  onClick={handleOpenIeee}
+                >
+                  Read on IEEE Xplore
+                </button>
+              </div>
             </div>
           </div>
         </section>
 
-        {/* 8. DISCOVER MORE PROJECTS */}
+        {/* 7. DISCOVER MORE PROJECTS (Figma Node 649:1027) */}
         <section className="eeg-section eeg-discover-section">
           <div className="eeg-container">
             <h2 className="eeg-discover-heading">DISCOVER MORE PROJECTS</h2>
@@ -724,7 +466,7 @@ export default function ProjectDetailEEG({ onBack, onNavigateExperience, onNavig
             <div className="eeg-cta-row">
               <button 
                 type="button" 
-                className="eeg-cta-btn" 
+                className="eeg-gold-btn" 
                 onClick={handleGoToExperiences}
               >
                 View My Experiences
@@ -733,7 +475,7 @@ export default function ProjectDetailEEG({ onBack, onNavigateExperience, onNavig
           </div>
         </section>
 
-        {/* 9. FOOTER */}
+        {/* 8. FOOTER (Figma Node 658:1640) */}
         <Footer />
       </main>
     </div>
