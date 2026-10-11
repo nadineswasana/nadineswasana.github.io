@@ -376,6 +376,12 @@
 .korpus-insight-card--expert {
   background: rgba(27, 107, 118, 0.06);
   border-color: rgba(27, 107, 118, 0.25);
+  padding: 28px;
+}
+
+.korpus-insight-card--expert .korpus-insight-quote {
+  font-size: 16px;
+  line-height: 2.15;
 }
 
 .korpus-insight-quote {
@@ -790,6 +796,11 @@
 
   .korpus-insights-grid {
     grid-template-columns: 1fr;
+  }
+
+  .korpus-insight-card--expert .korpus-insight-quote {
+    font-size: 15px;
+    line-height: 1.8;
   }
 
   .korpus-pillar-cards {

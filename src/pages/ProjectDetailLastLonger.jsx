@@ -609,7 +609,7 @@ export default function ProjectDetailLastLonger({ onBack, onNavigateExperience, 
                   Verified technicians, trade-in partners, and certified recyclers sit in one flow with transparent price, time, and status. Pickup is free with no minimum weight, so even one old phone can enter the formal channel.
                 </p>
                 <div className="lastlonger-service-badges-row">
-                  <span className="lastlonger-service-badge badge-green">🌿 Daur Ulang</span>
+                  <span className="lastlonger-service-badge badge-green">🌿 Daur Ulang / Recycle</span>
                   <span className="lastlonger-service-badge badge-purple">🔁 Trade-In / Tukar Tambah</span>
                   <span className="lastlonger-service-badge badge-teal">🛠️ Repair (Service)</span>
                 </div>
