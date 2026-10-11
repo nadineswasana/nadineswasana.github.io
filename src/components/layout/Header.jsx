@@ -69,9 +69,11 @@ export default function Header() {
             </a>
           ))}
           <a 
-            href="#behind-builder" 
-            onClick={(e) => { e.preventDefault(); scrollTo('behind-builder'); }} 
+            href="https://drive.google.com/file/d/19ccYx7GZsDbUziOGffB6d7-guiEKyvKN/view?usp=sharing" 
+            target="_blank"
+            rel="noopener noreferrer"
             className="nav-btn-resume"
+            aria-label="View Nadine's Resume"
           >
             Resume
           </a>
@@ -103,9 +105,12 @@ export default function Header() {
           </a>
         ))}
         <a 
-          href="#behind-builder" 
-          onClick={(e) => { e.preventDefault(); scrollTo('behind-builder'); }} 
+          href="https://drive.google.com/file/d/19ccYx7GZsDbUziOGffB6d7-guiEKyvKN/view?usp=sharing" 
+          target="_blank"
+          rel="noopener noreferrer"
+          onClick={() => setMobileMenuOpen(false)}
           className="mobile-btn-resume"
+          aria-label="View Nadine's Resume"
         >
           Resume
         </a>

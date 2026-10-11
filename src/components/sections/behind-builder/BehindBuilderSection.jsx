@@ -25,11 +25,6 @@ export default function BehindBuilderSection() {
     return () => observer.disconnect();
   }, []);
 
-  const handleDownloadResume = () => {
-    // Provide clean resume action / alert or link
-    window.open('#', '_blank');
-  };
-
   return (
     <section id="behind-builder" className="behind-builder-section">
       <div className="container">
@@ -48,9 +43,10 @@ export default function BehindBuilderSection() {
             </p>
 
             <div className="builder-actions">
-              <button 
-                type="button"
-                onClick={handleDownloadResume} 
+              <a 
+                href="https://drive.google.com/file/d/19ccYx7GZsDbUziOGffB6d7-guiEKyvKN/view?usp=sharing"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="btn-secondary-gold"
                 aria-label="Download Nadine's Resume"
               >
@@ -58,7 +54,7 @@ export default function BehindBuilderSection() {
                   <path d="M12 16L7 11L8.4 9.55L11 12.15V4H13V12.15L15.6 9.55L17 11L12 16ZM6 20C5.45 20 4.979 19.804 4.587 19.412C4.195 19.02 3.99934 18.5493 4 18V15H6V18H18V15H20V18C20 18.55 18.804 19.021 18.412 19.413C18.02 19.805 17.5493 20.0007 17 20H6Z" fill="currentColor"/>
                 </svg>
                 <span>Download Resume</span>
-              </button>
+              </a>
 
               <a 
                 href="mailto:nadine.swasana@binus.ac.id" 
