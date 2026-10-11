@@ -140,12 +140,30 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: clamp(12px, 2vw, 16px);
+  flex-wrap: wrap;
   margin-bottom: clamp(28px, 4vw, 48px);
 }
 
 .hero-cta-btn {
   font-size: 16px;
   padding: 13px 32px;
+}
+
+.hero-resume-btn {
+  font-size: 16px;
+  padding: 12px 28px;
+  background: #FFFFFF;
+  border: 1px solid rgba(192, 146, 68, 0.45);
+  color: var(--color-primary-olive);
+  box-shadow: 0 4px 14px rgba(83, 66, 3, 0.08);
+}
+
+.hero-resume-btn:hover {
+  background: #FFFDF8;
+  border-color: #B77200;
+  color: #B77200;
+  box-shadow: 0 6px 18px rgba(83, 66, 3, 0.14);
 }
 
 .hero-scroll-prompt {
@@ -263,6 +281,19 @@
   .hero-bio-lead,
   .hero-bio-detail {
     font-size: 14.5px;
+  }
+
+  .hero-action-row {
+    flex-direction: column;
+    gap: 12px;
+    width: 100%;
+  }
+
+  .hero-cta-btn,
+  .hero-resume-btn {
+    width: 100%;
+    max-width: 280px;
+    justify-content: center;
   }
 }
 
