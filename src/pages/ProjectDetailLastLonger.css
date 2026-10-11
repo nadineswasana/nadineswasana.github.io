@@ -615,14 +615,15 @@
   background: #FFFFFF;
   border: 0.3px solid #C09244;
   border-radius: 16px;
-  padding: 28px 20px;
+  padding: 28px 20px 24px;
   box-shadow: 2px 4px 20px rgba(0, 0, 0, 0.05);
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
-  gap: 12px;
+  gap: 10px;
   transition: transform 0.25s ease, box-shadow 0.25s ease;
+  min-height: 480px;
 }
 
 .lastlonger-pillar-card:hover {
@@ -662,20 +663,37 @@
 
 .lastlonger-pillar-img-wrap {
   width: 100%;
-  max-width: 200px;
-  height: 260px;
+  height: 240px;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 10px 0;
-  overflow: hidden;
+  margin: 8px 0;
+}
+
+.lastlonger-pillar-img-wrap .shimmer-img-wrapper {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .lastlonger-pillar-mockup {
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
-  display: block;
+  max-height: 230px !important;
+  max-width: 100% !important;
+  width: auto !important;
+  height: auto !important;
+  object-fit: contain !important;
+  display: block !important;
+  margin: 0 auto !important;
+  filter: drop-shadow(0 4px 14px rgba(0, 0, 0, 0.12));
+}
+
+.lastlonger-pillar-card:nth-child(3) .lastlonger-pillar-mockup {
+  max-width: 220px !important;
+  max-height: 130px !important;
+  width: auto !important;
+  height: auto !important;
 }
 
 .lastlonger-pillar-desc {
@@ -683,7 +701,7 @@
   font-size: 14px;
   line-height: 1.55;
   color: #555555;
-  margin: 0;
+  margin: auto 0 0;
 }
 
 /* 9. PRODUCTS OF LASTLONGER (FEATURES 1-6) */
