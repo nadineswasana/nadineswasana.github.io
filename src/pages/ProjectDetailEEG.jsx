@@ -1,5 +1,6 @@
 import { useEffect } from 'react';
 import Footer from '../components/layout/Footer';
+import ShimmerImage from '../components/common/ShimmerImage';
 import './ProjectDetailEEG.css';
 
 // Publication Credentials Logo
@@ -137,10 +138,12 @@ export default function ProjectDetailEEG({ onBack, onNavigateExperience, onNavig
             {/* Frame 37707 (662:1699): Publication Logos & "Read on IEEE Xplore" CTA Button */}
             <div className="eeg-pub-cta-banner">
               <div className="eeg-pub-logos-wrap">
-                <img 
+                <ShimmerImage 
                   src={pubLogosImg} 
                   alt="IEEE, Scopus, and BIOXPLORE publication credentials" 
                   className="eeg-pub-logos-img"
+                  borderRadius="8px"
+                  minHeight="36px"
                 />
               </div>
               <div className="eeg-pub-action">
@@ -427,10 +430,12 @@ export default function ProjectDetailEEG({ onBack, onNavigateExperience, onNavig
               {/* Card 1: LastLonger */}
               <article className="eeg-discover-card" onClick={handleOpenLastLonger}>
                 <div className="eeg-discover-img-wrap">
-                  <img 
+                  <ShimmerImage 
                     src={projectLastLonger} 
                     alt="LastLonger project preview" 
                     className="eeg-discover-img" 
+                    borderRadius="12px"
+                    minHeight="160px"
                   />
                 </div>
                 <div className="eeg-discover-info">
@@ -445,10 +450,12 @@ export default function ProjectDetailEEG({ onBack, onNavigateExperience, onNavig
               {/* Card 2: KORPUS */}
               <article className="eeg-discover-card" onClick={handleOpenKorpus}>
                 <div className="eeg-discover-img-wrap">
-                  <img 
+                  <ShimmerImage 
                     src={projectKorpus} 
                     alt="KORPUS project preview" 
                     className="eeg-discover-img" 
+                    borderRadius="12px"
+                    minHeight="160px"
                   />
                 </div>
                 <div className="eeg-discover-info">
@@ -463,10 +470,12 @@ export default function ProjectDetailEEG({ onBack, onNavigateExperience, onNavig
               {/* Card 3: LUMBOX */}
               <article className="eeg-discover-card" onClick={handleOpenLumbox}>
                 <div className="eeg-discover-img-wrap">
-                  <img 
+                  <ShimmerImage 
                     src={projectLumbox} 
                     alt="Lumbox project preview" 
                     className="eeg-discover-img" 
+                    borderRadius="12px"
+                    minHeight="160px"
                   />
                 </div>
                 <div className="eeg-discover-info">

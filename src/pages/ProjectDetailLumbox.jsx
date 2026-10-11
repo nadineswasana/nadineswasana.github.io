@@ -1,5 +1,6 @@
 import { useEffect } from 'react';
 import Footer from '../components/layout/Footer';
+import ShimmerImage from '../components/common/ShimmerImage';
 import './ProjectDetailLumbox.css';
 
 // Lumbox Mockup Assets
@@ -106,10 +107,12 @@ export default function ProjectDetailLumbox({ onBack, onNavigateExperience, onNa
             </div>
 
             <div className="lumbox-hero-mockup-wrapper">
-              <img 
+              <ShimmerImage 
                 src={heroDevicesImg} 
                 alt="LUMBOX devices mockup showing mobile app and desktop platform" 
                 className="lumbox-hero-mockup-img"
+                borderRadius="24px"
+                minHeight="320px"
               />
             </div>
 
@@ -308,10 +311,12 @@ export default function ProjectDetailLumbox({ onBack, onNavigateExperience, onNa
             </div>
 
             <div className="lumbox-solution-hero-img-wrap">
-              <img 
+              <ShimmerImage 
                 src={solutionOverviewImg} 
                 alt="Lumbox complete ecosystem solution overview" 
                 className="lumbox-solution-hero-img"
+                borderRadius="16px"
+                minHeight="260px"
               />
             </div>
 
@@ -323,10 +328,12 @@ export default function ProjectDetailLumbox({ onBack, onNavigateExperience, onNa
             </div>
 
             <div className="lumbox-products-mockup-wrap">
-              <img 
+              <ShimmerImage 
                 src={productsSurfacesImg} 
                 alt="Products of Lumbox: Three surfaces (Lumbox Connect WhatsApp bot, Lumbox for Business Desktop Web, and Lumbox Mobile App)" 
                 className="lumbox-products-mockup-img"
+                borderRadius="16px"
+                minHeight="260px"
               />
             </div>
           </div>
@@ -344,10 +351,12 @@ export default function ProjectDetailLumbox({ onBack, onNavigateExperience, onNa
                 The collector negotiates with the farmer on-site and inputs the transaction details into the app: Farmer’s Name/NIK, Commodity, Volume, Agreed Price/kg, and Payment Method (Cash or Cashless via Bank Account). To finalize the purchase, the collector must trigger an automated summary sent directly to the farmer’s WhatsApp/SMS. This forces a transparent, honest ledger where the offered price is benchmarked against real-time market data.
               </p>
               <div className="lumbox-feature-mockup-wrap">
-                <img 
+                <ShimmerImage 
                   src={feature1Img} 
                   alt="Transparent farm products collection and connectivity mockup" 
                   className="lumbox-feature-img lumbox-feature-img--wide"
+                  borderRadius="16px"
+                  minHeight="260px"
                 />
               </div>
             </div>
@@ -358,10 +367,12 @@ export default function ProjectDetailLumbox({ onBack, onNavigateExperience, onNa
                 INTEGRITY TRAIL FOR BUYER’S INSURANCE CLAIM
               </h3>
               <div className="lumbox-feature-mockup-wrap">
-                <img 
+                <ShimmerImage 
                   src={feature2Img} 
                   alt="Integrity trail for buyer's insurance claim mockup" 
                   className="lumbox-feature-img lumbox-feature-img--2-phones"
+                  borderRadius="16px"
+                  minHeight="260px"
                 />
               </div>
             </div>
@@ -372,10 +383,12 @@ export default function ProjectDetailLumbox({ onBack, onNavigateExperience, onNa
                 SMART LUMBUNG: DIGITAL INVENTORY DASHBOARD
               </h3>
               <div className="lumbox-feature-mockup-wrap">
-                <img 
+                <ShimmerImage 
                   src={feature3Img} 
                   alt="Smart Lumbung digital inventory dashboard mockup" 
                   className="lumbox-feature-img lumbox-feature-img--3-phones"
+                  borderRadius="16px"
+                  minHeight="260px"
                 />
               </div>
             </div>
@@ -386,10 +399,12 @@ export default function ProjectDetailLumbox({ onBack, onNavigateExperience, onNa
                 NATIONAL MARKET PRICE FORECASTING
               </h3>
               <div className="lumbox-feature-mockup-wrap">
-                <img 
+                <ShimmerImage 
                   src={feature4Img} 
                   alt="National market price forecasting mockup" 
                   className="lumbox-feature-img lumbox-feature-img--3-phones"
+                  borderRadius="16px"
+                  minHeight="260px"
                 />
               </div>
             </div>
@@ -400,10 +415,12 @@ export default function ProjectDetailLumbox({ onBack, onNavigateExperience, onNa
                 BUYER MATCH
               </h3>
               <div className="lumbox-feature-mockup-wrap">
-                <img 
+                <ShimmerImage 
                   src={feature5Img} 
                   alt="Buyer match platform mockup" 
                   className="lumbox-feature-img lumbox-feature-img--laptop"
+                  borderRadius="16px"
+                  minHeight="260px"
                 />
               </div>
             </div>
@@ -414,10 +431,12 @@ export default function ProjectDetailLumbox({ onBack, onNavigateExperience, onNa
                 SMART COLD CHAIN: API-DRIVEN STORAGE &amp; IOT ORCHESTRATION
               </h3>
               <div className="lumbox-feature-mockup-wrap">
-                <img 
+                <ShimmerImage 
                   src={feature6Img} 
                   alt="Smart cold chain storage and IoT orchestration mockup" 
                   className="lumbox-feature-img lumbox-feature-img--2-phones"
+                  borderRadius="16px"
+                  minHeight="260px"
                 />
               </div>
             </div>
@@ -428,10 +447,12 @@ export default function ProjectDetailLumbox({ onBack, onNavigateExperience, onNa
                 ROUTE CONSOLIDATION: INTEGRATED WITH ID FOOD’S FIONA API
               </h3>
               <div className="lumbox-feature-mockup-wrap">
-                <img 
+                <ShimmerImage 
                   src={feature7Img} 
                   alt="Route consolidation integrated with ID FOOD Fiona API mockup" 
                   className="lumbox-feature-img lumbox-feature-img--2-phones"
+                  borderRadius="16px"
+                  minHeight="260px"
                 />
               </div>
             </div>
@@ -442,10 +463,12 @@ export default function ProjectDetailLumbox({ onBack, onNavigateExperience, onNa
                 NATIONAL COMMAND CENTER FOR ID FOOD ADMIN
               </h3>
               <div className="lumbox-feature-mockup-wrap">
-                <img 
+                <ShimmerImage 
                   src={feature8Img} 
                   alt="National command center for ID FOOD admin mockup" 
                   className="lumbox-feature-img lumbox-feature-img--dashboard"
+                  borderRadius="16px"
+                  minHeight="260px"
                 />
               </div>
             </div>
@@ -496,10 +519,12 @@ export default function ProjectDetailLumbox({ onBack, onNavigateExperience, onNa
               {/* Card 1: LastLonger */}
               <article className="lumbox-discover-card" onClick={handleOpenLastLonger}>
                 <div className="lumbox-discover-img-wrap">
-                  <img 
+                  <ShimmerImage 
                     src={projectLastLonger} 
                     alt="LastLonger project preview" 
                     className="lumbox-discover-img" 
+                    borderRadius="12px"
+                    minHeight="160px"
                   />
                 </div>
                 <div className="lumbox-discover-info">
@@ -514,10 +539,12 @@ export default function ProjectDetailLumbox({ onBack, onNavigateExperience, onNa
               {/* Card 2: Korpus */}
               <article className="lumbox-discover-card" onClick={handleOpenKorpus}>
                 <div className="lumbox-discover-img-wrap">
-                  <img 
+                  <ShimmerImage 
                     src={projectKorpus} 
                     alt="KORPUS project preview" 
                     className="lumbox-discover-img" 
+                    borderRadius="12px"
+                    minHeight="160px"
                   />
                 </div>
                 <div className="lumbox-discover-info">
@@ -532,10 +559,12 @@ export default function ProjectDetailLumbox({ onBack, onNavigateExperience, onNa
               {/* Card 3: Seizure */}
               <article className="lumbox-discover-card" onClick={handleOpenEEG}>
                 <div className="lumbox-discover-img-wrap">
-                  <img 
+                  <ShimmerImage 
                     src={projectEeg} 
                     alt="EEG Seizure detection research preview" 
                     className="lumbox-discover-img" 
+                    borderRadius="12px"
+                    minHeight="160px"
                   />
                 </div>
                 <div className="lumbox-discover-info">

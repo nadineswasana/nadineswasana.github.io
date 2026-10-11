@@ -1,0 +1,324 @@
+/* ==========================================================================
+   DETAIL SKELETON PRELOADER SHIMMER
+   Matches unified design system (Lumbox, Korpus, LastLonger, EEG)
+   ========================================================================== */
+
+.detail-skeleton-page {
+  background-color: #FFFCF8;
+  color: #1E1E1E;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  min-height: 100vh;
+  position: relative;
+  overflow-x: hidden;
+  animation: skeletonFadeIn 0.25s ease-out;
+}
+
+@keyframes skeletonFadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+/* Warm Golden Cream Shimmer Wave */
+@keyframes goldShimmerWave {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+.skeleton-shimmer {
+  background: linear-gradient(
+    90deg,
+    rgba(238, 230, 218, 0.45) 0%,
+    rgba(224, 212, 192, 0.65) 25%,
+    rgba(255, 252, 246, 0.95) 50%,
+    rgba(224, 212, 192, 0.65) 75%,
+    rgba(238, 230, 218, 0.45) 100%
+  );
+  background-size: 250% 100%;
+  animation: goldShimmerWave 1.8s infinite linear;
+  border-radius: 8px;
+}
+
+/* Header Skeleton */
+.skeleton-header {
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+  background-color: rgba(255, 252, 248, 0.95);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-bottom: 1px solid rgba(192, 146, 68, 0.2);
+}
+
+.skeleton-header-inner {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 18px 32px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.skeleton-brand-btn {
+  width: 170px;
+  height: 28px;
+  border-radius: 6px;
+}
+
+.skeleton-close-btn-wrap {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+.skeleton-close-btn {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+/* Layout */
+.skeleton-container {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 0 32px;
+}
+
+.skeleton-section {
+  padding: 72px 0;
+  border-bottom: 1px solid rgba(192, 146, 68, 0.2);
+}
+
+.skeleton-two-col {
+  display: grid;
+  grid-template-columns: 220px 1fr;
+  gap: 56px;
+  align-items: flex-start;
+}
+
+.skeleton-col-left {
+  position: relative;
+}
+
+.skeleton-col-right {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+/* Hero Section Skeleton */
+.skeleton-hero-section {
+  padding: 60px 0 40px;
+  border-bottom: 1px solid rgba(192, 146, 68, 0.2);
+}
+
+.skeleton-hero-intro {
+  max-width: 980px;
+  margin: 0 auto 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 14px;
+}
+
+.skeleton-title {
+  width: 80%;
+  max-width: 720px;
+  height: 42px;
+  border-radius: 8px;
+}
+
+.skeleton-subtitle {
+  width: 60%;
+  max-width: 520px;
+  height: 32px;
+  border-radius: 8px;
+}
+
+.skeleton-desc-line {
+  width: 90%;
+  max-width: 840px;
+  height: 20px;
+  border-radius: 6px;
+}
+
+.skeleton-w-80 { width: 80% !important; }
+.skeleton-w-75 { width: 75% !important; }
+.skeleton-w-85 { width: 85% !important; }
+.skeleton-w-70 { width: 70% !important; }
+.skeleton-w-60 { width: 60% !important; }
+
+.skeleton-hero-mockup-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 28px 0 44px;
+}
+
+.skeleton-hero-mockup-box {
+  width: 100%;
+  max-width: 480px;
+  height: 440px;
+  border-radius: 24px;
+}
+
+/* Meta Grid Skeleton */
+.skeleton-meta-grid {
+  display: grid;
+  grid-template-columns: 1.4fr 1.3fr 1fr 0.7fr 0.8fr;
+  gap: 28px;
+  padding: 36px 0;
+  border-top: 1px solid rgba(192, 146, 68, 0.35);
+  border-bottom: 1px solid rgba(192, 146, 68, 0.35);
+  margin-top: 24px;
+}
+
+.skeleton-meta-col {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.skeleton-meta-label {
+  width: 60px;
+  height: 20px;
+}
+
+.skeleton-meta-val {
+  width: 100%;
+  height: 16px;
+}
+
+/* Two-column Elements Skeleton */
+.skeleton-tag {
+  width: 130px;
+  height: 32px;
+  border-radius: 6px;
+}
+
+.skeleton-heading {
+  width: 95%;
+  height: 30px;
+  border-radius: 6px;
+}
+
+.skeleton-divider-line {
+  width: 100%;
+  height: 0;
+  border-top: 1px dashed rgba(83, 66, 3, 0.3);
+  margin: 2px 0;
+}
+
+/* Surface Cards Skeleton */
+.skeleton-card-pair {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 28px;
+  margin-top: 8px;
+}
+
+.skeleton-surface-card {
+  background: #FFFFFF;
+  border: 0.3px solid rgba(192, 146, 68, 0.4);
+  border-radius: 16px;
+  padding: 32px 28px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  box-shadow: 2px 4px 20px rgba(0, 0, 0, 0.03);
+}
+
+.skeleton-card-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.skeleton-icon-circle {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+}
+
+.skeleton-card-title {
+  width: 140px;
+  height: 24px;
+}
+
+.skeleton-card-text {
+  width: 100%;
+  height: 16px;
+}
+
+/* Metrics Skeleton */
+.skeleton-metrics-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  margin-top: 8px;
+}
+
+.skeleton-metric-card {
+  background: #FFFFFF;
+  border: 0.3px solid rgba(192, 146, 68, 0.4);
+  border-radius: 16px;
+  padding: 28px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  box-shadow: 2px 4px 20px rgba(0, 0, 0, 0.03);
+}
+
+.skeleton-metric-num {
+  width: 80px;
+  height: 38px;
+}
+
+.skeleton-metric-text {
+  width: 100%;
+  height: 15px;
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+  .skeleton-container {
+    padding: 0 24px;
+  }
+  .skeleton-meta-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .skeleton-two-col {
+    grid-template-columns: 180px 1fr;
+    gap: 40px;
+  }
+  .skeleton-metrics-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .skeleton-container {
+    padding: 0 20px;
+  }
+  .skeleton-header-inner {
+    padding: 16px 20px;
+  }
+  .skeleton-meta-grid {
+    grid-template-columns: 1fr;
+  }
+  .skeleton-two-col {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  .skeleton-card-pair,
+  .skeleton-metrics-grid {
+    grid-template-columns: 1fr;
+  }
+}

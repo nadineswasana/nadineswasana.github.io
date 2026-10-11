@@ -1,5 +1,6 @@
 import { useEffect } from 'react';
 import Footer from '../components/layout/Footer';
+import ShimmerImage from '../components/common/ShimmerImage';
 import './ProjectDetailLastLonger.css';
 
 // LastLonger Mockup Assets
@@ -110,10 +111,12 @@ export default function ProjectDetailLastLonger({ onBack, onNavigateExperience, 
             </div>
 
             <div className="lastlonger-hero-mockup-wrapper">
-              <img 
+              <ShimmerImage 
                 src={heroDevicesImg} 
                 alt="LastLonger device mockup preview showing mobile app" 
                 className="lastlonger-hero-mockup-img"
+                borderRadius="24px"
+                minHeight="320px"
               />
             </div>
 
@@ -481,10 +484,12 @@ export default function ProjectDetailLastLonger({ onBack, onNavigateExperience, 
                   <h3 className="lastlonger-pillar-title">Life Extension</h3>
                   <span className="lastlonger-pillar-subtitle">Extension of Life and Performance</span>
                   <div className="lastlonger-pillar-img-wrap">
-                    <img 
+                    <ShimmerImage 
                       src={loop1Img} 
                       alt="Life Extension mockup" 
                       className="lastlonger-pillar-mockup"
+                      borderRadius="12px"
+                      minHeight="140px"
                     />
                   </div>
                   <p className="lastlonger-pillar-desc">
@@ -498,10 +503,12 @@ export default function ProjectDetailLastLonger({ onBack, onNavigateExperience, 
                   <h3 className="lastlonger-pillar-title">Ownership Pride</h3>
                   <span className="lastlonger-pillar-subtitle">Pride of Ownership</span>
                   <div className="lastlonger-pillar-img-wrap">
-                    <img 
+                    <ShimmerImage 
                       src={loop2Img} 
                       alt="Ownership Pride mockup" 
                       className="lastlonger-pillar-mockup"
+                      borderRadius="12px"
+                      minHeight="140px"
                     />
                   </div>
                   <p className="lastlonger-pillar-desc">
@@ -515,10 +522,12 @@ export default function ProjectDetailLastLonger({ onBack, onNavigateExperience, 
                   <h3 className="lastlonger-pillar-title">Offboarding</h3>
                   <span className="lastlonger-pillar-subtitle">Safe Release</span>
                   <div className="lastlonger-pillar-img-wrap">
-                    <img 
+                    <ShimmerImage 
                       src={loop3Img} 
                       alt="Offboarding mockup" 
                       className="lastlonger-pillar-mockup"
+                      borderRadius="12px"
+                      minHeight="140px"
                     />
                   </div>
                   <p className="lastlonger-pillar-desc">
@@ -532,10 +541,12 @@ export default function ProjectDetailLastLonger({ onBack, onNavigateExperience, 
                   <h3 className="lastlonger-pillar-title">Processing Transparency</h3>
                   <span className="lastlonger-pillar-subtitle">Transparent Tracking</span>
                   <div className="lastlonger-pillar-img-wrap">
-                    <img 
+                    <ShimmerImage 
                       src={loop4Img} 
                       alt="Processing Transparency mockup" 
                       className="lastlonger-pillar-mockup"
+                      borderRadius="12px"
+                      minHeight="140px"
                     />
                   </div>
                   <p className="lastlonger-pillar-desc">
@@ -573,11 +584,12 @@ export default function ProjectDetailLastLonger({ onBack, onNavigateExperience, 
                   Guided routines clear cache, manage passive apps, and flag oversized files. A daily streak turns care into a habit, so slowdown stops looking like a reason to buy a new phone.
                 </p>
                 <div className="lastlonger-feature-mockup-wrap">
-                  <img 
+                  <ShimmerImage 
                     src={feature1Img} 
                     alt="Daily Tune-Up and Digital Sweeper interface" 
                     className="lastlonger-feature-img"
-                    loading="lazy"
+                    borderRadius="16px"
+                    minHeight="260px"
                   />
                 </div>
               </div>
@@ -591,11 +603,12 @@ export default function ProjectDetailLastLonger({ onBack, onNavigateExperience, 
                   Users answer a short quiz and run a condition check on buttons, screen, and software stability. The app then recommends the smartest next step using technical data and cost estimates, and points them to the right partner.
                 </p>
                 <div className="lastlonger-feature-mockup-wrap">
-                  <img 
+                  <ShimmerImage 
                     src={feature2Img} 
                     alt="Device Triage interface" 
                     className="lastlonger-feature-img"
-                    loading="lazy"
+                    borderRadius="16px"
+                    minHeight="260px"
                   />
                 </div>
               </div>
@@ -614,11 +627,12 @@ export default function ProjectDetailLastLonger({ onBack, onNavigateExperience, 
                   <span className="lastlonger-service-badge badge-teal">🛠️ Repair (Service)</span>
                 </div>
                 <div className="lastlonger-feature-mockup-wrap">
-                  <img 
+                  <ShimmerImage 
                     src={feature3Img} 
                     alt="One place for repair, trade-in and recycle interface" 
                     className="lastlonger-feature-img"
-                    loading="lazy"
+                    borderRadius="16px"
+                    minHeight="260px"
                   />
                 </div>
               </div>
@@ -650,11 +664,12 @@ export default function ProjectDetailLastLonger({ onBack, onNavigateExperience, 
                   </div>
                 </div>
                 <div className="lastlonger-feature-mockup-wrap">
-                  <img 
+                  <ShimmerImage 
                     src={feature4Img} 
                     alt="My Garage Digital Asset Dashboard" 
                     className="lastlonger-feature-img"
-                    loading="lazy"
+                    borderRadius="16px"
+                    minHeight="260px"
                   />
                 </div>
               </div>
@@ -668,11 +683,12 @@ export default function ProjectDetailLastLonger({ onBack, onNavigateExperience, 
                   A visual report shows device durability and total carbon saved. Pride moves from "newest phone" to "biggest footprint saved."
                 </p>
                 <div className="lastlonger-feature-mockup-wrap">
-                  <img 
+                  <ShimmerImage 
                     src={feature5Img} 
                     alt="Eco-Flex Rewind Impact Report" 
                     className="lastlonger-feature-img"
-                    loading="lazy"
+                    borderRadius="16px"
+                    minHeight="260px"
                   />
                 </div>
               </div>
@@ -686,11 +702,12 @@ export default function ProjectDetailLastLonger({ onBack, onNavigateExperience, 
                   After pickup, users follow their device through dismantling and material extraction, with impact lines like "X grams of copper recovered." They see their device was recycled properly, not dumped in a landfill.
                 </p>
                 <div className="lastlonger-feature-mockup-wrap">
-                  <img 
+                  <ShimmerImage 
                     src={feature6Img} 
                     alt="End-to-End Device Tracking interface" 
                     className="lastlonger-feature-img"
-                    loading="lazy"
+                    borderRadius="16px"
+                    minHeight="260px"
                   />
                 </div>
               </div>
@@ -713,10 +730,12 @@ export default function ProjectDetailLastLonger({ onBack, onNavigateExperience, 
               <hr className="lastlonger-divider-line" />
 
               <div className="lastlonger-conclusion-mockup-wrap">
-                <img 
+                <ShimmerImage 
                   src={conclusionImg} 
                   alt="LastLonger conclusion vision mockup" 
                   className="lastlonger-conclusion-img"
+                  borderRadius="16px"
+                  minHeight="260px"
                 />
               </div>
 
@@ -738,10 +757,12 @@ export default function ProjectDetailLastLonger({ onBack, onNavigateExperience, 
               {/* Card 1: Lumbox */}
               <article className="lastlonger-discover-card" onClick={handleOpenLumbox}>
                 <div className="lastlonger-discover-img-wrap">
-                  <img 
+                  <ShimmerImage 
                     src={projectLumbox} 
                     alt="LUMBOX project preview" 
                     className="lastlonger-discover-img" 
+                    borderRadius="12px"
+                    minHeight="160px"
                   />
                 </div>
                 <div className="lastlonger-discover-info">
@@ -756,10 +777,12 @@ export default function ProjectDetailLastLonger({ onBack, onNavigateExperience, 
               {/* Card 2: Korpus */}
               <article className="lastlonger-discover-card" onClick={handleOpenKorpus}>
                 <div className="lastlonger-discover-img-wrap">
-                  <img 
+                  <ShimmerImage 
                     src={projectKorpus} 
                     alt="KORPUS project preview" 
                     className="lastlonger-discover-img" 
+                    borderRadius="12px"
+                    minHeight="160px"
                   />
                 </div>
                 <div className="lastlonger-discover-info">
@@ -774,10 +797,12 @@ export default function ProjectDetailLastLonger({ onBack, onNavigateExperience, 
               {/* Card 3: Seizure */}
               <article className="lastlonger-discover-card" onClick={handleOpenEEG}>
                 <div className="lastlonger-discover-img-wrap">
-                  <img 
+                  <ShimmerImage 
                     src={projectEeg} 
                     alt="EEG Seizure detection research preview" 
                     className="lastlonger-discover-img" 
+                    borderRadius="12px"
+                    minHeight="160px"
                   />
                 </div>
                 <div className="lastlonger-discover-info">

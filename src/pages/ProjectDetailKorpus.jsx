@@ -1,5 +1,6 @@
 import { useEffect } from 'react';
 import Footer from '../components/layout/Footer';
+import ShimmerImage from '../components/common/ShimmerImage';
 import './ProjectDetailKorpus.css';
 
 // Korpus Mockup Assets
@@ -102,10 +103,12 @@ export default function ProjectDetailKorpus({ onBack, onNavigateExperience, onNa
             </div>
 
             <div className="korpus-hero-mockup-wrapper">
-              <img 
+              <ShimmerImage 
                 src={heroDevicesImg} 
                 alt="KORPUS device mockup preview showing web dashboard and mobile app" 
                 className="korpus-hero-mockup-img"
+                borderRadius="24px"
+                minHeight="320px"
               />
             </div>
 
@@ -366,10 +369,12 @@ export default function ProjectDetailKorpus({ onBack, onNavigateExperience, onNa
                   Registration works instantly without requiring NIK. This removes the first barrier that stopped Udin.
                 </p>
                 <div className="korpus-feature-mockup-wrap">
-                  <img 
+                  <ShimmerImage 
                     src={feature1Img} 
                     alt="Frictionless onboarding with face and iris ID mockup" 
                     className="korpus-feature-img korpus-feature-img--1-phone"
+                    borderRadius="16px"
+                    minHeight="260px"
                   />
                 </div>
               </div>
@@ -383,10 +388,12 @@ export default function ProjectDetailKorpus({ onBack, onNavigateExperience, onNa
                   The basic membership fee (Simpanan Pokok) is not lost. 5% goes back as starting balance for a long-term "Dream Savings" goal, such as the Hajj or a child's education, and 5% goes to the CooPay wallet to encourage a first transaction. A progress bar moves with every deposit.
                 </p>
                 <div className="korpus-feature-mockup-wrap">
-                  <img 
+                  <ShimmerImage 
                     src={feature2Img} 
                     alt="Membership fee that becomes savings (Tabungan Impian) mockup" 
                     className="korpus-feature-img korpus-feature-img--2-phones"
+                    borderRadius="16px"
+                    minHeight="260px"
                   />
                 </div>
               </div>
@@ -400,10 +407,12 @@ export default function ProjectDetailKorpus({ onBack, onNavigateExperience, onNa
                   A cashless wallet for daily use. Members pay savings or shop at cooperative units with one QRIS scan. Spending earns points toward cashback and shopping vouchers, keeping money in the village loop.
                 </p>
                 <div className="korpus-feature-mockup-wrap">
-                  <img 
+                  <ShimmerImage 
                     src={feature3Img} 
                     alt="CooPay wallet with QRIS scan and cashback features mockup" 
                     className="korpus-feature-img korpus-feature-img--4-phones"
+                    borderRadius="16px"
+                    minHeight="260px"
                   />
                 </div>
               </div>
@@ -417,10 +426,12 @@ export default function ProjectDetailKorpus({ onBack, onNavigateExperience, onNa
                   Cashiers record top-ups, savings, and sales automatically. A fund-visibility dashboard in the member app lets villagers see where money goes. Time-limited SHU vouchers keep stock on the shelf moving.
                 </p>
                 <div className="korpus-feature-mockup-wrap">
-                  <img 
+                  <ShimmerImage 
                     src={feature4Img} 
                     alt="Digital POS and proactive SHU fund-visibility dashboard mockup" 
                     className="korpus-feature-img korpus-feature-img--pos"
+                    borderRadius="16px"
+                    minHeight="260px"
                   />
                 </div>
               </div>
@@ -434,10 +445,12 @@ export default function ProjectDetailKorpus({ onBack, onNavigateExperience, onNa
                   <strong>Phase 1</strong> is verification and a dashboard. <strong>Phase 2</strong> is CooPay payments and savings tracking. <strong>Phase 3</strong> is the POS with inventory and transaction history.
                 </p>
                 <div className="korpus-feature-mockup-wrap">
-                  <img 
+                  <ShimmerImage 
                     src={feature5Img} 
                     alt="System architecture in three phases workflow diagram" 
                     className="korpus-feature-img korpus-feature-img--arch"
+                    borderRadius="16px"
+                    minHeight="260px"
                   />
                 </div>
               </div>
@@ -499,10 +512,12 @@ export default function ProjectDetailKorpus({ onBack, onNavigateExperience, onNa
               {/* Card 1: LastLonger */}
               <article className="korpus-discover-card" onClick={handleOpenLastLonger}>
                 <div className="korpus-discover-img-wrap">
-                  <img 
+                  <ShimmerImage 
                     src={projectLastLonger} 
                     alt="LastLonger project preview" 
                     className="korpus-discover-img" 
+                    borderRadius="12px"
+                    minHeight="160px"
                   />
                 </div>
                 <div className="korpus-discover-info">
@@ -517,10 +532,12 @@ export default function ProjectDetailKorpus({ onBack, onNavigateExperience, onNa
               {/* Card 2: Lumbox */}
               <article className="korpus-discover-card" onClick={handleOpenLumbox}>
                 <div className="korpus-discover-img-wrap">
-                  <img 
+                  <ShimmerImage 
                     src={projectLumbox} 
                     alt="LUMBOX project preview" 
                     className="korpus-discover-img" 
+                    borderRadius="12px"
+                    minHeight="160px"
                   />
                 </div>
                 <div className="korpus-discover-info">
@@ -535,10 +552,12 @@ export default function ProjectDetailKorpus({ onBack, onNavigateExperience, onNa
               {/* Card 3: Seizure */}
               <article className="korpus-discover-card" onClick={handleOpenEEG}>
                 <div className="korpus-discover-img-wrap">
-                  <img 
+                  <ShimmerImage 
                     src={projectEeg} 
                     alt="EEG Seizure detection research preview" 
                     className="korpus-discover-img" 
+                    borderRadius="12px"
+                    minHeight="160px"
                   />
                 </div>
                 <div className="korpus-discover-info">

@@ -4,6 +4,7 @@ import ProjectDetailLumbox from './pages/ProjectDetailLumbox';
 import ProjectDetailKorpus from './pages/ProjectDetailKorpus';
 import ProjectDetailLastLonger from './pages/ProjectDetailLastLonger';
 import ProjectDetailEEG from './pages/ProjectDetailEEG';
+import DetailSkeleton from './components/common/DetailSkeleton';
 import './App.css';
 
 function getRouteFromHash() {
@@ -30,10 +31,27 @@ function getRouteFromHash() {
 
 function App() {
   const [currentRoute, setCurrentRoute] = useState(getRouteFromHash);
+  const [isDetailLoading, setIsDetailLoading] = useState(() => {
+    const route = getRouteFromHash();
+    return route !== 'landing';
+  });
+
+  useEffect(() => {
+    if (isDetailLoading) {
+      const timer = setTimeout(() => {
+        setIsDetailLoading(false);
+      }, 420);
+      return () => clearTimeout(timer);
+    }
+  }, [isDetailLoading]);
 
   useEffect(() => {
     const handleHashChange = () => {
-      setCurrentRoute(getRouteFromHash());
+      const nextRoute = getRouteFromHash();
+      if (nextRoute !== 'landing') {
+        setIsDetailLoading(true);
+      }
+      setCurrentRoute(nextRoute);
     };
 
     window.addEventListener('hashchange', handleHashChange);
@@ -41,6 +59,7 @@ function App() {
   }, []);
 
   const handleBackToLanding = (targetSection = 'projects') => {
+    setIsDetailLoading(false);
     setCurrentRoute('landing');
     // Clear project hash and point to target section
     if (targetSection) {
@@ -79,12 +98,17 @@ function App() {
       targetHash = '#/project/eeg-seizure';
     }
 
+    setIsDetailLoading(true);
     setCurrentRoute(route);
     if (targetHash && window.location.hash !== targetHash) {
       window.location.hash = targetHash;
     }
     window.scrollTo({ top: 0, behavior: 'instant' });
   };
+
+  if (isDetailLoading && currentRoute !== 'landing') {
+    return <DetailSkeleton onBack={() => handleBackToLanding('projects')} />;
+  }
 
   if (currentRoute === 'lumbox') {
     return (
