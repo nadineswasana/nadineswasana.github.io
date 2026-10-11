@@ -97,12 +97,14 @@ export default function ProjectsSection({ onNavigateProject }) {
 
         <div className="projects-grid">
           {projects.map((project, index) => {
-            const isClickable = project.id === 'lumbox' || project.id === 'korpus' || project.id === 'eeg-paper';
+            const isClickable = true;
             const projectHash = project.id === 'lumbox' 
               ? '#/project/lumbox' 
               : project.id === 'korpus' 
                 ? '#/project/korpus' 
-                : '#/project/eeg-seizure';
+                : project.id === 'lastlonger'
+                  ? '#/project/lastlonger'
+                  : '#/project/eeg-seizure';
 
             const handleCardClick = (e) => {
               if (!isClickable) return;

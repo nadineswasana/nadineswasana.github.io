@@ -49,6 +49,14 @@ export default function ProjectDetailLumbox({ onBack, onNavigateExperience, onNa
     }
   };
 
+  const handleOpenLastLonger = () => {
+    if (onNavigateProject) {
+      onNavigateProject('lastlonger');
+    } else {
+      window.location.hash = '#/project/lastlonger';
+    }
+  };
+
   const handleOpenEEG = () => {
     if (onNavigateProject) {
       onNavigateProject('eeg-seizure');
@@ -486,7 +494,7 @@ export default function ProjectDetailLumbox({ onBack, onNavigateExperience, onNa
 
             <div className="lumbox-discover-grid">
               {/* Card 1: LastLonger */}
-              <article className="lumbox-discover-card" onClick={handleClose}>
+              <article className="lumbox-discover-card" onClick={handleOpenLastLonger}>
                 <div className="lumbox-discover-img-wrap">
                   <img 
                     src={projectLastLonger} 

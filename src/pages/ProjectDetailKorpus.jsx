@@ -45,6 +45,14 @@ export default function ProjectDetailKorpus({ onBack, onNavigateExperience, onNa
     }
   };
 
+  const handleOpenLastLonger = () => {
+    if (onNavigateProject) {
+      onNavigateProject('lastlonger');
+    } else {
+      window.location.hash = '#/project/lastlonger';
+    }
+  };
+
   const handleOpenEEG = () => {
     if (onNavigateProject) {
       onNavigateProject('eeg-seizure');
@@ -489,7 +497,7 @@ export default function ProjectDetailKorpus({ onBack, onNavigateExperience, onNa
 
             <div className="korpus-discover-grid">
               {/* Card 1: LastLonger */}
-              <article className="korpus-discover-card" onClick={handleClose}>
+              <article className="korpus-discover-card" onClick={handleOpenLastLonger}>
                 <div className="korpus-discover-img-wrap">
                   <img 
                     src={projectLastLonger} 

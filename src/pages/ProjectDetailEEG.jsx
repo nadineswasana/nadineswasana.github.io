@@ -47,6 +47,14 @@ export default function ProjectDetailEEG({ onBack, onNavigateExperience, onNavig
     }
   };
 
+  const handleOpenLastLonger = () => {
+    if (onNavigateProject) {
+      onNavigateProject('lastlonger');
+    } else {
+      window.location.hash = '#/project/lastlonger';
+    }
+  };
+
   const handleOpenIeee = () => {
     window.open('https://ieeexplore.ieee.org/document/11709894', '_blank', 'noopener,noreferrer');
   };
@@ -417,7 +425,7 @@ export default function ProjectDetailEEG({ onBack, onNavigateExperience, onNavig
             
             <div className="eeg-discover-grid">
               {/* Card 1: LastLonger */}
-              <article className="eeg-discover-card" onClick={handleClose}>
+              <article className="eeg-discover-card" onClick={handleOpenLastLonger}>
                 <div className="eeg-discover-img-wrap">
                   <img 
                     src={projectLastLonger} 

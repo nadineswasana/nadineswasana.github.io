@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import LandingPage from './pages/LandingPage';
 import ProjectDetailLumbox from './pages/ProjectDetailLumbox';
 import ProjectDetailKorpus from './pages/ProjectDetailKorpus';
+import ProjectDetailLastLonger from './pages/ProjectDetailLastLonger';
 import ProjectDetailEEG from './pages/ProjectDetailEEG';
 import './App.css';
 
@@ -12,6 +13,9 @@ function getRouteFromHash() {
   }
   if (hash.startsWith('#/project/korpus') || hash.startsWith('#project/korpus')) {
     return 'korpus';
+  }
+  if (hash.startsWith('#/project/lastlonger') || hash.startsWith('#project/lastlonger')) {
+    return 'lastlonger';
   }
   if (
     hash.startsWith('#/project/eeg') || 
@@ -67,6 +71,9 @@ function App() {
     } else if (projectName === 'korpus') {
       route = 'korpus';
       targetHash = '#/project/korpus';
+    } else if (projectName === 'lastlonger') {
+      route = 'lastlonger';
+      targetHash = '#/project/lastlonger';
     } else if (projectName === 'eeg-seizure' || projectName === 'eeg' || projectName === 'eeg-paper') {
       route = 'eeg';
       targetHash = '#/project/eeg-seizure';
@@ -92,6 +99,16 @@ function App() {
   if (currentRoute === 'korpus') {
     return (
       <ProjectDetailKorpus 
+        onBack={() => handleBackToLanding('projects')}
+        onNavigateExperience={() => handleBackToLanding('experiences')}
+        onNavigateProject={handleNavigateProject}
+      />
+    );
+  }
+
+  if (currentRoute === 'lastlonger') {
+    return (
+      <ProjectDetailLastLonger 
         onBack={() => handleBackToLanding('projects')}
         onNavigateExperience={() => handleBackToLanding('experiences')}
         onNavigateProject={handleNavigateProject}
