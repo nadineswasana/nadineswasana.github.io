@@ -39,6 +39,14 @@ export default function ProjectDetailEEG({ onBack, onNavigateExperience, onNavig
     }
   };
 
+  const handleOpenKorpus = () => {
+    if (onNavigateProject) {
+      onNavigateProject('korpus');
+    } else {
+      window.location.hash = '#/project/korpus';
+    }
+  };
+
   const handleOpenIeee = () => {
     window.open('https://ieeexplore.ieee.org/document/11709894', '_blank', 'noopener,noreferrer');
   };
@@ -427,7 +435,7 @@ export default function ProjectDetailEEG({ onBack, onNavigateExperience, onNavig
               </article>
 
               {/* Card 2: KORPUS */}
-              <article className="eeg-discover-card" onClick={handleClose}>
+              <article className="eeg-discover-card" onClick={handleOpenKorpus}>
                 <div className="eeg-discover-img-wrap">
                   <img 
                     src={projectKorpus} 

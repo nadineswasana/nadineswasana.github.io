@@ -46,7 +46,7 @@ const projects = [
   }
 ];
 
-export default function ProjectsSection() {
+export default function ProjectsSection({ onNavigateProject }) {
   const sectionRef = useRef(null);
   const cardsRef = useRef([]);
 
@@ -97,27 +97,42 @@ export default function ProjectsSection() {
 
         <div className="projects-grid">
           {projects.map((project, index) => {
-            const isClickable = project.id === 'lumbox' || project.id === 'eeg-paper';
-            const projectHash = project.id === 'lumbox' ? '#/project/lumbox' : '#/project/eeg-seizure';
+            const isClickable = project.id === 'lumbox' || project.id === 'korpus' || project.id === 'eeg-paper';
+            const projectHash = project.id === 'lumbox' 
+              ? '#/project/lumbox' 
+              : project.id === 'korpus' 
+                ? '#/project/korpus' 
+                : '#/project/eeg-seizure';
+
+            const handleCardClick = (e) => {
+              if (!isClickable) return;
+              e.preventDefault();
+              if (onNavigateProject) {
+                onNavigateProject(project.id === 'eeg-paper' ? 'eeg-seizure' : project.id);
+              } else {
+                window.location.hash = projectHash;
+              }
+            };
+
+            const CardTag = isClickable ? 'a' : 'article';
+            const cardProps = isClickable ? {
+              href: projectHash,
+              onClick: handleCardClick,
+              role: 'button',
+              tabIndex: 0,
+              onKeyDown: (e) => {
+                if (e.key === 'Enter' || e.key === ' ') {
+                  handleCardClick(e);
+                }
+              }
+            } : {};
 
             return (
-              <article 
+              <CardTag 
                 key={project.id} 
                 className={`project-card ${isClickable ? 'project-card--clickable' : ''}`}
                 ref={(el) => (cardsRef.current[index] = el)}
-                onClick={() => {
-                  if (isClickable) {
-                    window.location.hash = projectHash;
-                  }
-                }}
-                role={isClickable ? 'button' : undefined}
-                tabIndex={isClickable ? 0 : undefined}
-                onKeyDown={(e) => {
-                  if (isClickable && (e.key === 'Enter' || e.key === ' ')) {
-                    e.preventDefault();
-                    window.location.hash = projectHash;
-                  }
-                }}
+                {...cardProps}
               >
                 <div className="project-image-box">
                   <img 
@@ -128,7 +143,7 @@ export default function ProjectsSection() {
                   />
                   {isClickable && (
                     <span className="project-badge-interactive">
-                      {project.id === 'lumbox' ? 'View Case Study ↗' : 'View Research Paper ↗'}
+                      {project.id === 'eeg-paper' ? 'View Research Paper ↗' : 'View Case Study ↗'}
                     </span>
                   )}
                 </div>
@@ -138,7 +153,7 @@ export default function ProjectsSection() {
                   <h3 className="project-title">{project.title}</h3>
                   <p className="project-desc">{project.description}</p>
                 </div>
-              </article>
+              </CardTag>
             );
           })}
         </div>

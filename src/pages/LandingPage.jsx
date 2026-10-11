@@ -10,13 +10,13 @@ import PublicationSection from '../components/sections/publication/PublicationSe
 import Footer from '../components/layout/Footer';
 import './LandingPage.css';
 
-export default function LandingPage() {
+export default function LandingPage({ onNavigateProject }) {
   return (
     <div className="landing-page-container">
       <Header />
       <main className="landing-main-content">
         <HeroSection />
-        <ProjectsSection />
+        <ProjectsSection onNavigateProject={onNavigateProject} />
         <CurrentlyBuildingSection />
         <BehindBuilderSection />
         <WorkExperiencesSection />

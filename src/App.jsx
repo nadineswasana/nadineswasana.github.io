@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import LandingPage from './pages/LandingPage';
 import ProjectDetailLumbox from './pages/ProjectDetailLumbox';
+import ProjectDetailKorpus from './pages/ProjectDetailKorpus';
 import ProjectDetailEEG from './pages/ProjectDetailEEG';
 import './App.css';
 
@@ -8,6 +9,9 @@ function getRouteFromHash() {
   const hash = window.location.hash;
   if (hash.startsWith('#/project/lumbox') || hash.startsWith('#project/lumbox')) {
     return 'lumbox';
+  }
+  if (hash.startsWith('#/project/korpus') || hash.startsWith('#project/korpus')) {
+    return 'korpus';
   }
   if (
     hash.startsWith('#/project/eeg') || 
@@ -55,16 +59,39 @@ function App() {
   };
 
   const handleNavigateProject = (projectName) => {
+    let route = 'landing';
+    let targetHash = '';
     if (projectName === 'lumbox') {
-      window.location.hash = '#/project/lumbox';
-    } else if (projectName === 'eeg-seizure' || projectName === 'eeg') {
-      window.location.hash = '#/project/eeg-seizure';
+      route = 'lumbox';
+      targetHash = '#/project/lumbox';
+    } else if (projectName === 'korpus') {
+      route = 'korpus';
+      targetHash = '#/project/korpus';
+    } else if (projectName === 'eeg-seizure' || projectName === 'eeg' || projectName === 'eeg-paper') {
+      route = 'eeg';
+      targetHash = '#/project/eeg-seizure';
     }
+
+    setCurrentRoute(route);
+    if (targetHash && window.location.hash !== targetHash) {
+      window.location.hash = targetHash;
+    }
+    window.scrollTo({ top: 0, behavior: 'instant' });
   };
 
   if (currentRoute === 'lumbox') {
     return (
       <ProjectDetailLumbox 
+        onBack={() => handleBackToLanding('projects')}
+        onNavigateExperience={() => handleBackToLanding('experiences')}
+        onNavigateProject={handleNavigateProject}
+      />
+    );
+  }
+
+  if (currentRoute === 'korpus') {
+    return (
+      <ProjectDetailKorpus 
         onBack={() => handleBackToLanding('projects')}
         onNavigateExperience={() => handleBackToLanding('experiences')}
         onNavigateProject={handleNavigateProject}
@@ -82,7 +109,7 @@ function App() {
     );
   }
 
-  return <LandingPage />;
+  return <LandingPage onNavigateProject={handleNavigateProject} />;
 }
 
 export default App;
