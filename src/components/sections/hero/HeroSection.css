@@ -17,6 +17,8 @@
   z-index: 1;
   opacity: 0.85;
   user-select: none;
+  transform-origin: center center;
+  will-change: transform;
 }
 
 .flower-left {

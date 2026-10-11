@@ -1,5 +1,6 @@
 import { useEffect, useRef } from 'react';
 import gsap from 'gsap';
+import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import './HeroSection.css';
 
 import flowerLeft from '../../../assets/hero/hero-flower-left.png';
@@ -8,6 +9,8 @@ import widgetDashboard from '../../../assets/hero/hero-dashboard-widget.png';
 import widgetFolder from '../../../assets/hero/hero-folder-figma.png';
 import widgetFlowchart from '../../../assets/hero/hero-db-flowchart.png';
 
+gsap.registerPlugin(ScrollTrigger);
+
 export default function HeroSection() {
   const heroRef = useRef(null);
   const widget1Ref = useRef(null);
@@ -15,6 +18,8 @@ export default function HeroSection() {
   const widget3Ref = useRef(null);
   const headlineRef = useRef(null);
   const bioRef = useRef(null);
+  const flowerLeftRef = useRef(null);
+  const flowerRightRef = useRef(null);
 
   useEffect(() => {
     const ctx = gsap.context(() => {
@@ -72,6 +77,29 @@ export default function HeroSection() {
         ease: 'sine.inOut',
         delay: 1
       });
+
+      // Gentle, smooth scroll-driven rotation for background flowers
+      gsap.to(flowerLeftRef.current, {
+        rotation: 140,
+        ease: 'none',
+        scrollTrigger: {
+          trigger: heroRef.current,
+          start: 'top top',
+          end: 'bottom top',
+          scrub: 1.5,
+        }
+      });
+
+      gsap.to(flowerRightRef.current, {
+        rotation: -140,
+        ease: 'none',
+        scrollTrigger: {
+          trigger: heroRef.current,
+          start: 'top top',
+          end: 'bottom top',
+          scrub: 1.5,
+        }
+      });
     }, heroRef);
 
     return () => ctx.revert();
@@ -85,8 +113,8 @@ export default function HeroSection() {
   return (
     <section id="hero" className="hero-section" ref={heroRef}>
       {/* Background Decorative Smiling Flowers */}
-      <img src={flowerLeft} alt="" className="hero-bg-flower flower-left" aria-hidden="true" />
-      <img src={flowerRight} alt="" className="hero-bg-flower flower-right" aria-hidden="true" />
+      <img ref={flowerLeftRef} src={flowerLeft} alt="" className="hero-bg-flower flower-left" aria-hidden="true" />
+      <img ref={flowerRightRef} src={flowerRight} alt="" className="hero-bg-flower flower-right" aria-hidden="true" />
 
       {/* Floating 3D Technology & Design Widgets */}
       <div className="hero-widget widget-dashboard" ref={widget1Ref}>

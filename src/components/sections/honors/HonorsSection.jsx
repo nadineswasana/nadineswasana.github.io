@@ -1,9 +1,12 @@
 import React, { useEffect, useRef } from 'react';
 import gsap from 'gsap';
+import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import './HonorsSection.css';
 
 import flowerLeft from '../../../assets/honors/honors-flower-left.png';
 import flowerRight from '../../../assets/honors/honors-flower-right.png';
+
+gsap.registerPlugin(ScrollTrigger);
 
 const globalAwards = [
   {
@@ -88,8 +91,35 @@ const academicAwards = [
 
 export default function HonorsSection() {
   const sectionRef = useRef(null);
+  const flowerLeftRef = useRef(null);
+  const flowerRightRef = useRef(null);
 
   useEffect(() => {
+    const ctx = gsap.context(() => {
+      // Gentle, smooth scroll-driven rotation for background flowers
+      gsap.to(flowerLeftRef.current, {
+        rotation: 160,
+        ease: 'none',
+        scrollTrigger: {
+          trigger: sectionRef.current,
+          start: 'top bottom',
+          end: 'bottom top',
+          scrub: 1.5,
+        }
+      });
+
+      gsap.to(flowerRightRef.current, {
+        rotation: -160,
+        ease: 'none',
+        scrollTrigger: {
+          trigger: sectionRef.current,
+          start: 'top bottom',
+          end: 'bottom top',
+          scrub: 1.5,
+        }
+      });
+    }, sectionRef);
+
     const observer = new IntersectionObserver(
       (entries) => {
         entries.forEach((entry) => {
@@ -107,14 +137,17 @@ export default function HonorsSection() {
     );
 
     if (sectionRef.current) observer.observe(sectionRef.current);
-    return () => observer.disconnect();
+    return () => {
+      observer.disconnect();
+      ctx.revert();
+    };
   }, []);
 
   return (
     <section id="honors" className="honors-section" ref={sectionRef}>
       {/* Background Decorative Smiling Flowers */}
-      <img src={flowerLeft} alt="" className="honors-bg-flower honors-flower-left" aria-hidden="true" />
-      <img src={flowerRight} alt="" className="honors-bg-flower honors-flower-right" aria-hidden="true" />
+      <img ref={flowerLeftRef} src={flowerLeft} alt="" className="honors-bg-flower honors-flower-left" aria-hidden="true" />
+      <img ref={flowerRightRef} src={flowerRight} alt="" className="honors-bg-flower honors-flower-right" aria-hidden="true" />
 
       <div className="container honors-container">
         <div className="section-header">
