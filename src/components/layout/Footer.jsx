@@ -27,7 +27,7 @@ export default function Footer() {
           </a>
 
           <a 
-            href="https://linkedin.com"
+            href="https://www.linkedin.com/in/nadineswasana/"
             target="_blank"
             rel="noopener noreferrer"
             className="footer-action-btn"
