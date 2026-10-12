@@ -1,10 +1,6 @@
 import './Footer.css';
 
 export default function Footer() {
-  const handleLinkedInClick = () => {
-    window.open('https://linkedin.com', '_blank', 'noopener,noreferrer');
-  };
-
   return (
     <footer id="footer" className="footer-section">
       {/* Top Striped Awning Pattern */}
@@ -30,14 +26,15 @@ export default function Footer() {
             Email Me
           </a>
 
-          <button 
-            type="button"
-            onClick={handleLinkedInClick}
+          <a 
+            href="https://linkedin.com"
+            target="_blank"
+            rel="noopener noreferrer"
             className="footer-action-btn"
             aria-label="Visit Nadine Swasana's LinkedIn profile"
           >
             LinkedIn
-          </button>
+          </a>
         </div>
 
         {/* Copyright */}

@@ -66,13 +66,16 @@
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  min-width: clamp(140px, 20vw, 200px);
-  padding: 16px 36px;
+  width: clamp(160px, 20vw, 185px);
+  height: 54px;
+  box-sizing: border-box;
   background-color: var(--color-primary-olive);
   color: #FFFFFF;
   font-family: var(--font-sans);
-  font-size: clamp(16px, 2vw, 19px);
+  font-size: clamp(16px, 1.8vw, 18px);
   font-weight: 600;
+  line-height: 1;
+  text-align: center;
   border-radius: 9999px;
   border: none;
   text-decoration: none;
@@ -103,12 +106,13 @@
   .footer-buttons-row {
     flex-direction: column;
     gap: 14px;
+    align-items: center;
   }
 
   .footer-action-btn {
     width: 100%;
-    max-width: 280px;
-    padding: 14px 28px;
+    max-width: 260px;
+    height: 52px;
   }
 }
 
