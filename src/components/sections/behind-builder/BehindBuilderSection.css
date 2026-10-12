@@ -76,9 +76,7 @@
   }
 
   .builder-avatar-card {
-    width: 220px;
-    height: 220px;
-    border-radius: 28px;
+    display: none;
   }
 }
 
@@ -97,11 +95,6 @@
   .builder-bio-card {
     border-radius: 20px;
     padding: 20px;
-  }
-
-  .builder-avatar-card {
-    width: 180px;
-    height: 180px;
   }
 }
 
